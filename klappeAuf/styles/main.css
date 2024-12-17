@@ -1,0 +1,724 @@
+/* 
+    Document   : MAIN CMS
+    Created on : 30.03.2012, 15:08:40
+    Author     : Stefan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+html {
+    height:100%;
+   
+  
+}
+
+body {
+    margin : 0px;
+    background-color:#fff;  
+    font-family: Verdana, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:10px;
+   
+    height:100%;
+}
+
+.hiddenData {
+    display:none;
+}
+
+.header {
+    margin: 20px 0 40px 0;
+
+  
+    
+
+  
+    /*    border-color:#e8e8e8;
+         border-color:#f19023; */
+   
+}
+
+.headerLogo {
+    border-width: 0px;
+    border:0px;
+}
+
+.headerLeft {
+    
+    
+}
+
+.headerRight {
+    padding: 50px 0 0 20px;
+
+}
+
+.headerName {
+    font-Size:30px;
+    color : #333;
+
+}
+
+.headerSlogan {
+    font-Size:18px;
+    color : #666;
+}
+
+.naviFrameHor{
+    z-index:5999;
+}
+
+.content {
+    margin-top:10px;
+    min-height: 500px;
+}
+
+.footer {
+
+    height : 30px;
+    margin-top: 10px;
+    padding: 5px 0 5px 0;
+    border-width:2px;
+    border-style:solid;
+    border-color:#C3DB35;
+
+
+    background-color: #d5e671;
+    background-image: url(../style/header-bg-top.png);
+    background-size:50% 100%;
+    /*    border-color:#e8e8e8;
+         border-color:#f19023; */
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+
+.footerLink {
+    margin-left:5px;
+    background-color: transparent;
+    display: inline-block;
+    height:20px;
+    padding:5px 10px 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footerActive {
+    background-color: #fff;
+    display: inline-block;
+    height:20px;
+
+    border: 1px solid #d5e671;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color:#803774;
+}
+
+.footerLink:hover {
+    background-color: #d5e671;
+    border-color:#fff;
+}
+
+.footerActive a:hover {
+    background-color: #f00;
+    display: inline-block;
+    height:20px;
+    padding:5px;
+    border: 1px solid #d5e671;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.adminLayer {
+    background-color: #D5E671;
+    border-color: #C3DB35;
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+}
+
+a.linkButton {
+    background-color : #f90;
+    display: inline-block;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid #e70;
+    text-decoration: none;
+    color: #fff;
+    font-size:10px;
+    margin: 0 10px 0 0;
+    font-weight:normal;
+}
+
+.inputButton {
+    background-color : #f90;
+    display: inline-block;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid #e70;
+    text-decoration: none;
+    color: #fff;
+    font-size:10px;
+    margin: 0 10px 0 0;
+    margin: 0 10px 0 0;
+    font-weight:normal;
+    cursor:pointer;
+}
+
+.inputError {
+    /* background-color:#fcc; */
+    color: #f00;
+}
+
+
+.javaScriptButton, a.javascriptButton {
+    background-color : #f90;
+    display: inline-block;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid #e70;
+    text-decoration: none;
+    color: #fff;
+    font-size:10px;
+    margin: 0 10px 0 0;
+    font-weight:normal;
+}
+
+.javascriptButton:hover, a.javascriptButton:hover {
+    background-color : #fab;
+    cursor:pointer;
+}
+
+a.second, .second {
+    background-color:#eee;
+    border-color:#555;
+    color:#333
+}
+
+a.second:hover, .second:hover {
+    background-color:#ddd;
+    border-color:#333;
+    color:#000;
+}
+
+/* breadCrum Style Sheets */
+.breadCrumb {
+    background-color:#dd9;
+    width:100%;
+    margin-bottom : 10px;
+    font-size: 9px;
+    padding-bottom: 2px;
+    color:#000;
+}
+a.breadCrumbLink {
+    color:#555;
+    text-decoration: none;
+}
+
+a.breadCrumbLink:hover {
+    color:#333;
+    text-decoration: underline;
+}
+
+a.breadCrumbActive {
+    text-decoration: none;
+    color:#803774;
+    font-weight: bold;
+}
+
+/**************** cms Box *********/
+.cmsBox {
+    /*width:100%;*/
+    border: 1px solid #333;
+    min-height: 40px;
+    margin: 5px 0 5px 0;
+    background-color: #ccc;
+    padding : 5px;
+}
+
+.cmsBoxInfo {
+    border: 1px solid #0f0;
+    margin: 5px 0 5px 0;
+    background-color: #dfd;
+}
+
+.cmsBoxError {
+    border: 1px solid #f00;
+    margin: 5px 0 5px 0;
+    background-color: #f77;
+}
+
+/**************** SOCIAL CLIENTS *****/
+.SocialButton {
+    background-color: #fff;
+    display:block;
+    height:25px;
+    border:1px solid #eee;
+    padding-left:5px;
+    line-height:20px;
+}
+
+.SocialButtonHover {
+    /*background-color: #e8e8e8;*/
+    /*cursor: pointer;*/
+}
+
+.text_box {
+    padding: 5px 0 5px 0;
+    margin: 5px 0 5px 0;
+
+}
+.text_Box:hover {
+    /* background-color: #f99; */
+}
+
+.textImage_box, .login_box, .dateList_box {
+    padding: 5px 0 5px 0;
+    margin: 5px 0px 5px 0px;
+}
+
+.frame1 {
+    border:1px solid #666;
+    background-color: #eee;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    padding : 5px;
+}
+
+
+.frame2 {
+    border:5px solid #666;
+    background-color: #eee;
+    border-radius: 20px;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    padding : 20px;
+}
+
+
+.rollFrame {
+    border:1px solid #666;
+    background-color: #eee;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    padding : 5px;
+}
+
+
+.rollFrame:hover {
+    border-color: #666;
+    background-color: #e77;   
+}
+
+
+
+
+
+.textHeadline_h1, .h1 {
+    border-bottom: 4px solid #f00;
+    margin : 0px;
+}
+.textHeadline_h2, .h2 {
+    border-bottom: 3px solid #f00;
+}
+.textHeadline_h3, .h3{
+    border-bottom: 2px solid #333;
+    margin : 5px 0 5px 0;
+    padding: 0px;
+
+}
+.textHeadline_h4, .h4 {
+    border-bottom: 1px solid #f00;
+}
+
+h3 {
+    font-size: 12px;
+    display:block;
+    line-height: 12px;
+    color: #333;
+}
+
+.textText_center {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.textText_right {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.textText_left, .textText {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+/*************** FILTER LIST ***********/
+.cmsCustomFilterList {
+    padding:10px 0 10px 0px;
+    margin-bottom:10px;
+
+}
+
+.cmsCustomFilter_left {
+    padding-left: 10px;
+    margin-right : 10px;
+    width:200px;
+    float:left;
+    line-height: 20px;
+}
+.cmsCustomFilter_right {
+    float:left;
+}
+
+
+/*************** IMAGE PREVIEW *********/
+.imagePreviewWindow {
+    display: none;
+    overflow: hidden;
+    width:0px;
+    height:0px;
+    position: fixed;
+}
+
+.imagePreviewContent {
+    display: none;
+    overflow: hidden;
+    width:0px;
+    height:0px;
+    position: fixed;
+}
+
+.imagePreviewWindowOpen {
+    display:block;
+    overflow: visible;
+    background-color: #333;
+    filter:alpha(opacity=80);
+    opacity:0.80;
+    -moz-opacity:0.8;
+    width:100%;
+    height:100%;
+    position: fixed;
+    left: 0px;
+    top:0px;
+    z-index: 6000;
+}
+
+.imagePreviewContentOpen {
+    display:block;
+    overflow: visible;
+    width:500px;
+    height:500px;
+    padding: 10px;
+
+    
+    background-color : #fff;
+    left:50%;
+    top:50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    z-index: 6001;
+}
+
+
+.imagePreviewFrame {
+    display: none;
+    overflow: hidden;
+    width:0px;
+    height:0px;
+    margin-top: 0px;
+    margin-left:0px;
+    left:0px;
+    top:0px;
+    position:static;
+}
+
+.imagePreviewFrameShow {
+    display: block;
+    overflow: visible;
+    
+}
+
+.imagePreviewClose {
+    border-radius: 15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    background-color: #fff;
+    font-size: 20px;
+    line-height:28px;
+    font-weight: bold;
+    text-align: center;
+    color:#999;
+    position: relative;
+    left:0px;
+    top:0px;
+    width:30px;
+    height:30px;
+    margin-top: -25px;
+    margin-left:495px;
+}
+
+.imagePreviewClose:hover {
+
+
+    background-color: #efe;
+
+    color:#777;
+   
+}
+
+
+
+
+
+.imagePreviewImage {
+    /*border:20px solid #f00;*/
+}
+
+
+.companyList {
+    
+}
+
+.companyListImageBox {
+    position:relative;
+    z-index:29;
+}
+
+.companyListHidden {
+    display:none;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0px;
+}
+
+
+.productShowFrame {
+    display:block;
+    visibility: visible;
+    overflow: auto;
+}
+
+.productShowFrameHidden {
+    display:none;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0px;
+}
+
+
+.contentNameFrameHidden {
+    display:none;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0px;
+}
+
+
+.companyListRoll{
+    background-color :#eee;
+    visibility: visible;
+    display: block;
+    position: absolute;
+    z-index:30;
+    filter:alpha(opacity=80);
+    opacity:0.80;
+    -moz-opacity:0.8;
+    font-size: 14px;
+    color:#333;
+    line-height: 16px;
+    vertical-align: middle;
+    background-color: #F47C22;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.companyListRollHidden {
+    visibility: hidden;
+    display:none;
+    height:0;
+    position: absolute;
+}
+
+
+/*************** TERMINE ***************/
+
+.dateNavigateBack , .dateNavigateBack:visited, .dateNavigateFor , .dateNavigateFor:visited{
+    display:inline-block;
+    padding: 0 5px 0 5px;
+    height:11px;
+    line-height: 10px;
+    font-size: 10px;
+    margin-top:1px;
+    margin-right: 3px;
+    border:1px solid #ddd;
+    background-color: #fff;
+    text-decoration: none;
+    color:#777;
+}
+
+.dateNavigateBack:hover, .dateNavigateBack:active, .dateNavigateFor:hover, .dateNavigateFor:active {
+
+    border:1px solid #999;
+    background-color: #cd4;
+    text-decoration: none;
+    color:#333;
+    cursor:pointer;
+
+
+}
+
+.dateMonthDayTitle {
+    padding:3px 0;
+}
+
+
+.dateMonthDay {
+    float:left;
+    text-align:center;
+    background-color: #f7f7f7;
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-left:0px solid #ccc;
+    color : #777;
+    padding: 5px 0;    
+}
+
+.dateMonthDay:hover {
+    background-color: #f5f5f5;
+    color : #333;
+
+}
+
+.dateLastMonth {
+    background-color: #777;
+    color : #ddd;
+
+}
+
+.dateLastMonth:hover {
+    background-color: #999;
+    color : #ccc;
+
+}
+
+.dateNextMonth {
+    background-color: #ddd;
+}
+
+.dateNextMonth:hover {
+    background-color: #eee;
+    color:#333;
+}
+
+
+.dateToday {
+    background-color: #fff;
+    color : #d44;
+}
+.dateToday:hover {
+    background-color: #fff;
+    color : #c33;
+}
+
+.dateToday.dateLastMonth, .dateToday.dateNextMonth {
+    background-color: #777;
+    color : #f77;
+}
+
+.dateToday.dateLastMonth:hover, .dateToday.dateNextMonth:hover {
+    color : #f00;
+}
+
+.dateExist {
+    text-decoration: underline;   
+}
+
+/*************** SITEMAP ***************/
+.siteMap {
+    border:1px solid #ccc;
+    padding:2px 0 2px 2px;
+    margin-bottom:5px;
+    width:150px;
+    display :inline-block;  
+
+}
+
+a.siteMapLink:visited, a.siteMapLink:link {
+    text-decoration: none;
+    color:#006;
+}
+
+a.siteMapLink:hover {
+    text-decoration: none;
+    color:#f0f;
+}
+
+.siteMapEditBox {
+    width:500px;
+}
+
+.cmsSitemapAddPage {
+    height:0px;
+    display: none;
+    overflow:hidden;
+}
+
+
+.cmsSitemapAddPageShow {
+    border : 1px solid #ccc;
+    height:auto;
+    display: block;
+    overflow:visible;
+    width:500px;
+}
+
+.siteMapOpen {
+
+    width : 500px;
+    background-color: #eee;
+}
+
+.siteMapLevel_0 {
+    margin-left: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.siteMapLevel_1 {
+    margin-left: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.siteMapLevel_2 {
+    margin-left: 40px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.siteMapLevel_3 {
+    margin-left: 60px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.siteMapLevel_4 {
+    margin-left: 80px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}

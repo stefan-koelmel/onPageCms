@@ -1,0 +1,123 @@
+/* 
+    Document   : mainNavi
+    Created on : 30.03.2012, 15:08:58
+    Author     : Stefan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+   
+}
+.naviBox {
+    
+    width:100%;
+   
+    margin-bottom:10px;
+    background-color:#ccc;
+    margin-bottom: 5px;
+}
+
+a.naviMain {
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    height : 20px;
+    text-align: center;
+    background-color: #cccc88;
+    text-decoration: none;
+}
+
+a.naviSub {
+    display: inline-block;
+    padding: 2px 0 2px 10px;
+    height : 15px;
+    text-align: center;
+    background-color: #88cc88;
+    text-decoration: none;
+}
+
+
+
+a.naviLeft{
+    display: inline-block;
+    padding: 7px 0 5px 7px;
+    width:142px;
+    text-align: left;
+}
+
+
+a.naviSubSub {
+    display: inline-block;
+    padding: 1px 0 1px 15px;
+    height : 14px;
+    width:132px;
+    text-align: left;
+    background-color: #88cc88;
+    text-decoration: none;
+}
+
+
+a.naviMain:hover, a.naviSub:hover, a.naviSubSub:hover {
+    background-color: #cc8888;
+    text-decoration: none;
+}
+
+a.naviActiv {
+    background-color: #cccc00;
+}
+
+a.naviActiv:hover {
+    background-color: #ffff00;
+}
+
+a.naviAboutActiv {
+    background-color: #cc0000;
+}
+
+a.naviAboutActiv:hover {
+    background-color: #ff0000;
+}
+
+.subPageNavi_Line {
+    
+}
+
+
+.subPageNavi {
+    background-color:inherit;
+    border:1px solid #ccc;
+    float:left;
+    cursor:pointer;   
+    overflow:hidden;
+}
+.subPageNavi:hover {
+    background-color:#eee;
+    border:1px solid #aaa;
+    
+}
+
+.subPageNavi_Icon {
+    float:left;
+    margin-right:5px;
+}
+
+.subPageNavi_Text {
+    float:left;    
+}
+
+.subPageNavi_title {
+    font-size:14px;
+    font-weight: bold;
+    color:#333;
+    border-bottom: 1px solid #333;
+}
+.subPageNavi_info{
+    color:#666;
+}
+

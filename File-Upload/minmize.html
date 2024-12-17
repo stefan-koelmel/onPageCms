@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery File Upload Example</title>
+
+<style type="text/css">
+.lbl_fileinput {
+    background-color: #f79;
+    display: block;
+    height: 100px;
+    width:100px;
+    overflow: hidden;
+    padding: 2px;
+    cursor:pointer;
+   
+}
+.inp_fileinput {
+    opacity: 0;
+    height:100px;
+    margin-left:-30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<form id="fileupload" action="server/php/" method="POST" enctype="multipart/form-data">
+<!--
+<div style="width:100px;height:100px;overflow:hidden;background-color:#0f7;">
+    <input id="fileupload" style="width:200px;opacity:50%;" type="file" name="files[]" data-url="target/" multiple>    
+</div>
+
+<input style="width:100px;height:100px;background-color:#f00;" name="filesInput" type="file" multiple  onchange="fileUpload()"/>
+<div class="drop" ondrop="fileUpload()" style="width:100px;height:100px;background-color:#f00" >
+         <p>Drop files here</p>
+ </div>
+<a href="javascript:clickFI('inp_fileinput1');" class="lbl_fileinput" id="lbl_fileinput1">
+-->
+<div class="lbl_fileinput" id="lbl_fileinput1">
+<!--<input type="file" onchange="document.getElementById('disp_fileinput1').innerHTML=this.value;" name="datei" accept="text/*" class="inp_fileinput" id="inp_fileinput1" size="1">-->
+
+<input type="file" onchange="" name="datei" accept="text/*" class="inp_fileinput" id="inp_fileinput1" size="1">
+
+UPLOAD
+</div>
+
+<div id="disp_fileinput1" class="disp_fileinput">Trulla</div>
+
+
+</form>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/vendor/jquery.ui.widget.js"></script>
+<script src="js/jquery.iframe-transport.js"></script>
+<script src="js/jquery.fileupload.js"></script>-->
+<script>
+    $(".inp_fileinput").mouseenter(function(){
+        
+    })
+    
+    $(".inp_fileinput").change(function(){
+        file = $(this).val();
+        $(".disp_fileinput").text(file);
+        // alert("Change "+file);        
+    })
+    
+    $(".inp_fileinput").click(function(elemid){
+        alert(elemId);
+        if (navigator.userAgent.toLowerCase().indexOf('msie')>-1)
+        {
+        document.getElementById(elemid).click();
+        }   
+    })
+    
+    function clickFI(elemid) {
+        alert(elemId);
+        if (navigator.userAgent.toLowerCase().indexOf('msie')>-1)
+        {
+        document.getElementById(elemid).click();
+        }
+    } 
+    
+    function fileUpload(e) {
+        alert("Upload!");
+        var files=e.target.file||e.dataTransfer.files;
+        for(var i=0;i<file.length;i++) {
+         //upload files
+        }
+    }
+/*$(function () {
+    $('#fileupload').fileupload({
+        dataType: 'json',
+        done: function (e, data) {
+            $.each(data.result.files, function (index, file) {
+                $('<p/>').text(file.name).appendTo(document.body);
+            });
+        }
+    });
+});
+
+
+
+
+$(function () {
+    $('#fileupload').fileupload({
+        dataType: 'json',
+        add: function (e, data) {
+            data.context = $('<p/>').text('Uploading...').appendTo(document.body);
+            data.submit();
+        },
+        done: function (e, data) {
+            data.context.text('Upload finished.');
+        }
+    });
+});*/
+</script>
+</body> 
+</html>

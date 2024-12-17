@@ -1,0 +1,28 @@
+.header {  background-color:#787878; color:#ffffff; margin:0; border-width:0; border-style:none; border-radius:px; padding:0; padding-top:10px; padding-right:5px; padding-bottom:10px; padding-left:5px;}
+.headerName {  color:#ffffff;font-size:36px;line-height:36px;font-weight:normal;font-style:normal;text-decoation:none;}
+.headerName:hover { font-size:36px;line-height:36px;font-weight:normal;font-style:normal;text-decoation:none;}
+.headerSlogan {  color:#c3c3c3;font-size:16px;line-height:16px;font-weight:normal;font-style:italic;text-decoation:none;}
+.headerSlogan:hover { font-size:16px;line-height:16px;font-weight:normal;font-style:italic;text-decoation:none;}
+.footer {  background-color:#787878; margin:0; border-width:0; border-style:none; border-radius:px; padding:5px;}
+.footerLink {  background-color:#787878; border-color:#787878; color:#dbdbdb;font-size:12px;line-height:12px;font-weight:normal;font-style:normal;text-decoation:none;}
+.footerLink:hover {  background-color:#787878; border-color:#787878;font-size:12px;line-height:12px;font-weight:normal;font-style:normal;text-decoration:underline;}
+.footerActive {  background-color:#787878; border-color:#787878; color:#ffffff;font-size:12px;line-height:12px;font-weight:normal;font-style:normal;text-decoation:none;}
+.footerActive:hover {  background-color:#787878; border-color:#787878;font-size:12px;line-height:12px;font-weight:normal;font-style:normal;text-decoration:underline;}
+.frame2 {  background-color:#3c3c3c; color:#f3f3f3; margin:; border-width:0; border-style:none; border-radius:px; padding:5px;}
+.frame2:hover {  background-color:#3c3c3c; color:#ffffff;}
+.frame2 .textHeadline_h1, .frame2 .frameTextHeadLine_h1{ color:#9;border-width:0;border-style:none;}
+.frame2 .textHeadline_h1:hover, .frame2 .frameTextHeadLine_h1:hover { }
+.frame2 .textHeadline_h1 h1, .frame2 .frameTextHeadLine_h1 h1{ color:inherit;font-weight:normal;font-style:normal;text-decoation:none;}
+.frame2 .textHeadline_h1 h1:hover, .frame2 .frameTextHeadLine_h1 h1:hover { }
+.frame2 .textHeadline_h2, .frame2 .frameTextHeadLine_h2{ color:#10;border-width:0;border-style:none;}
+.frame2 .textHeadline_h2:hover, .frame2 .frameTextHeadLine_h2:hover { }
+.frame2 .textHeadline_h2 h2, .frame2 .frameTextHeadLine_h2 h2{ color:inherit;font-weight:normal;font-style:normal;text-decoation:none;}
+.frame2 .textHeadline_h2 h2:hover, .frame2 .frameTextHeadLine_h2 h2:hover { }
+.frame2 .textHeadline_h3, .frame2 .frameTextHeadLine_h3{ color:#11;border-width:0;border-style:none;}
+.frame2 .textHeadline_h3:hover, .frame2 .frameTextHeadLine_h3:hover { }
+.frame2 .textHeadline_h3 h3, .frame2 .frameTextHeadLine_h3 h3{ color:inherit;font-weight:normal;font-style:normal;text-decoation:none;}
+.frame2 .textHeadline_h3 h3:hover, .frame2 .frameTextHeadLine_h3 h3:hover { }
+.frame2 .textHeadline_h4, .frame2 .frameTextHeadLine_h4{ color:#12;border-width:0;border-style:none;}
+.frame2 .textHeadline_h4:hover, .frame2 .frameTextHeadLine_h4:hover { }
+.frame2 .textHeadline_h4 h4, .frame2 .frameTextHeadLine_h4 h4{ color:inherit;font-weight:normal;font-style:normal;text-decoation:none;}
+.frame2 .textHeadline_h4 h4:hover, .frame2 .frameTextHeadLine_h4 h4:hover { }

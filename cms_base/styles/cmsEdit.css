@@ -1,0 +1,2558 @@
+/* 
+    Document   : cmsEdit
+    Created on : 30.03.2012, 15:27:52
+    Author     : Stefan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+
+
+
+
+root { 
+    display: block;
+}
+
+.cmsLoading{
+    background-image: url(/cms_base/cmsImages/loading_big.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+
+.cmsEditLayout {
+    padding:10px 0;
+    background-color:#333;
+    color:#999;
+}
+
+.layoutEditFrame {    
+    width:100%
+}
+
+
+.layoutTitle {
+    border:1px solid #333;
+    background-color: #ccc;
+    color:#333;
+    padding:2px;
+    font-size: 12px;
+    font-weight: bold;
+    display:block;
+    width:92px;
+    text-decoration:none;
+}
+
+.layoutTitleActive {
+    border-color:#333;
+    background-color: #333;
+    color:#ccc;
+}
+
+.cmsLayoutFrame_spacer {
+    float:left;
+    width:50px;
+}
+
+.layoutSpacer {
+    border:1px solid #333;
+    background-color: #ccc;
+    color:#333;
+    float: left;
+    height: 16px;
+    position: relative;
+    top: -8px;
+    width: 46px;
+    text-decoration:none;
+    margin-left:2px;
+}
+
+.layoutSpacerActive {
+    border-color:#333;
+    background-color:#333;
+    color:#ccc;
+}
+
+.spacerDrop{
+    min-height:10px;
+    height:auto;
+    display:block;
+        
+}
+
+.spacerEdit {
+    display: block;
+    height: auto;
+    margin: 0;
+    min-height: 10px;
+}
+
+
+.spacerDrop:hover{
+    /*background-color:#333;*/
+}
+
+.spacerDrop_active{
+    background-color:#eee;
+    border:1px solid #ccc;
+}
+
+.spacerDrop_hover{
+    background-color:#ccc;    
+    border:1px solid #aaa;
+}
+
+
+.layerDrop{
+    height:16px;
+    display:inherit;
+    width:100px;
+    border: 1px solid #aaa;
+    background-color:#ddd;
+    line-height:20px;
+    padding:2px 5px;
+    margin-bottom: 2px;
+    cursor:pointer;
+    color:#000;
+}
+
+.layerDrop:hover{
+    background-color:#bbb;
+}
+
+.layerDrop_active{
+    background-color:#eee;
+    border:1px solid #ccc;
+}
+
+.layerDrop_hover{
+    background-color:#ccc;    
+    border:1px solid #aaa;
+}
+
+
+.cmsEditModulFrame {
+   
+    float:left;
+    /*padding-top:90px;*/
+    padding-left:10px;   
+}
+.cmsModulFrame {
+    position:fixed;
+    width:280px;
+    float:left;
+    top:90px;
+}
+
+
+.cmsContentEditFrame {
+    border:1px solid #666;
+    background-color:#ddd;
+}
+
+.cmsContentNoData {
+    min-height: 30px;
+    background-color: #ccc;
+}
+
+.cmsContentEditPage {
+    padding:10px;
+}
+
+.cmsEditFrameBox {   
+    margin-right:10px;
+    background-color:#888;
+    float:left;
+    overflow:hidden;     
+    width:300px;
+    position: relative;    
+    border-right:1px solid #ccc;
+}
+
+.contentName_box {
+    background-color: #666;
+    color:#eee;
+    height:16px;
+    padding :2px 2px 2px 70px;
+}
+
+.cmsEditFrameBox_hidden {
+    width:10px;
+}
+
+.cmsEditFrame_SiteBar {
+    width : 10px;
+    background-color: #888;
+    height: 100%;
+    float:left;
+    min-height:800px;
+    position: fixed;   
+    color : #eee;    
+}
+
+.cmsEditFrame_SiteBar:hover {
+    background-color: #777;
+    color : #fff;    
+}
+
+.cmsEditFrame_Content {
+    float:left;    
+    width:290px;
+    position: fixed;   
+    left:10px;
+    background-color:#ddd;
+    border-right:1px solid #ccc;
+    height:100%;
+}
+
+.cmsEditFrame_content_hidden {
+    float:left;    
+    width:0px;
+    display:none;
+    
+}
+
+.cmsEditFrame_myCms {
+    /*border:1px solid #bc4;*/
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    margin-bottom:5px;
+    margin-left:3px;       
+    color:#666;
+}
+
+.cmsEditFrame_myCms:hover {
+    color:#333;
+}
+
+.cmsEditFrame_button {
+    border:1px solid #999;
+    font-size: 14px;
+    margin-bottom:5px;
+    margin-left: 13px;
+    margin-right:3px;
+    padding:2px;
+    background-color:#eee;
+    color :#666;
+    cursor:pointer;
+}
+
+.cmsEditFrame_button:hover {
+    border-color:#666;
+    background-color:#ddd;
+    color :#333;
+}
+
+.cmsEditFrame_headLine {
+    font-size: 16px;
+    margin-bottom:5px;
+    margin-left: 13px;
+    margin-right:3px;
+    padding:2px;
+    color :#666;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.cmsEditFrame_headLine:hover {
+     color :#555;
+}
+
+.cmsEditFrame_headLine2 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-left: 23px;
+    margin-right:3px;
+    padding:2px;
+    color :#888;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.cmsEditFrame_headLine2:hover {
+    color :#777;
+}
+
+
+.cmsEditFrameBox_Close {
+    width:10px;
+}
+
+.cmsEditFrameTabButton {
+  background-color: #ff0;
+  width:200px;
+  height:50px;
+  border: 1px solid #000;
+
+  -webkit-transform: rotate(-90deg); 
+  -moz-transform: rotate(-90deg);
+}
+
+.cmsCheckBoxDiv {
+    display: inline-block
+}
+
+.cmsShowEdit_hidden {
+    display:none;
+}
+
+.cmsContentFrame_editButton {
+    cursor:pointer;
+    padding:1px;
+    display: inline-block;
+}
+
+.cmsContentFrame_editButton:hover {
+    background-color: #ccc;
+}
+
+
+
+input[readonly] {
+  color: #666;
+  
+  background-color: #eee;
+}
+
+input[disabled] {
+  color: #999;
+  background-color: #fff;
+  border-color:#ddd;
+}
+
+
+span {
+    vertical-align: top;
+}
+
+
+.cmsPageLine {
+    width:100%;
+    background-color: #999;
+    padding:5px 2px 5px 2px;
+    
+}
+
+
+.cmsEditLine {
+    height:20px;
+    -moz-opacity:0.5 ;
+    
+    opacity: 0.5;
+    position: relative;
+    margin-bottom:0px;
+    top:+10px;
+    left:0px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    z-index:5998;
+}
+
+
+.cmsEditLine:hover {
+    -moz-opacity:1.0 ;
+   
+    opacity: 1;
+}
+
+.cmsEditLineLine {
+    border: 0px solid #333;
+    border-bottom-width:2px;
+    margin: 0px; 
+    display : block;
+    padding:0px;
+    height:10px;
+    float:left;
+    
+}
+
+.cmsEditLineBox {
+    height:18px;
+    width:18px;
+    border-radius:10px;
+    border: 1px solid #333;
+    -moz-opacity:0.5 ;
+    filter:alpha(opacity:50);
+    opacity: 0.5;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    z-index:5998;
+    float:left;
+}
+
+.cmsEditLineBox:hover {
+     background-color: #fff;
+     -moz-opacity:1.0 ;
+    filter:alpha(opacity:100);
+    opacity: 1;
+}
+
+
+
+.cmsEditLine:hover {
+    -moz-opacity:1.0 ;
+    filter:alpha(opacity:100);
+    opacity: 1;
+    background-color: transparent;
+    cursor:pointer;
+}
+
+.cmsEditLineOpen {
+    -moz-opacity:1.0 ;
+    filter:alpha(opacity:100);
+    opacity: 1;
+}
+
+.cmsEditLineOpen:hover {
+    background-color:transparent;
+}
+
+
+.cmsEditLineSelected {
+    -moz-opacity:1.0 ;
+    filter:alpha(opacity:100);
+    opacity: 1;
+    position: relative;
+    top:+10px;
+    background-color: #ccc;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    z-index:5998;
+}
+
+
+
+.cmsEditLineSelected:hover {
+    background-color: #fff;
+}
+
+.cmsEditLineSelected:hover {
+    background-color: #fff;
+}
+
+.cmsEditLine a:link {
+    text-decoration: none;
+    color:#333;
+}
+.cmsEditLine a:hover {
+    text-decoration: none;
+    color:#333;
+}
+
+.cmsEditLineSelected a {
+    text-decoration: none;
+    color:#555;
+}
+.cmsEditLineSelected a:hover {
+    text-decoration: none;
+    color:#333;
+}
+
+.adminLayer {
+    background-color: inherit;   
+    margin:10px 0 20px;
+    display:block;
+    padding : 5px;
+    border : 1px solid #999;
+    min-height: 500px;
+}
+
+
+
+.cmsEditTable {
+    
+    border:0px;
+    background-color: inherit;
+    border: 0 solid #FF6666;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 2px;
+    font-size:10px;
+}
+
+.cmsEditTableLine {
+    
+}
+
+.cmsEditTableLine_head{
+    border-top:1px solid #fff;
+    height:30px;
+    
+}
+
+.cmsEditTableColumnTitle{
+    text-align: left;
+    border-bottom:1px solid #fff;
+    border-right:1px solid #fff;
+    border-left:1px solid #fff;
+}
+.cmsEditTableColumn {
+    border-bottom:1px solid #fff;
+    border-right:1px solid #fff;
+    text-align: center;
+    padding: 3px;
+}
+
+
+.dragButton {
+    cursor:move;
+   /* width:20px;
+    height:20px;
+    background-color:#f00;
+    display:inline-block;
+    backgound-image:url(/cms_base/cmsImages/cmsMove.png); */
+    
+}
+
+.dragColor {
+    cursor:move;
+    width:30px;
+    height:30px;
+    border:1px solid #000;
+    float:left;
+    margin-right:5px;
+}
+
+.dragColorTransparent{
+    background-image: url('/cms_base/cmsImages/color_transparent_30.png');
+}
+
+.dragColorNone{
+    background-image: url('/cms_base/cmsImages/color_none_30.png');
+}
+
+.colorTransparent{
+    background-image: url('/cms_base/cmsImages/color_transparent_15.png');
+}
+
+.colorNone{
+    background-image: url('/cms_base/cmsImages/color_none_16.png');
+}
+
+.dragColor .dragNone{
+    background-image: url('/cms-base/cmsImages/color_none28.png');
+}
+
+
+.dragColorHelper{
+    width:16px;
+    height:16px;
+    border:1px solid #000;
+}
+
+.dragColorHelperTransparent {
+    background-image: url('/cms_base/cmsImages/color_transparent_15.png');
+}
+.dragColorHelper dragColorHelperNone {
+     background-image: url('/cms_base/cmsImages/color_none_16.png');
+}
+
+.dragColorSmall {
+    width:15px;
+    height:15px;
+    line-height: 15px;
+    text-align: center;
+    margin-right:2px;
+}
+
+.cmsEditSelectColor {
+    border:1px solid #fff;
+    width:15px;
+    height:15px;
+    border:1px solid #000;
+    display:inline-block;
+    margin-right:2px;
+    cursor:pointer;
+
+}
+.cmsEditSelectColor_hover {
+    border-width:2px;
+}
+.cmsEditSelectColor_active     {
+    border-width:4px;
+
+}
+
+.cmsEditCheckBox {
+    width:16px;
+    height:16px;
+    border:1px solid #666;
+    background-color: #fff;
+    display:inline-block;
+    border-radius: 4px;
+    margin-right: 3px;
+    color:#333;
+    cursor:pointer;    
+    line-height:16px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.cmsEditCheckBox_active.checkBox_bold {
+    font-weight:bold;
+}
+
+.cmsEditCheckBox_active.checkBox_underline {
+    text-decoration: underline;
+}
+
+.cmsEditCheckBox_active.checkBox_kursiv {
+    font-style: italic;
+}
+
+.cmsEditCheckBox_active{
+    background-color: #666;
+    color : #fff;
+}
+
+
+
+
+.dragButton:hover {
+    background-color: #ccc;
+}
+
+.cmsContentFrame_editButton:hover {
+    background-color: #ccc;
+}
+
+
+.cmsContentFrame_editPageButton {
+    padding:1px;
+    display:inline-block;
+}
+
+.cmsContentFrame_editPageButton:hover {
+    background-color:#ccc;
+}
+
+.cmsContentFrame_deleteButton {
+    padding:1px;
+    display:inline-block;
+}
+
+.cmsContentFrame_deleteButton:hover {
+    background-color: #ccc;
+}
+
+.cmsContentFrame_deleteAction{
+    display:inline-block;
+    line-height:12px;   
+}
+
+.cmsContentFrame_deleteAction_hidden {
+    display:none;
+}
+
+
+
+.cmsEditFrame{
+    background-color :#ff0;
+}
+
+.cmsEditFrame_hidden {
+    display:none;
+
+}
+
+.cmsContentFrame_hidden{
+    display:none;
+    overflow:hidden;
+
+
+}
+
+    
+.cmsContentFrameBox {
+    position: relative;
+}
+
+.cmsContentHead {
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background-color:#333;
+    margin-bottom:0px;
+    border:1px solid transparent;
+    color:#ccc;
+    
+    padding:2px 2px 2px 2px;
+    position:relative;
+    left:-5px;
+}
+
+.cmsContentHeadFrame {
+    background-color:#333;
+   
+}
+.cmsContentHeadModification {
+    background-color: #dfd;
+}
+
+.cmsContentHeadOver {
+    background-color:#333;
+    margin:0px;
+    border:1px solid #777;
+    color:#ccc;
+}
+
+.cmsContentHeadFrameOver {
+    
+}
+
+.cmsContentEditFrameContent {}
+.cmsContentEditFrameContent_hidden {
+    display:none;
+}
+
+
+.cmsContentFrame_Dummy {
+    height:22px;
+    border-top: 2px solid #999;
+    opacity :0.3;    
+    margin-bottom:5px;
+}
+
+.cmsContentFrame_Dummy:hover {
+    opacity :1.0;    
+}
+
+.cmsContentFrame_DummyFrame {
+    border-left:2px solid #999;
+    border-right:2px solid #999;  
+    background-color:inherit;
+    float:left;
+    height:20px;
+    line-height: 20px;
+    color:#999;
+    text-align: center;
+    /*opacity: 0.5;*/
+}
+
+.cmsContentFrame_DummyFrame:hover {
+    background-color:#999;    
+    color:#fff;
+    border-color:fff;
+}
+
+
+.cmsContentFrameOver {
+    /* background-color: inherit; */
+   
+}
+
+.cmsContentAddFrame {
+    border: 1px solid #999;
+    background-color: #eee;
+    padding: 5px 0 5px 0;
+}
+
+.dynamicTitleFrame {
+    background-color:#eee;
+    color:#333;
+    border:1px solid #888;
+    padding:3px 5px;
+}
+
+a.cmsDynamicSelect:link,  a.cmsDynamicSelect:visited {
+    border:1px solid #ccc;
+    display:inline-block;
+    padding:1px 5px;
+    margin-right:3px;
+    background-color: #eee;
+    text-decoration: none;
+}
+
+a.cmsDynamicSelect:hover,  a.cmsDynamicSelect:active {
+   background-color:#ddd;
+}
+
+a.cmsDynamicSelect_active:link, a.cmsDynamicSelect_active:visited {
+    background-color:#555;
+    color:#ddd;
+}
+
+a.cmsDynamicSelect_active:hover, a.cmsDynamicSelect_active:active {
+    background-color:#333;
+    color:#fff;
+}
+
+a.cmsDynamicSelect_clear:link, a.cmsDynamicSelect_clear:visited {
+    background-color:#777;
+    color:#ddd;
+}
+
+a.cmsDynamicSelect_clear:hover, a.cmsDynamicSelect_clear:selected {
+    background-color:#999;
+    color:#fff;
+}
+
+
+.cmsModulContentFrame, .cmsModulImageFrame, .cmsModulSettingsFrame, .cmsModulSitemapFrame, .cmsModulColorFrame {
+    border:1px solid #999;
+    background-color : #eee;
+    min-height:300px;
+    width:240px;
+    border-radius:15px 0 15px 0;
+    z-index: 98;
+    margin-top: -1px;
+    margin-bottom: 5px;
+    padding:2px;
+}
+
+.cmsModulList {    
+    width:100%;
+    overflow-y: auto;
+    height:100%;
+}
+
+
+
+
+
+
+.cmsModulImageScroll {
+    margin:4px;
+    border: 1px solid #666;
+    background-color:#eee;
+    overflow-y: scroll;
+    max-height:300px;
+    min-height:300px;
+}
+
+.cmsModulSitemapScroll {
+    margin:4px;
+    border: 1px solid #666;
+    background-color:#eee;
+    height: 100%;
+    overflow-y: auto;    
+}
+
+
+.cmsModulSiteMap_page {
+    display:block;
+    
+}
+.cmsModulSiteMap_level_0 {padding-left:5px;}
+.cmsModulSiteMap_level_1 {padding-left:10px;}
+.cmsModulSiteMap_level_2 {padding-left:15px;}
+.cmsModulSiteMap_level_3 {padding-left:20px;}
+
+.cmsModulSiteMap_link:link, .cmsModulSiteMap_link:visited {
+    
+    display:block;
+    color:#666;
+}
+.cmsModulSiteMap_link:active, .cmsModulSiteMap_link:hover {
+    color:#333;
+    background-color: #0f0;
+    text-decoration: none;
+}
+.cmsModulSiteMap_list {
+    /* border:1px solid #555;*/
+    display:block;
+}
+
+.cmsModulSiteMap_select:link{
+    font-weight:bold;
+    text-decoration: underline;       
+}
+
+.cmsModulSiteMap_subSelect:link{
+    font-weight: bold;      
+}
+
+.cmsModulSiteMap_listHidden {
+    display:none;
+}
+
+.cmsModulSiteMap_toggleHidden{
+    width:10px;
+    height:10px;
+    display:inline-block;
+    border:1px solid #333;
+    cursor:pointer;
+    line-height: 10px;
+    float:left;    
+}
+
+
+.cmsModul_hidden {
+    display:none;
+}
+
+
+.cmsModulAdd, .cmsImageAdd, .cmsColorAdd, .cmsModulEditState, .cmsModulSettings,.cmsModulUserEditMode, .cmsModulSitemap {
+    padding:1px;
+    cursor:pointer;
+    display:inline-block;
+    height:30px;
+    width:30px;
+    border-radius: 20px;
+    border-radius: 8px;
+    border:1px solid #999;
+    margin-left:2px;
+    background-position: 4px 4px;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;  
+    margin-bottom: 5px;
+}
+
+.cmsModulAdd:hover, .cmsColorAdd:hover, .cmsImageAdd:hover, .cmsModulSettings:hover, .cmsModulEditState:hover, .cmsModulUserEditMode:hover, .cmsModulSitemap:hover{
+    background-color:#ccc;    
+}
+
+
+.cmsEditOff{
+    background-color: #666;
+    background-image: url(/cms_base/cmsImages/cmsEditOff.png);
+    margin-left:0px;
+    height:30px;
+    width:30px;
+    border-radius: 20px;
+    opacity: 1.0;
+}
+
+.cmsEditOn{
+    background-color: #2f3;
+    background-image: url(/cms_base/cmsImages/cmsEditOn.png);
+    margin-left:0px;
+    height:30px;
+    width:30px;
+    border-radius: 20px;
+    opacity: 1.0;
+}
+
+
+.cmsEditOff:hover{
+    background-color: #363;
+}
+.cmsEditMode_Admin{
+    background-image: url(/cms_base/cmsImages/cmsUserAdmin.png);
+}
+
+.cmsEditMode_Simple{
+     background-image: url(/cms_base/cmsImages/cmsUserSimple.png);
+}
+
+.cmsEditMode_More{
+     background-image: url(/cms_base/cmsImages/cmsUserMore.png);
+}
+
+.cmsModulAdd{
+    background-image: url(/cms_base/cmsImages/cmsModulAdd.png);
+}
+
+
+.cmsImageAdd{
+    background-image: url(/cms_base/cmsImages/cmsImageAdd.png);
+}
+.cmsColorAdd{
+    background-image: url(/cms_base/cmsImages/cmsColorAdd.png);
+}
+
+.cmsModulSitemap{
+    background-image: url(/cms_base/cmsImages/cmsSitemap.png);
+}
+.cmsModulSettings{
+    background-image: url(/cms_base/cmsImages/cmsSettings.png);
+}
+
+.cmsModulSelect{
+    background-color: #eee;    
+    border-radius:20px 20px 0 0;
+    border-radius:8px 8px 0 0;
+    border-color:#999;
+    margin-bottom: 0px;
+    padding-bottom: 6px;
+    border-bottom-width: 0px;
+    z-index: 99;
+    border-color:#555;
+    
+}
+
+.cmsModulSelect:hover{
+    background-color: #eee;        
+}
+
+.cmsEditBox {
+    width:18px;
+    height:18px;
+    border: 1px solid #999;
+    padding:0px;
+    
+    position: absolute;
+    z-index: 2 ;
+    top:0;
+    opacity: 0.50;
+    display: block;
+    overflow: hidden;
+    line-height: 16px;
+    z-index:100;
+    
+}
+
+.cmsSiteBarBox{
+    height:auto;
+    padding:5px 5px 0 5px;
+    border-radius:20px;
+    border-radius:20px 0 20px 0;    
+    border-color:transparent;
+    opacity: 1.0;
+    overflow:visible;
+    width:245px;
+}
+
+
+
+.cmsEditBox:hover {
+/*    opacity:100%;*/
+    background-color: #eee;
+    
+    /*overflow:visible;*/
+    width:auto;    
+}
+
+.siteMap_ButtonFrame{
+    display:inline-block;   
+}
+
+.cmsSiteBarBox:hover{
+    width:245px;
+}
+.cmsSiteBarBox_active:hover{
+    border-color:#999;
+    background-color: #555;
+}
+.cmsEditToggle{} 
+.cmsEditHidden{
+    display: none;
+}
+
+
+
+.cmsImageDropFrame{
+    width:100px;
+    height:100px;
+    border:1px solid #ddd;
+}
+
+
+
+.cmsImageDropFrame_active{
+    border-color:#aaa;  
+    /*background-color:#ccc;*/
+}
+
+.cmsImageDropFrame_hover{
+    border-color:#888;
+    background-color:#aaa;
+}
+
+.cmsImageListItem{
+    float:left;
+    border:1px solid #ccc;
+    padding:5px;
+    display:inline-block;
+    margin-left:5px;
+    margin-top:5px;
+    position: relative;
+    
+}
+.cmsImageListDelete {
+    width:16px;
+    height:16px;
+    position:absolute;
+    float:none;
+    border:1px solid #ccc;
+    display:none;
+    top:1px;
+    left:1px;   
+    cursor: pointer;
+    background-color: #fff;
+    background-image: url('/cms_base/cmsImages/cmsDelete.png');
+    background-repeat: no-repeat;
+    
+}
+
+.dragImage{
+    width:80px;
+    height:80px;
+    margin:0px;
+    padding:0px;    
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    z-index:98;
+}
+
+.dragImageAdd{
+    width:102px;
+    height:77px;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    z-index:98;
+}
+
+.cmsImageSortList{
+    border:1px solid #666;
+    background-color: #fff;
+}
+.cmsImageSortList_active {
+    background-color: #eee;
+}
+.cmsImageSortList_hover {
+    background-color: #ccc;
+    border-color: #333;
+}
+
+
+.cmsImageSortItem{
+    border-color:#aaa;
+    
+}
+
+.cmsImageSortItem:hover{
+    border-color:#999;
+    background-color: #ccc;
+    cursor: move;
+}
+
+.cmsModulContentCategory {
+    cursor:pointer;
+    font-size: 14px;
+    margin:3px 3px 3px 5px;
+    border-bottom:1px solid #666;
+    color:#666;
+}
+
+
+.cmsModulContentCategory:hover {
+    color:#333;
+    border-color:#333;
+    background-color:#fff;
+}
+
+
+.cmsModulContentCategorySecond {
+    font-size:12px;
+    margin-left:15px;
+}
+
+.cmsModulCategoryFrameSecond {
+     margin-left:15px;
+}
+
+.cmsModulCategoryFrame {
+    
+}
+
+.cmsModulCategoryFrameHidden {
+    display:none;
+    overflow:hidden;
+}
+
+
+.cmsModulContentHead {
+    background-color:transparent;
+    height:20px;
+    color:#333;
+    font-weight:bold;
+    padding:5px 0 0 10px;
+    font-size:14px;
+    border-color: #555;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    margin-bottom: 5px;
+}
+
+.cmsModulContentButton {
+    border:1px solid #666;
+    margin:3px;
+    margin-left:10px;
+    padding:2px;
+    background-color:#ddd;
+    border-radius:5px;  
+    cursor:move;
+    background-color:#fff;
+    overflow:hidden;
+}
+
+.cmsModulSmallImage {
+    display:none;
+}
+.cmsModulContentButtonSecond {
+    margin-left:10px;
+}
+
+.cmsModulContentButton {
+    
+    
+
+}
+
+.cmsModulFolder {
+    font-weight: bold;
+    display:inline-block;
+}
+
+.cmsModulUploadImage {
+    display:inline-block;
+    
+    height:16px;
+    margin-right: 5px;
+    border:1px solid #666;
+    cursor:pointer;
+}
+
+.cmsModulNewFolder {
+    display:inline-block;
+    
+    height:16px;
+    margin-right: 5px;
+    border:1px solid #666;
+    cursor:pointer;
+}
+
+.cmsModulImageFolderInput {
+    border: 1px solid #666;
+    background-color:#eee;
+    
+}
+
+.cmsModulImageUploadInput {
+    border: 1px solid #666;
+    background-color:#eee;    
+} 
+
+
+.cmsModulImage_dragFrame {
+    display: block;
+    margin: 2px;   
+    position: absolute;
+    background-color: #ddd;
+    border: 1px solid #666;
+    color:#333;
+    width:100px;
+    display: block;
+    height:80px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor:pointer;   
+}
+
+.cmsModulImage_loading {
+    display: block;
+    margin: 2px;   
+    position: absolute;
+    background-color: #ddd;
+    border: 1px solid #666;
+    color:#333;
+    background-image: url(/cms_base/cmsImages/loading_big.gif);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    
+    width:100px;
+    height:100px;
+    cursor:wait;
+}
+
+.cmsModulImage_dragButton {
+    border: 1px solid #FF0000;    
+    display: block;
+    height: 100px;
+    width:100px;
+    margin: 2px;
+    z-index:100;
+    display: block;
+    overflow:hidden;
+   
+}
+.cmsModulImage_uploadButton {
+   
+    border:1px solid #999;
+    display:none;
+    
+}
+
+.cmsModulImage_dragInput{
+    opacity: 0;    
+    height:100px;
+    margin-left:-35px;  
+    z-index:101;
+    position: fixed;
+}
+.cmsModulImage_dragOutput {
+    background-color:#eee; 
+    padding:2px;
+}
+
+.cmsSelectEditMode, .cmsSelectTarget, .cmsSelectDirection  {
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    color: #333;
+    cursor:pointer;
+}
+
+
+.cmsDirection_Pc {
+    display:none;
+}
+.cmsDirection_Mobil{
+    display:block;
+}
+
+
+.cmsSelectEditModeSelected, .cmsSelectTargetSelected, .cmsSelectDirectionSelected {
+    color: #ddd;
+    background-color: #555;
+    cursor: default;
+    
+}
+
+.cmsModulHidden {
+    display:none;
+}
+
+
+
+.cmsContentEnd, .cmsContentStart{
+    border:1px solid #999;
+    background-color:#ccc;
+    padding:5px;
+}
+
+.cmsContentEnd_hidden, .cmsContentStart_hidden {
+    display: none;
+}
+.cmsContentEnd:hover, .cmsContentStart:hover{
+    border-color:#ddd;
+    background-color:#eee;
+}
+
+.cmsForm {
+    display:inline;   
+}
+
+.cmsInlineForm {
+    display:inline-block;
+}
+
+
+
+a.cmsLinkButton {
+    background-color : #666;
+    display: inline-block;
+    padding: 6px 10px 6px 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ddd;
+    font-size:10px;
+    margin: 0 10px 10px 0;
+    font-weight:normal;
+}
+
+a.cmsLinkButton:hover {
+    background-color : #333;
+    cursor:pointer;
+    color:#fff;
+}
+
+
+.cmsJavaButton {
+    background-color : #666;
+    display: inline-block;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ddd;
+    font-size:10px;
+    margin: 0 10px 0 0;
+    font-weight:normal;
+}
+
+.cmsJavaButton:hover {
+    background-color : #333;
+    cursor:pointer;
+    color:#fff;
+}
+
+
+.cmsInputButton {
+    background-color : #666;
+    display: inline-block;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ddd;
+    font-size:10px;
+    margin: 0 10px 0 0;
+    margin: 0 10px 0 0;
+    font-weight:normal;
+    cursor:pointer;
+}
+
+
+.cmsInputButton[disabled] {
+  color: #ddd;
+  background-color: #999;
+  border-color:#ddd;
+}
+
+
+.cmsInputButton[disabled]:hover {
+  color: #ddd;
+  background-color: #999;
+  border-color:#ddd;
+  cursor:default;
+}
+
+.cmsInputButton:hover {
+    background-color : #555;
+    color:#fff;
+    border-color: #333;
+}
+
+
+.cmsSmallButton {
+    display:inline-block;
+    padding: 0 5px 0 5px;
+    height:11px;
+    line-height: 10px;
+    font-size: 10px;
+    margin-top:1px;
+    margin-right: 3px;
+    text-decoration: none;
+    text-align: center;
+    
+    background-color: #666;
+    border:1px solid #999;
+    color: #ddd;
+}
+
+.cmsSmallButton:hover {
+    cursor:pointer;
+    
+    background-color : #555;
+    border-color: #333;
+    color:#fff;
+}
+
+
+a.cmsContentHeadButton, a.cmsContentHeadButton:visited, .cmsContentHeadButton {
+    display:inline-block;
+    padding: 0 5px 0 5px;
+    height:11px;
+    line-height: 11px;
+    font-size: 10px;
+    margin-top:1px;
+    margin-right: 3px;
+    text-decoration: none;
+    
+    background-color: #666;
+    border:1px solid #999;
+    color: #ddd;
+}
+
+a.cmsContentHeadButton:hover, a.cmsContentHeadButton:active, .cmsContentHeadButton:hover {
+    cursor:pointer;
+    text-decoration: none;
+    
+    background-color : #555;
+    border-color: #333;
+    color:#fff;
+}
+
+
+.cmsContentHeadInputButton {
+    display:inline-block;
+    padding: 0 5px 0 5px;
+    height:15px;
+    line-height: 15px;
+    font-size: 10px;
+    margin-top:1px;
+    margin-right: 3px;
+    text-decoration: none;
+   
+    background-color: #666;
+    border:1px solid #999;
+    color: #ddd;
+}
+
+.cmsContentHeadInputButton:hover {
+    text-decoration: none;
+    cursor:pointer;
+    
+    background-color : #555;
+    border-color: #333;
+    color:#fff;
+}
+
+
+.cmsInputButton .cmsEditFrame {
+    -moz-border-radius:5px 5px 0 0;
+    -webkit-border-radius:5px 5px 0 0;
+    border-radius:5px 5px 0 0;
+}
+
+
+.cmsImageRatioInput {
+    display: inline-block;
+    
+}
+.cmsImageRatioInput_hidden {
+    display: none;    
+}
+
+a.cmsSecond, .cmsSecond {
+    background-color:#eee;
+    border-color:#666;
+    color:#333
+}
+
+a.cmsSecond:hover, .cmsSecond:hover {
+    background-color:#ddd;
+    border-color:#333;
+    color:#000;
+}
+
+
+
+
+
+.cmsEditTabLine {
+    background-color:#ddd;
+    margin-top: 5px;
+}
+
+.cmsEditTab {
+    background-color: transparent;
+    float:left;
+    display: inline-block;
+    margin: 0px;
+    border: 1px solid #666;
+    border-bottom-width: 0px;
+    padding:0 5px 0 5px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    -moz-border-radius:5px 5px 0 0;
+    -webkit-border-radius:5px 5px 0 0;
+    border-radius:5px 5px 0 0;
+    color:#666;
+}
+
+.cmsEditTab:hover {
+    background-color: #ccc;
+    cursor:pointer;
+    color:#333;
+}
+
+.cmsEditTabModification {
+    background-color: #dfd;
+}
+
+.cmsEditTabModification:hover {
+    background-color: #9f9;
+    cursor:pointer;
+}
+
+.cmsEditTab_selected {
+    background-color: #eee;
+    border-color: #999;
+    color:#555;
+}
+
+.cmsEditTab_selected:hover {
+    background-color: #eee;
+    color:#333;
+
+}
+
+.cmsEditTabModification_selected {
+    background-color: #6f6;
+}
+
+.cmsEditTabModification_selected:hover{
+    background-color: #2f2;
+}
+
+
+
+
+.cmsEditFrame {
+    background-color: #eee;
+    color:#555;
+    margin: 0 0 0px 0;
+    padding-top: 5px;
+    border:0px;
+    padding:5px 3px 3px 3px;
+}
+
+.cmsEditFrameButtons{
+    background-color: #eee;
+    padding:3px 3px 3px 3px;
+}
+
+.cmsEditFrameModification {
+    background-color:  #dfd;
+}
+
+.cmsEditFrameHidden {
+    height :0px;
+    overflow: hidden;
+    margin: 0px;
+    border: 0px;
+    padding:0px;
+}
+
+.cmsTextPos_select {
+    border:1px solid #ccc;
+    position: relative;
+    cursor:pointer;
+    
+}
+
+.cmsTextPos_selectFrame {
+    border:1px solid #ccc;
+    background-color:#ddd;
+    padding : 5px 0 0 5px;
+    width : 200px;
+    height:auto;
+    float:none;
+    position: absolute;    
+    display:none;
+    z-index: 100;  
+    left:0;
+    top:25px;
+}
+
+.cmsTextPos_selectPos {
+    display:inline-block;
+    border:1px solid #ccc;
+    margin : 0 5px 5px 0;
+    overflow:visible;
+    cursor:pointer;    
+}
+
+.cmsTextPos_selectPos:hover {
+    /*background-color:#fff;*/
+}
+
+.cmsTextPos_selectPos_selected {
+    background-color: #f99;
+}
+
+
+.cmsEditHorButton , .cmsEditVerButton, .cmsEditSelectButton {
+    border : 1px solid #ccc;
+    display: inline-block;
+    background-color: #999;
+    float:left;
+    min-weight: 30px;
+    height:18px;
+    text-align:center;
+}
+
+
+.cmsPosSelectFrame {
+    width:27px;
+    height:27px;
+    border:1px solid #333;
+    display:inline-block;
+}
+.cmsPosSelect {
+    border: 1px solid #999;
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    overflow: hidden;
+    cursor:pointer;
+    
+}
+
+.cmsDataBox_positionFrame{
+    display:inline-block;
+    padding-bottom:3px;
+}   
+.cmsDataBox_positionSelect {
+    cursor:pointer;
+}
+
+.cmsDataBox_positionTop{
+    border:1px solid #666;
+    width:23px;
+    height:5px;
+}
+
+.cmsDataBox_positionLeft, .cmsDataBox_positionCenter {
+    border-left: 1px solid #666;
+    display: inline-block;
+    height: 7px;
+    width: 7px;    
+}
+.cmsDataBox_positionRight {
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    display: inline-block;
+    height: 7px;
+    width: 7px;    
+}
+
+.cmsDataBox_positionBottom{
+    border:1px solid #666;
+    width:23px;
+    height:5px;
+}
+
+.cmsDataBox_positionSelected {
+    background-color: #f00;
+}
+
+.cmsPosSelected {
+    cursor:default;
+    background-color: #f00;
+}
+
+.cmsToggleSelect {
+    border:1px solid #999;
+    background-color: transparent;
+    display: inline-block;
+}
+
+
+.cmsToggleItem {
+    float:left;
+    height :18px;
+    line-height: 18px;
+    border: 1px solid #666;
+    border-right-width: 0px;
+    background-color :#fff;
+    text-align:left;
+    padding-left:3px;
+    color : #666;
+}
+
+.cmsToggleItem:hover {
+    color : #333;
+    background-color :#eee;
+    cursor:pointer;
+}
+
+.cmsToggleSelected {
+    background-color: #666;
+    
+    color:#ddd;
+}
+
+.cmsToggleSelected:hover {
+    color:#fff;
+    cursor:pointer;
+    background-color: #555;    
+}
+
+
+.selectedHAlign, .selectedVAlign {
+    background-color: #aaa;
+}
+
+.selectButtonSelected {
+    background-color: #aaa;
+}
+
+/******************************************************************************/
+/* FAQ STYLES                                                                 */
+/******************************************************************************/
+
+.faq_editLine {
+    display:block;
+    position: relative;
+}
+.faq_editBox{
+    float:right;
+    display: absolute;  
+}
+
+.faq_output {
+    background-color: #DDDDDD;
+    border: 1px solid #666666;
+    padding:5px;
+    
+}
+.faq_output_hidden{
+    display:none;
+}
+
+.faq_edit_button{float:left;margin-right:3px;}
+.faq_move_button{float:left;margin-right:3px;}
+.faq_delete_button{float:left;margin-right:3px;}
+
+.faq_delete_action{
+    float:left;
+} 
+.faq_delete_action_hidden{
+    display: none;
+}
+
+.faq_edit_button{
+    display:inline-block;
+    width:16px;
+    float:left;
+}
+
+.faq_new_button{   
+    cursor:pointer;
+    display:inline-block;
+    font-size:12px;
+    font-weight: bold;
+    padding:2px 5px;
+    color:#666;
+}
+.faq_new_button:hover {
+    background-color: #eee;
+}
+.faq_new_button_active{
+    background-color: #eee;
+}
+.faq_new_button_active:hover {
+    color:#333;
+}
+
+.faq_edit_input, .faq_new_input{
+    background-color: #eee;
+    padding:5px;
+}
+
+.faq_edit_input_hidden , .faq_new_input_hidden{
+    display:none;
+}
+
+
+/******************************************************************************/
+/* FLIP - FRAME                                                               */
+/******************************************************************************/
+
+
+.cmsFlipSelectFrame {
+    border:1px solid #999;
+    padding:2px;    
+    margin-bottom: 1px;
+}
+
+.cmsFlipTitleFrame {
+    
+}
+.cmsFlipFrameSelector{
+    float:left;
+    border:1px solid #777; 
+    background-color: inherit;
+    display: inline-block;
+    cursor:pointer;
+    padding: 2px 10px;
+    margin-left:5px;
+}
+
+.cmsFlipFrameSelector:hover{
+    background-color: #ddd;
+}
+
+
+
+.cmsFlipFrameSelectorSelected {
+    background-color: #666;
+    color:#ccc;
+    border-color:#aaa;
+}
+.cmsFlipFrameSelectorSelected:hover {
+    background-color: #333;
+    color:#eee;
+    border-color:#ccc;
+}
+
+
+
+.cmsImageSelector {
+    border: 1px solid #999;
+    background-color:#eee;
+}
+
+.cmsImageScroll {
+    border: 1px solid #666;
+    background-color:#ddd;
+}
+
+
+
+.cmsImageSelectFrame {
+    background-color:#ccc;
+    border:1px solid #999;
+    padding:3px;
+    margin-right:3px;
+    margin-bottom:3px;
+    overflow:hidden;
+}
+
+.cmsImageSelectFrame:hover {
+    background-color:#fff;    
+}
+
+
+.cmsFolderSelectFrame {
+    background-color: #999;
+    background-color:#ccc;
+    border:1px solid #999;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    padding: 20px 3px 3px 10px;
+    margin-right:3px;
+    margin-bottom:3px;
+    overflow:hidden;
+    background-image: url(/cms_base/cmsImages/folder.png);
+    cursor:pointer;    
+}
+
+.cmsFolderSelectFrame:hover {
+    background-color:#fff;    
+}
+
+
+
+.cmsImageFolder{
+    
+    background-image: url(/cms_base/cmsImages/folder.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: transparent;
+    border: 1px solid #eee;
+    color:#666;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    padding: 5px;  
+    cursor:pointer;     
+    float:left;
+}
+
+.cmsImageFolder:hover{
+    background-color: #eee;
+    border-color:#999;
+    color:#333;
+}
+
+.cmsImageFolderName{
+    padding-top:40px;
+    font-size:12px;
+    display:block;
+    text-align:center;    
+}
+
+.cmsImageFile{
+    background-color: transparent;
+    border: 1px solid #eee;
+    color:#666;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    padding: 5px;    
+}
+
+.cmsImageFile:hover {
+    background-color: #eee;
+    border-color:#999;
+    color:#333;
+}
+
+
+.inputLine {
+ 
+}
+
+.editMode_hidden {
+    display:none;
+}
+.editMode_unkown {
+    background-color:#ff0;
+}
+.inputLeft{
+    float:left;
+    padding-top:5px;
+}
+.inputRight {
+    float:left;
+}
+
+.cmsInputLine {
+    border-bottom: 1px solid #eee;
+    padding : 3px 0 3px 0;
+    margin: 1px 0 1px 0;
+    display:block;
+}
+
+.cmsInputLine:hover {
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+.cmsInputLeft{
+    width:100px;
+    float:left;
+}
+
+.cmsInputRight{
+    float:left;
+    display:block;     
+}
+
+
+.cmsInputLineTip{
+    background-color : #ccc;
+    border:1px solid #777;
+    border-radius: 5px;
+    width:10px;
+    height:10px;
+    text-align: center;
+    font-size:10px;
+    line-height: 10px;
+    float:right;
+    display:block;
+    margin-right: 5px;
+   /* float:left;
+    display: inherit;
+    
+    top:-20px;
+    left : -20px;
+    
+    position: relative;*/
+}
+
+.cmsInputLineTip:hover{
+    background-color: #ff9;
+    border:1px solid #55a;   
+    cursor:help;
+}
+
+
+.cmsInputLineTipBox {
+    background-color : #ff9;
+    border:1px solid #55a;  
+    position: relative;
+    width : 400px;
+    display: none;    
+    text-align: left;
+    padding:5px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.cmsInput_showLanguage_oneLine {
+    display:inline-block;
+    padding:0 2px;
+    margin-right: 2px;
+}
+
+.cmsInput_editLanguage_oneLine {
+    display:inline-block;
+    padding:0 2px;
+    margin-right: 2px;
+}
+
+.cmsInput_editLanguage_hidden {
+    display:none;
+}
+
+.cmsInput_showLanguage_hidden {
+    display:none;
+}
+
+
+.cmsInput_languageLine {
+    display:inline-block;  
+    padding:0;
+    border:1px solid #ccc;
+    border-right-width : 0;
+    margin-bottom:1px;
+}
+
+
+.cmsInput_selectLanguage {
+    border:0 solid #333;
+    border-right-width: 1px;
+    background-color:transparent;
+    display:inline-block;
+    color : #333;
+    padding:1px 4px;
+    width:20px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.cmsInput_selectLanguage_selected {
+    background-color:#333;
+    color:#ccc;    
+}
+
+
+.cmsImage_listList {
+    background-color: #e8e8e8;
+}
+
+.imageListLine {
+    margin: 1px 0 1px 0;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    background-color:#ddd;
+}
+
+.imageListLine:hover {
+    background-color:#fff;
+}
+
+div.fileinputs {
+	position: relative;
+}
+
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+
+}
+
+input.file {
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity:0);
+	opacity: 0;
+	z-index: 2;
+}
+
+.hiddenTextArea {
+    visibility: hidden;
+    display: none;
+}
+
+.error {
+    color : #F29023;
+
+}
+
+/*************** SITEMAP ***************/
+
+
+
+
+.siteMap_output {
+    border:1px solid #666;
+    background-color:#eee;
+    padding:5px;
+    color:#333;
+}
+.siteMap_output_hidden {
+    display:none;
+}
+
+
+.siteMap_newFrame {
+    padding:5px 0 0 0;
+}
+
+.siteMap_newButton {
+}
+
+
+.siteMap_item{
+    display:block;
+    width:auto;
+    border-color: #666;
+}
+
+.siteMap_item_dynamic {
+    background-color: #666;
+    color : #fff;
+}
+
+.siteMap_item_dynamicContent {
+    background-color: #999;
+    color : #fff;
+}
+
+.siteMap_Level {
+    padding-top: 0px;
+    min-height:10px;
+    padding-bottom: 5px;
+}
+
+.siteMap_Level {    
+}
+
+.siteMap_Level0 {
+    background-color: #fff;
+}
+
+.siteMap_Level1 {
+    background-color: #eee;
+}
+
+.siteMap_Level2 {
+    background-color: #ddd;
+}
+
+.siteMap_Level3 {
+    background-color: #ccc;
+}
+.siteMap_Level4 {
+    background-color: #bbb;
+}
+
+.siteMap_Level_dynamic{
+    background-color:#aaa;
+}
+
+.sitemap_placeholder {
+    border:2px dotted #333;
+    padding:2px 0 2px 2px;
+    margin-bottom:10px;
+    background-color:#fff;
+    display :block;
+    height:16px;
+    margin: 5px 0;
+}
+
+.siteMap_helper {
+    border:2px dotted #666;
+    padding:2px 0 2px 2px;
+    margin-bottom:10px;
+    background-color:#333;
+    color:#eee;
+    display :block;
+    height:16px;
+    width:300px;
+    margin: 5px 0;
+}
+
+.siteMap_sort_hidden {
+    display:none;
+}
+.siteMapEditBox {
+}
+
+.cmsSitemapAddPage {
+    height:0px;
+    display: none;
+    overflow:hidden;
+}
+
+.cmsSitemapAddPageShow {
+    border : 1px solid #ccc;
+    height:auto;
+    display: block;
+    overflow:visible;
+}
+
+
+.siteMap_newEdit{
+    display:block;
+    border : 1px solid #ccc;
+    background-color: #eee;
+}
+.siteMap_newEdit_hidden {
+    display:none;
+}
+
+.siteMap_editFrame {
+   
+    border : 1px solid #ccc;
+    background-color: #eee;
+    color:#333;
+}
+.siteMap_editFrame_hidden{
+    display:none;
+}
+
+.siteMapOpen {
+    background-color: #eee;
+}
+
+.siteMap_showName {
+    font-weight:bold;
+}
+
+.siteMapDynamic {
+    background-color:#eee;
+    color:#333;
+    border-color:#888;
+}
+
+
+.cmsPageingFrame {
+    background-color: transparent;
+    text-align: center;
+    height:20px;
+    margin:5px 0 5px 0;
+}
+
+.cmsPageingButtonAktiv {
+    text-decoration: none;
+    background-color : transparent;
+    color:#800;
+    border: 1px solid #ddd;
+
+    padding:0 5px 0 5px;
+    margin-right :2px;
+    margin-left :2px;
+}
+.cmsPageingButtonAktiv:hover {
+    cursor:default;
+}
+
+.adminDatesOutputFrame {
+    display:block;
+    visibility: visible;
+    overflow: auto;
+
+}
+
+
+.cmsPageingButton {
+    text-decoration: none;
+    background-color : #eee;
+    border: 1px solid #999;
+
+    padding:0 5px 0 5px;
+    margin-right :2px;
+    margin-left :2px;
+    color:#666;
+    
+}
+
+.cmsPageingButton:hover {
+    text-decoration: none;
+    background-color : #eee;
+    border: 1px solid #666;
+    color:#333;
+   
+}
+
+.cmsCustomFilterList {
+    background-color:#ddd;
+    border:1px solid #999;
+}
+
+.cmsShowDataTitleLine {
+    height : 20px;
+    background-color:#ccc;
+    line-height: 20px;
+    font-size:12px;
+    color:#777;
+}
+
+.cmsShowDataTitleItem {
+    float:left;
+    color:#555;
+    padding-left:2px;
+    border-right: 1px solid #ccc;    
+}
+
+.cmsShowDataSort {
+    color :#555;
+}
+
+.cmsShowDataSort:hover {
+    color :#333;
+    cursor:pointer;
+}
+
+.cmsShowDataSort_up {
+    color:#f4f4f4;
+}
+
+.cmsShowDataSort_up:hover {
+    color:#fff;
+}
+
+.cmsShowDataSort_down {
+    color:#f4f4f4;
+}
+.cmsShowDataSort_down:hover {
+    color:#fff;
+}
+
+.cmsCompanyTitleLine, .cmsProductTitleLine, .cmsCategoryTitleLine, .cmsLocationTitleLine, .cmsDatesTitleLine {
+    height : 20px;
+    background-color:#ccc;
+    line-height: 20px;
+    font-size:12px;
+}
+
+.cmsShowDataLine {
+    background-color:transparent;
+    font-size:12px;
+    vertical-align: middle;
+    color:#555;
+    overflow:hidden;
+}
+
+.cmsShowDataLine:hover {
+    background-color: #eee;
+    color:#333;
+    text-decoration: none;
+}
+
+.cmsShowDataItem {
+    padding-top: 3px;
+    padding-left:2px;
+    border-right: 1px solid #ccc;
+    height :auto;
+    overflow: hidden;
+}
+.cmsShowDataItem_image {
+    padding-top : 0px;
+}
+
+.cmsCompanyLine, .cmsProductLine, .cmsCategoryLine, .cmsLocationLine, .cmsDatesLine {
+    background-color:transparent;
+    font-size:12px;
+    vertical-align: middle;
+    color:#555;
+    overflow:hidden;
+}
+
+a.cmsCompanyLine, a.cmsProductLine, a.cmsCategoryLine, a.cmsLocationLine, a.cmsDatesLine {
+    color:#F29023;
+}
+
+.cmsCompanyLine:hover, .cmsProductLine:hover, .cmsCategoryLine:hover, .cmsLocationLine:hover, .cmsDatesLine:hover {
+    background-color: #eee;
+     color:#333;
+    text-decoration: none;
+}
+
+.autocomplete-w1 { background:url(img/shadow.png) no-repeat bottom right; position:absolute; top:0px; left:0px; margin:8px 0 0 6px; /* IE6 fix: */ _background:none; _margin:0; }
+.autocomplete { border:1px solid #999; background:#FFF; cursor:default; text-align:left; max-height:350px; overflow:auto; margin:-6px 6px 6px -6px; /* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; }
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete div { padding:2px 5px; white-space:nowrap; }
+.autocomplete strong { font-weight:normal; color:#3399FF; }
+
+
+.dragFrame .dragBox .dragLine{
+    margin:0;
+    font-size:12px;
+    padding:5px;
+    background:#f0f0f0;
+    color:#000;
+    border-bottom:1px solid #eee;
+    font-family:Verdana;
+    cursor:move;
+}
+
+.dragFrame .dragPlaceholder{
+    background: #888;
+    height:10px;
+    border:1px dashed #ddd;
+}
+
+.dragFrameAdded{
+    background-color:#eee;
+    border:1px solid #ccc;
+    padding:3px;
+}
+
+.cmsupdate_frame{
+    border: 1px solid #333;
+    height: 30px;
+    margin: 5px 0;
+    position: relative;
+    width: 100%;
+}
+.cmsupdate_percent {
+    background: #FF0000;
+    display: block;
+    float: none;
+    height: 30px;
+    position: absolute;
+    width: 0%;
+}
+
+.cmsupdate_name {
+    width:100%;
+    height : 30px;
+    text-align: center;
+    font-size:14px;
+    font-weight: bold;
+    color: #333;    
+    position: relative;
+    line-height: 30px;
+}
+
+.cmsupdate_ready{
+    display:none;
+    border: 1px solid #333;
+    margin: 5px 0;   
+    width: 100%;
+    padding:5px;
+}
+/*
+
+
+
+.column{
+	
+}
+.column .dragbox{
+	margin:5px 2px  20px;
+	background:#fff;
+	position:relative;
+	border:1px solid #ddd;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.column .dragbox h2{
+	margin:0;
+	font-size:12px;
+	padding:5px;
+	background:#f0f0f0;
+	color:#000;
+	border-bottom:1px solid #eee;
+	font-family:Verdana;
+	cursor:move;
+}
+.dragbox-content{
+	background:#fff;
+	min-height:100px; margin:5px;
+	font-family:'Lucida Grande', Verdana; font-size:0.8em; line-height:1.5em;
+}
+*/

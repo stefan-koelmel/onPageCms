@@ -1,0 +1,228 @@
+/* 
+    Document   : cmsEdit
+    Created on : 30.03.2012, 15:27:52
+    Author     : Stefan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root {}
+
+input[readonly] {}
+
+input[disabled] {}
+
+span {}
+
+
+.cmsPageLine {}
+
+
+.cmsEditLine {}
+
+.cmsEditLine:hover {}
+
+.cmsEditLineLine {}
+
+.cmsEditLineBox {}
+
+.cmsEditLineBox:hover {}
+
+
+
+.cmsEditLine:hover {}
+
+.cmsEditLineOpen {}
+
+.cmsEditLineOpen:hover {}
+
+
+.cmsEditLineSelected {}
+
+
+
+.cmsEditLineSelected:hover {}
+
+.cmsEditLineSelected:hover {}
+
+.cmsEditLine a:link {}
+.cmsEditLine a:hover {}
+
+.cmsEditLineSelected a {}
+.cmsEditLineSelected a:hover {}
+
+
+
+
+.cmsContentHead {}
+
+.cmsContentHeadFrame {}
+.cmsContentHeadModification {}
+
+.cmsContentHeadOver {}
+
+.cmsContentHeadFrameOver {}
+
+a.cmsContentHeadButton, a.cmsContentHeadButton:visited, .cmsContentHeadButton {}
+
+a.cmsContentHeadButton:hover, a.cmsContentHeadButton:active, .cmsContentHeadButton:hover {}
+
+
+.cmsContentHeadInputButton {}
+
+.cmsContentHeadInputButton:hover {}
+
+
+
+.cmsContentFrameOver {}
+
+.cmsContentAddFrame {}
+
+.cmsForm { }
+
+
+a.cmsSecond, .cmsSecond {}
+
+a.cmsSecond:hover, .cmsSecond:hover {}
+
+.cmsEditTabLine {}
+
+.cmsEditTab {}
+
+.cmsEditTab:hover {}
+
+.cmsEditTabModification {}
+
+.cmsEditTabModification:hover {}
+
+.cmsEditTab_selected {}
+
+.cmsEditTab_selected:hover {}
+
+.cmsEditTabModification_selected {}
+
+.cmsEditTabModification_selected:hover{}
+
+
+
+
+.cmsEditFrame {}
+
+.cmsEditFrameButtons{}
+
+.cmsEditFrameModification {}
+
+.cmsEditFrameHidden {}
+
+
+
+
+.cmsEditHorButton , .cmsEditVerButton, .cmsEditSelectButton {
+   
+}
+
+.cmsToggleSelect {
+  
+}
+
+.cmsToggleItem {
+   
+}
+
+.cmsToggleItem:hover {
+   
+}
+
+.cmsToggleSelected {
+   
+}
+
+cmsToggleSelected:hover {
+   
+}
+
+.selectedHAlign, .selectedVAlign {
+  
+}
+
+.selectButtonSelected {
+  
+}
+
+.cmsFlipFrameSelect {
+   
+}
+
+.cmsFlipFrameSelector {
+}
+
+
+.cmsFlipFrameSelectorSelected {}
+.cmsFlipFrameSelectorSelected:hover {}
+
+
+.cmsFlipFrameSelector:hover {}
+
+.cmsFolderSelectFrame {}
+
+div.fileinputs {}
+
+div.fakefile {}
+
+input.file {}
+
+.error {}
+
+
+.cmsPageingFrame {}
+
+.cmsPageingButtonAktiv {}
+.cmsPageingButtonAktiv:hover {}
+
+.adminDatesOutputFrame {}
+
+
+.cmsPageingButton {}
+
+.cmsPageingButton:hover {}
+
+.cmsShowDataTitleLine {}
+
+.cmsShowDataTitleItem {}
+
+.cmsShowDataSort {}
+
+.cmsShowDataSort:hover {}
+
+.cmsShowDataSort_up {}
+
+.cmsShowDataSort_up:hover {}
+
+.cmsShowDataSort_down {}
+.cmsShowDataSort_down:hover {}
+
+.cmsCompanyTitleLine, .cmsProductTitleLine, .cmsCategoryTitleLine, .cmsLocationTitleLine, .cmsDatesTitleLine {}
+
+.cmsShowDataLine {}
+
+.cmsShowDataLine:hover {}
+
+.cmsShowDataItem {}
+.cmsShowDataItem_image {}
+
+.cmsCompanyLine, .cmsProductLine, .cmsCategoryLine, .cmsLocationLine, .cmsDatesLine {}
+
+a.cmsCompanyLine, a.cmsProductLine, a.cmsCategoryLine, a.cmsLocationLine, a.cmsDatesLine {}
+
+.cmsCompanyLine:hover, .cmsProductLine:hover, .cmsCategoryLine:hover, .cmsLocationLine:hover, .cmsDatesLine:hover {}
+
+.autocomplete-w1 {}
+.autocomplete {}
+.autocomplete .selected {}
+.autocomplete div { }
+.autocomplete strong {}

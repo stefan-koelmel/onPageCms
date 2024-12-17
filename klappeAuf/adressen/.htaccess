@@ -1,0 +1,14 @@
+Options +SymLinksIfOwnerMatch
+RewriteEngine on
+RewriteRule ^adressen/([^/]+)/([^/]+).* /index.php?webpage=$1&webpageid=$2&view=$3 [NC]
+RewriteRule ^bericht/([^/]+)/([^/]+).* /report.php?webpage=$1&webpageid=$2&view=$3 [NC]
+RewriteRule ^mobileDe/([^/]+).* /read.php?webpage=mobileDe&webpageid=$1 [NC]
+RewriteRule ^autoscout/([^/]+).* /read.php?webpage=mobileDe&webpageid=$1 [NC]
+RewriteRule ^konto/([^/]+) /konto.php?view=$1 
+ErrorDocument 404 /index.php
+
+
+
+
+
+

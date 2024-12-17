@@ -1,0 +1,1 @@
+<?php // charset:UTF-8class cmsType_header extends cmsType_header_base {    function headerSpecial($contentData,$textData) {        $out = "SPECIAL DATA - OWN !!";                return $out;    }}?>

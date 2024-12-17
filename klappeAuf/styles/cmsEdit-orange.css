@@ -1,0 +1,486 @@
+/* 
+    Document   : cmsEdit
+    Created on : 30.03.2012, 15:27:52
+    Author     : Stefan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/*
+    HellOrange #f58d4d;
+    normal Orange #F47C22
+*/
+
+root { 
+    display: block;
+}
+
+
+.cmsPageLine {
+    width:100%;
+    background-color: #999;
+    padding:5px 2px 5px 2px;
+    
+}
+
+
+.cmsEditLine {
+   
+}
+
+.cmsEditLine:hover {
+   
+}
+
+.cmsEditLineLine {
+    border-color:#F47C22;
+    
+}
+
+.cmsEditLineBox {
+    border-color:#F47C22;
+    border-width:4px;
+    background-color: #fff;
+}
+
+.cmsEditLineBox:hover {
+    background-color: #fff;
+}
+
+
+
+.cmsEditLine:hover {
+   
+}
+
+.cmsEditLineOpen {
+   
+}
+
+.cmsEditLineOpen:hover {
+   
+}
+
+
+.cmsEditLineSelected {
+    
+    background-color: #ccc;
+    
+}
+
+
+
+.cmsEditLineSelected:hover {
+    background-color: #fff;
+}
+
+.cmsEditLineSelected:hover {
+    background-color: #fff;
+}
+
+.cmsEditLine a {
+    text-decoration: none;
+    color:#F47C22;
+}
+.cmsEditLine a:hover {
+    text-decoration: none;
+    color:#F47C22;
+}
+
+.cmsEditLineSelected a {
+    text-decoration: none;
+    color:#F47C22;
+}
+.cmsEditLineSelected a:hover {
+    text-decoration: none;
+    color:#F47C22;
+}
+
+
+
+
+.cmsContentHead {
+    background-color:#F47C22;
+    color:#333;
+   
+}
+
+.cmsContentHeadFrame {
+    background-color:#F47C22;
+    color:#333;
+   
+}
+.cmsContentHeadModification {
+    background-color: #dfd;
+}
+
+.cmsContentHeadOver {
+    background-color:#F47C22;
+    margin:0px;
+    border:1px solid #777;
+    color:#333;
+}
+
+.cmsContentHeadFrameOver {
+    
+}
+
+a.cmsContentHeadButton, a.cmsContentHeadButton:visited, .cmsContentHeadButton {
+    display:inline-block;
+    padding: 0 5px 0 5px;
+    height:11px;
+    line-height: 10px;
+    font-size: 10px;
+    margin-top:1px;
+    margin-right: 3px;
+    border:1px solid #ddd;
+    background-color: #fff;
+    text-decoration: none;
+    color:#777;
+}
+
+a.cmsContentHeadButton:hover, a.cmsContentHeadButton:active, .cmsContentHeadButton:hover {
+
+    border:1px solid #999;
+    background-color: #ccc;
+    text-decoration: none;
+    color:#333;
+    cursor:pointer;
+    
+
+}
+
+
+.cmsContentHeadInputButton {
+    display:inline-block;
+    padding: 0 5px 0 5px;
+    height:15px;
+    line-height: 10px;
+    font-size: 10px;
+    margin-top:1px;
+    margin-right: 3px;
+    border:1px solid #ddd;
+    background-color: #fff;
+    text-decoration: none;
+    color:#777;
+}
+
+.cmsContentHeadInputButton:hover {
+
+    border:1px solid #999;
+    background-color: #ccc;
+    text-decoration: none;
+    color:#333;
+    cursor:pointer;
+}
+
+
+
+.cmsContentFrameOver {
+    /* background-color: inherit; */
+   
+}
+
+.cmsContentAddFrame {
+    border: 1px solid #f90;
+    background-color: #e8e8e8;
+    padding: 5px 0 5px 0;
+    
+}
+
+.cmsForm {
+    display:inline;
+    
+}
+
+a.cmsLinkButton:hover {
+
+    background-color: #f58d4d;
+    border-color: #F47C22;
+    color: #fff;
+}
+
+a.cmsLinkButton {
+    background-color: #F47C22;
+    border-color: #f58d4d;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    color: #eee;
+    font-size: 12px;
+   
+}
+
+.cmsJavaButton:hover {
+    background-color : #fab;
+    cursor:pointer;
+    color: #fff;
+}
+
+.cmsJavaButton {
+    background-color : #f90;
+    color: #fff;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    color: #eee;
+    font-size: 12px;  
+}
+
+.cmsInputButton:hover {
+    background-color: #F47C22;
+    color: #fff;
+
+}
+
+.cmsSmallButton {
+    background-color : #f90;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color: #eee;
+    font-size: 10px;  
+}
+
+.cmsSmallButton:hover {
+    background-color: #F47C22;
+    color: #fff;
+
+}
+
+
+.cmsInputButton {
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    background-color:#f58d4d;
+    
+    border-color: #F47C22;
+    color: #eee;
+    font-size: 12px;
+   
+}
+
+
+.cmsInputButton .cmsEditFrame {
+  
+}
+
+a.cmsSecond, .cmsSecond {
+    background-color:#eee;
+    border-color:#f58d4d;
+    color:#777
+}
+
+a.cmsSecond:hover, .cmsSecond:hover {
+    background-color:#ddd;
+    border-color:#F47C22;
+    color:#000;
+}
+
+.cmsEditTabLine {
+    background-color:#F47C22;
+    margin-top: 5px;
+    color:#ccc;
+}
+
+.cmsEditTab {
+    border: 1px solid #fff;
+   
+    color:#333;
+
+   
+}
+
+.cmsEditTab:hover {
+    background-color: #bc2;
+    cursor:pointer;
+}
+
+.cmsEditTabModification {
+    background-color: #dfd;
+}
+
+.cmsEditTabModification:hover {
+    background-color: #9f9;
+    cursor:pointer;
+}
+
+.cmsEditTab_selected {
+    background-color: #eee;
+    border-color: #fff;
+    color:#F47C22;
+}
+
+.cmsEditTab_selected:hover {
+    background-color: #eee;
+    color:#bc1;
+
+}
+
+.cmsEditTabModification_selected {
+    background-color: #6f6;
+}
+
+.cmsEditTabModification_selected:hover{
+    background-color: #2f2;
+}
+
+
+
+
+.cmsEditFrame {
+    background-color: #eee;
+    color:#333;
+    margin: 0 0 0px 0;
+    padding-top: 5px;
+    border:0px;
+    padding:5px 3px 3px 3px;
+}
+
+.cmsEditFrameButtons{
+    background-color: #eee;
+    padding:3px 3px 3px 3px;
+}
+
+.cmsEditFrameModification {
+    background-color:  #dfd;
+}
+
+.cmsEditFrameHidden {
+    height :0px;
+    overflow: hidden;
+    margin: 0px;
+    border: 0px;
+    padding:0px;
+}
+
+
+.cmsEditHorButton , .cmsEditVerButton, .cmsEditSelectButton {
+    border-color:#f58d4d;
+    background-color: #ccc;  
+}
+
+/*
+    HellOrange #f58d4d;
+    normal Orange #F47C22;
+    dunkelOrange : #c25a1a;
+*/
+
+.cmsToggleSelect {
+    border:1px solid transparent;
+    background-color: transparent;   
+}
+
+.cmsToggleItem {
+    border-color:#c25a1a;
+    background-color :#fff;
+    color : #777;
+}
+
+.cmsToggleItem:hover {
+    color : #333;    
+}
+
+.cmsToggleSelected {
+    background-color: #F47C22;
+    color:#eee;
+}
+
+.cmsToggleSelected:hover {
+    color:#fff;
+}
+
+
+
+.selectedHAlign, .selectedVAlign {
+    background-color: #F47C22;
+}
+
+.selectButtonSelected {
+    background-color: #fc0;
+}
+
+.cmsFlipFrameSelect {
+    width:100%;
+    background-color:#eee;    
+}
+
+.cmsFlipFrameSelector {
+    background-color: #88cc88;
+    display: inline-block;
+    padding: 2px 10px 2px 2px;
+    text-decoration: none;
+}
+
+
+.cmsFlipFrameSelectorSelected {
+    background-color: #00dd00;
+}
+.cmsFlipFrameSelectorSelected:hover {
+    background-color: #00ffaa;
+}
+
+
+.cmsFlipFrameSelector:hover {
+    background-color: #00ffcc;
+    cursor:pointer;    
+}
+
+.cmsFolderSelectFrame {
+    background-color: #eee;
+    
+}
+
+div.fileinputs {
+	position: relative;
+}
+
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+
+}
+
+input.file {
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity:0);
+	opacity: 0;
+	z-index: 2;
+}
+
+.error {
+    color : #F29023;
+
+}
+
+.cmsShowDataTitleLine {
+     background-color:#f58d4d;
+}
+
+.cmsShowDataTitleLine .cmsCompanyTitleLine, .cmsProductTitleLine, .cmsCategoryTitleLine, .cmsLocationTitleLine, .cmsDatesTitleLine {
+    background-color:#f58d4d;
+}
+
+.cmsCompanyLine, .cmsProductLine, .cmsCategoryLine, .cmsLocationLine, .cmsDatesLine {
+    background-color:#f58d4d;
+}
+
+a.cmsCompanyLine, a.cmsProductLine, a.cmsCategoryLine, a.cmsLocationLine, a.cmsDatesLine {
+    color:#F29023;
+}
+
+.cmsCompanyLine:hover, .cmsProductLine:hover, .cmsCategoryLine:hover, .cmsLocationLine:hover, .cmsDatesLine:hover {
+    background-color: #F47C22;
+     color:#333;
+    text-decoration: none;
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>http://klappeauf.de/index.php</loc>
+    </url>
+    
+     <url>
+      <loc>http://www.klappeauf.de/index.php</loc>
+      <lastmod>2012-09-04</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>http://www.klappeauf.de/</loc>
+      <lastmod>2012-11-15</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+    <url>
+      <loc>http://www.klappeauf.de/ausgabe.php</loc>
+      <lastmod>2012-11-15</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+    <url>
+      <loc>http://www.klappeauf.de/kalender.php</loc>
+      <lastmod>2012-11-15</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+    <url>
+      <loc>http://www.klappeauf.de/adressen.php</loc>
+      <lastmod>2012-11-15</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+    <url>
+      <loc>http://www.klappeauf.de/kontakt.php</loc>
+      <lastmod>2012-11-15</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+    <url>
+      <loc>http://www.klappeauf.de/impressum.php</loc>
+      <lastmod>2012-11-15</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+    <url>
+      <loc>http://www.klappeauf.de/archive.php</loc>
+      <lastmod>2012-11-15</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>     
+    
+</urlset>

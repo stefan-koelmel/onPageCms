@@ -1,0 +1,539 @@
+ul#css3menu1, ul#css3menu1 ul{
+    margin:0;
+    list-style:none;
+    padding:0;
+    color: #fff;
+    padding-top : 5px;
+    padding-bottom: 10px;
+    background-color:#e8e8e8;
+    
+    border-width:1px;
+    border-style:solid;
+    border-color:#a9a5a1;
+/*    border-color:#e8e8e8;
+     border-color:#f19023; */
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font-family: 'Trebuchet MS';
+   
+    /*-moz-box-shadow:3px 5px 5px #999;
+    -webkit-box-shadow:3px 5px 5px #999;
+    box-shadow:2px 3px 10px #aaa;*/
+}
+
+
+/* erstes Untermenu */
+ul#css3menu1 ul{
+    color: #333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: none;
+    position:absolute;
+    left:100%;
+    top:0px;
+    margin-left : -5px;
+    margin-top : -5px;
+    background-color : #e8e8e8;
+    min-width:150px;
+    /*-moz-box-shadow:1.5px 1.5px 50px #333333;
+    -webkit-box-shadow:3.5px 3.5px 5px #333333;
+    box-shadow:3px 5px 5px #333333;*/
+   /* padding:0 3px 3px;*/
+    /*background-color:#ded000;*/
+    border-color:#a9a5a1;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+
+}
+
+ul#css3menu1 li:hover>*{
+    display:block;
+}
+ul#css3menu1 li:hover{
+    position:relative;
+}
+
+/* 2.ebene */
+ul#css3menu1 ul ul{
+    position:absolute;
+    background-color:#ddd;
+    margin-left : 0px;
+    left:100%;
+    top:0;
+    margin-left : -5px;
+    margin-top : -5px;
+}
+
+/* 3.ebene */
+ul#css3menu1 ul ul ul{
+    position:absolute;
+    background-color:#dfd;
+    margin-left : 0px;
+    box-shadow:0px 0px 0px #00ff00;
+    left:100%;
+    top:0;
+     margin-left : -5px;
+    margin-top : -3px;
+}
+
+.carInfoBox {
+    width:400px;
+    height:300px;
+}
+
+
+ul#css3menu1{
+    display:block;
+    font-size:0;
+    float:left;
+    width:180px;
+}
+ul#css3menu1 li{
+    display:block;
+    white-space:nowrap;
+    font-size:12px;
+    color: #444;
+    /*padding-left:12px;*/
+}
+
+ul#css3menu1 .inaktiv {
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    display:block;
+    white-space:nowrap;
+    font-size:12px;
+    color: #888;
+    padding-left:15px;
+   cursor:default;
+}
+
+ul#css3menu1 ul .inaktiv{
+    font-size:11px;
+    padding-left:5px;
+}
+
+
+ul#css3menu1>li,ul#css3menu1 li{
+    /*margin:0;*/
+}
+ul#css3menu1 a:active, ul#css3menu1 a:focus{
+    outline-style:none;
+}
+ul#css3menu1 a{
+    display:block;
+    vertical-align:middle;
+    text-align:left;
+    text-decoration:none;
+    font:bold 14px 'Trebuchet MS';
+    /*color:#000000;*/
+    cursor:pointer;
+    height:20px;
+}
+
+ul#css3menu1 a.pressed{
+    display:block;
+    vertical-align:middle;
+    text-align:left;
+    text-decoration:none;
+    font:bold 14px 'Trebuchet MS';
+    color:#00ff00;
+    cursor:pointer;
+}
+
+
+/* Zeile Ebene 1 */
+ul#css3menu1 ul li{
+    float:none;
+    margin-top:0px;
+
+}
+
+
+
+/* 2. Ebene Text */
+ul#css3menu1 ul a{
+    text-align:left;
+    padding-left:5px;
+    padding-right:5px;
+    background-color : #e8e8e8;
+    background-image:none;
+    border-width:0;
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+    font:12px Trebuchet MS;
+    color:#000000;
+    text-decoration:none;
+}
+
+ul#css3menu1 li:hover>a{
+   /* background-color:#ff5500; */
+    border-color:#C0C0C0;
+    border-style:solid;
+   /* font:bold 14px Trebuchet MS;*/
+    color:#000000;
+    text-decoration:none;
+
+  /*  background-image:url("mainbk.png");
+    background-position:0 100px; */
+
+}
+ul#css3menu1 img{
+	border:none;
+        vertical-align:middle;
+       /* margin-right:10px; */
+}
+ul#css3menu1 img.over{
+	display:none;
+}
+ul#css3menu1 li:hover > a img.def{
+	display:none;
+}
+ul#css3menu1 li:hover > a img.over{
+	display:inline;
+}
+ul#css3menu1 li a.pressed img.over{
+	display:inline;
+}
+ul#css3menu1 li a.pressed img.def{
+	display:none;
+}
+
+/* exist Untermenü von Ebene1 -> Pfeil */
+ul#css3menu1 span{
+    display:block;
+    overflow:visible;
+    background-image:url("arrowsub.png");
+    background-position:right center;
+    background-repeat:no-repeat;
+    padding-right:0px;
+}
+
+/* exist Untermenü von Ebene2 -> Pfeil */
+ul#css3menu1 ul span{
+    background-image:url("arrowsub.png");
+    padding-right:58px;
+}
+
+/* Haupebene Buttons Link*/
+ul#css3menu1 a{
+    padding:5px 2px 2px 5px;
+    color :#333;
+    /* background-color:#c1c1c1; */
+    background-color: #dfdfdf;
+   background-color:#e8e8e8;
+    background-image:url("includes/navi/naviBg2.png");
+    background-repeat:repeat;
+    background-position:0 0;
+    border-width:0px 0 0 0;
+    border-style:solid;
+    border-color:#ffffff;
+    text-decoration:none;
+    /*border-bottom: 1px solid #ddd;*/
+
+}
+/* Haupebene Buttons Link - over*/
+ul#css3menu1 li:hover>a,ul#css3menu1 li>a.pressed{
+
+    border-style:solid;
+    border-color:#C0C0C0;
+    background-color:#e8e8e8;
+    background-image:url("includes/navi/naviBg2.png");
+    background-repeat:repeat;
+
+    color:#f19023;
+    text-decoration:none;
+}
+
+
+ul#css3menu1 ul li:hover>a,ul#css3menu1 ul li>a.pressed{
+    /* background-color:#ffffff; */
+    /* background-image:none; */
+   /*  font:14px Tahoma; */
+    color:#f19023;
+    text-decoration:none;
+}
+
+ul#css3menu1 li.level_1>a{
+    font-size:12px;
+    padding-left: 15px;
+    padding-top : 2px;
+    padding-bottom : 1px;
+}
+
+ul#css3menu1 li.level_2>a{
+    font-size:10px;
+    padding-left: 25px;
+    padding-top : 1px;
+    padding-bottom : 0px;
+}
+
+ul#css3menu1 li.mainAktiv, ul#css3menu1 li.mainAktiv>a{
+    background-color:#eee;
+    background-color:#fff;
+    /*background-image: none;*/
+}
+
+
+ul#css3menu1 li.selected {
+    color: #f19023;
+    font-size:20px;
+    background-color : #fff;
+    /*border-left: 5px solid #f19023;*/
+
+}
+
+ul#css3menu1 li.selected  > a{
+    color: #f19023;
+    background-color : #fff;
+    /*border-bottom: 1px solid #f19023;*/
+    /*border-left: 5px solid #f19023;*/
+
+}
+
+
+ul#css3menu1 li.car{
+
+    margin: 0px;
+
+    background-color:#cecece;
+    padding:0px;
+
+    font: normal 10px 'Trebuchet MS';
+
+    color:#000000;
+
+}
+
+ul#css3menu1 li.car a {
+    margin:0px;
+
+    /*background-image:url("mainbk.png");
+    background-position:0 100px;*/
+    border-style:solid;
+    border-color:#C0C0C0;
+    color:#000000;
+    text-decoration:none;
+
+    font: normal 10px 'Trebuchet MS';
+}
+
+ul#css3menu1 li.cadddr a:hover {
+    margin:0px;
+
+    /*background-color:#ff55ff; */
+    background-image: none;
+
+    border-style:solid;
+    border-color:#C0C0C0;
+    color:#000000;
+    text-decoration:none;
+
+    font: normal 10px 'Trebuchet MS';
+}
+
+
+ul#css3menu1 li.showCar {    
+    height:45px;
+    
+}
+
+.carFrame {
+   /* border: 1px solid #ff5500;*/
+   /* border-right: 0px; */
+    padding:3px;
+    margin:0px;
+    margin-left:8px;    
+}
+
+.naviCarImage {
+    margin: 0;
+    width: 40px;
+    float: left;
+    
+
+}
+
+.carText {
+    float: left;
+    font: normal 10px 'Trebuchet MS';
+}
+
+
+.reportNaviFrame {
+    color: #333;
+    font-size :12px;
+    margin :3px;
+    display :block;
+    width:auto;
+    min-width: 350px;
+    line-height: 14px;
+}
+
+ul#css3menu1 .reportNaviFrame img{
+    border: none;
+    margin-right:2px;
+}
+
+.reportNaviFrame h1{
+    text-align: left;
+    font-weight: bold;
+    color:#000;
+    font-size:12px;
+    line-height: 20px;
+    border-bottom: 1px solid #F29023;
+    padding-right : 30px;
+    margin:0px;
+}
+
+
+
+ul#css3menu1 li.empty{
+
+    height:400px;
+}
+
+ul#css3menu1 li.__topfirst>a{
+    border-radius:5px 5px 0 0;
+    -moz-border-radius:5px 5px 0 0;
+    -webkit-border-radius:5px;
+    -webkit-border-bottom-right-radius:0;
+    -webkit-border-bottom-left-radius:0;
+}
+ul#css3menu1 li.__toplast>a{
+    border-radius:0 0 5px 5px;
+    -moz-border-radius:0 0 5px 5px;
+    -webkit-border-radius:0;
+    -webkit-border-bottom-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+}
+
+ul#css3menu1 .logoutButton {
+    font: bold 12px 'Trebuchet MS';
+    padding-left: 12px;
+    padding-top : 0px;
+    padding-bottom : 0px;
+    display: block;
+    text-align: left;
+    color:#444;
+    margin:0px;
+    cursor: pointer;
+    width:100%;
+    height : 25px;
+    line-height: 14px;
+    background-color: #ffffff;
+    border: 0px;
+    
+}
+
+
+ul#css3menu1 ul .logoutButton {
+    font: bold 12px 'Trebuchet MS';
+    padding-left: 2px;
+    padding-top : 0px;
+    padding-bottom : 0px;
+    display: block;
+    text-align: left;
+    color:#444;
+    margin:0px;
+    cursor: pointer;
+    width:100%;
+    height : 25px;
+    line-height: 14px;
+    background-color : #e8e8e8;
+    border: 0px;
+
+}
+
+ul#css3menu1 ul input:active, ul#css3menu1 ul input:hover, ul#css3menu1 ul input:focus {
+   border-style:solid;
+    border-color:#C0C0C0;
+    background-color:#e8e8e8;
+    background-image:url("includes/navi/naviBg2.png");
+    background-repeat:repeat;
+
+    color:#f19023;
+    text-decoration:none;
+}
+
+#css3menu1 .logoutButton input:active, #css3menu1 .logoutButton input:hover, #css3menu1 .logoutButton input:focus {
+    background-color: #e8e8e8;
+    background-color:#ffffff;
+    color : #f55;
+    background-image:url("mainbk.png");
+    background-position:0 100px;
+}
+
+
+.siteMenuActive {
+    font: bold 10px 'Trebuchet MS';
+    padding-left: 25px;
+    padding-top : 1px;
+    padding-bottom : 0px;
+    display: block;
+    background-color:#fff;
+    text-align: left;
+    color:#f19023;
+    padding-right: 10px;
+    margin:0px;
+    line-height:30px;
+    cursor: pointer;
+    width:100%;
+    border: 0px;
+    margin-top: 1px;
+}
+
+
+
+.siteMenuActive:hover, .siteMenuActive:active, .siteMenuActive:focus {
+    color:#000;
+}
+
+#css3menu1 .siteMenu {
+    font: bold 10px 'Trebuchet MS';
+    Padding-left: 25px;
+    padding-top : 1px;
+    padding-bottom : 0px;
+    display: block;
+    background-color: #fff;
+    text-align: left;
+    color:#444;
+    padding-right: 10px;
+    margin:0px;
+    line-height:30px;
+    cursor: pointer;
+    width:100%;
+    border: 0px;
+    margin-top: 1px;
+}
+
+#css3menu1 input:active, #css3menu1 input:hover, #css3menu1 input:focus {
+    /*background-color: #cece00;*/
+    background-color:#fff;
+
+    background-image:url("includes/navi/naviBg2.png");
+    color:#f19023;
+    background-position:0 100px;
+}
+
+
+
+
+
+
+
+ul#css3menu1 .siteMenu :hover, .siteMenu :active, .siteMenu :focus {
+    color:#000;
+    background-color: #ffffff;
+
+    text-decoration: none;
+}
+
+ul#css3menu1 .siteMenu a:hover {
+    color:#FF0;
+    background-color: #ff00ff;
+
+    text-decoration: none;
+}

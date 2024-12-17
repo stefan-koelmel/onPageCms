@@ -1,0 +1,1258 @@
+/* 
+    Document :cmsEdit
+    Created on:30.03.2012, 15:27:52
+    Author   :Stefan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+
+fff => fff;
+eee => #ffdbfb;
+ddd => #ffb8f7;
+ccc => #ff94f4;
+bbb => #ff70f0
+aaa => #ff4dec
+999 => #ff4dec
+888 => #ff00e4
+777 => #e500cd
+666 => #cc00b6
+555 => #b2009f
+444 => #8f0080
+333 => #6b0060
+222 => #47003f
+111 => #240020;
+000 => #000;
+*/
+
+
+
+root {}
+
+.cmsLoading{
+    /*background-color:#ff94f4;*/
+}
+
+.cmsEditLayout {
+    background-color:#6b0060;
+    color:#ff4dec;
+}
+
+.cmsContentEditFrame h1 {
+    color : #000;
+}
+
+.cmsContentEditFrame h2 {
+    color : #240020;
+}
+
+.cmsContentEditFrame h3 {
+    color : #47003f;
+}
+.cmsContentEditFrame h4 {
+    color : #6b0060;
+}
+.layoutTitle {
+    border-color:#6b0060;
+    background-color: #ff94f4;
+    color:#6b0060;
+}
+
+.layoutTitleActive {
+    border-color:#6b0060;
+    background-color: #6b0060;
+    color:#ff94f4;
+}
+
+
+
+.layoutSpacer {
+    border-color:#6b0060;
+    background-color: #ff94f4;
+    color:#6b0060;
+}
+
+.layoutSpacerActive {
+    border-color:#6b0060;
+    background-color:#6b0060;
+    color:#ff94f4;
+}
+
+.spacerDrop:hover{
+    /*background-color:#6b0060;*/
+}
+
+.spacerDrop_active{
+    background-color:#ffdbfb;
+    border-color:#ff94f4;
+}
+
+.spacerDrop_hover{
+    background-color:#ff94f4;
+    border-color:#ff4dec;
+}
+
+.layerDrop{
+    border-color:#ff4dec;
+    background-color:#ffb8f7;
+    color:#000;
+}
+
+.layerDrop:hover{
+    background-color:#ff70f0;
+}
+
+.layerDrop_active{
+    background-color:#ffdbfb;
+    border-color:#ff94f4;
+}
+
+.layerDrop_hover{
+    background-color:#ff94f4;    
+    border:1px solid #ff4dec;
+}
+
+.cmsContentEditFrame {
+    border-color:#cc00b6;
+    background-color:#ffb8f7;
+    color:#6b0060;
+}
+
+
+.cmsEditFrameBox {   
+    background-color:#ff00e4;
+    border-color:#ff94f4;
+}
+
+.contentName_box {
+    background-color: #cc00b6;
+    color:#6b0060;
+}
+
+.cmsEditFrameBox_hidden {}
+
+.cmsEditFrame_SiteBar {
+    background-color: #ff00e4;
+    color : #ffdbfb;    
+}
+
+.cmsEditFrame_SiteBar:hover {
+    background-color: #e500cd;
+    color : #fff;    
+}
+
+.cmsEditFrame_Content {
+    background-color:#ffb8f7;
+    border-color:#ff94f4;    
+}
+
+.cmsEditFrame_content_hidden {}
+
+.cmsEditFrame_myCms {
+    color:#cc00b6;
+}
+
+.cmsEditFrame_myCms:hover {
+    color:#6b0060;
+}
+
+.cmsEditFrame_button {
+    border-color:#ff4dec;
+    background-color:#ffdbfb;
+    color :#cc00b6;    
+}
+
+.cmsEditFrame_button:hover {
+    border-color:#cc00b6;
+    background-color:#ffb8f7;
+    color :#6b0060;
+}
+
+.cmsEditFrame_headLine {
+    color :#cc00b6;    
+}
+
+.cmsEditFrame_headLine:hover {
+     color :#b2009f;
+}
+
+.cmsEditFrame_headLine2 {
+    color :#ff00e4;    
+}
+
+.cmsEditFrame_headLine2:hover {
+    color :#e500cd;
+}
+
+
+.cmsEditFrameBox_Close {    
+}
+
+.cmsEditFrameTabButton {
+  background-color:#ff0;
+  border-color:#000;
+}
+
+.cmsContentFrame_editButton { 
+}
+
+.cmsContentFrame_editButton:hover {
+    background-color: #ff94f4;
+}
+
+.cmsContentFrame_editButton {    
+}
+.cmsContentEditFrame input, .cmsContentEditFrame checkbox, .cmsContentEditFrame select, .cmsContentEditFrame textarea {
+    background-color:#fff;
+    color:#240020;
+    border-color:#e500cd;
+}
+
+.cmsContentEditFrame input:focus, .cmsContentEditFrame checkbox:focus, .cmsContentEditFrame select:focus, .cmsContentEditFrame textarea:focus {
+    background-color: #fff;
+    border-color:#6b0060;
+}
+input[readonly] {
+  color:#cc00b6;  
+  background-color:#ffdbfb;
+}
+
+input[disabled] {
+  color:#ff4dec;
+  background-color:#fff;
+  border-color:#ffb8f7;
+}
+
+span {}
+
+.cmsPageLine {
+    background-color:#ff4dec;
+}
+
+.cmsEditLine {   
+    background-color:transparent;   
+}
+
+.cmsEditLine:hover {    
+}
+
+.cmsEditLineLine {
+    border-color:#6b0060;
+}
+
+.cmsEditLineBox {
+    border-color:#6b0060;
+    background-color:transparent;    
+}
+
+
+.cmsEditLineBox:hover {
+    background-color:#fff;    
+}
+
+.cmsEditLine:hover {
+    background-color:transparent;    
+}
+
+.cmsEditLineOpen {   
+}
+
+.cmsEditLineOpen:hover {
+    background-color:transparent;
+}
+
+.cmsEditLineSelected {
+    background-color:#ff94f4;    
+}
+
+.cmsEditLineSelected:hover {
+    background-color:#fff;
+}
+
+.cmsEditLineSelected:hover {
+    background-color:#fff;
+}
+
+.cmsEditLine a:link {
+    color:#6b0060;
+}
+.cmsEditLine a:hover {
+    color:#6b0060;
+}
+
+.cmsEditLineSelected a {
+    color:#b2009f;
+}
+.cmsEditLineSelected a:hover {
+    color:#6b0060;
+}
+
+.adminLayer {
+    background-color: inherhit;   
+    border-color:#ff4dec;
+}
+
+.dragButton {}
+
+.dragButton:hover {
+    background-color:#ff94f4;
+}
+
+.cmsContentFrame_editButton {}
+.cmsContentFrame_editButton:hover {
+    background-color:#ff94f4;
+}
+
+.cmsContentFrame_editPageButton {}
+.cmsContentFrame_editPageButton:hover {
+    background-color:#ff94f4;
+}
+
+
+.cmsContentFrame_deleteButton {    
+}
+
+.cmsContentFrame_deleteButton:hover {
+    background-color:#ff94f4;
+}
+
+.cmsEditFrame_hidden {}
+
+.cmsContentFrame_hidden{}
+
+    
+.cmsContentFrameBox {}
+
+.cmsContentHead {
+    background-color:#6b0060;
+    border-color:transparent;
+    color:#ff94f4;
+}
+
+.cmsContentHeadFrame {
+    background-color:#6b0060;   
+}
+
+.cmsContentHeadModification {
+    background-color:#dfd;
+}
+
+.cmsContentHeadOver {
+    background-color:#6b0060;    
+    border-color:#e500cd;
+    color:#ff94f4;
+}
+
+.cmsContentHeadFrameOver {}
+
+.cmsContentFrame_Dummy {
+    border-color:#ff4dec;   
+}
+
+.cmsContentFrame_Dummy:hover {
+}
+
+.cmsContentFrame_DummyFrame {    
+    border-color:#ff4dec; 
+    background-color:inherit;    
+    color:#ff4dec;
+}
+
+.cmsContentFrame_DummyFrame:hover {
+    background-color:#ff4dec;    
+    color:#fff;
+    border-color:fff;
+}
+
+.cmsContentFrameOver {}
+
+.cmsContentAddFrame {
+    border-color:#ff4dec;
+    background-color:#ffdbfb;   
+}
+
+.dynamicTitleFrame {
+    background-color:#ffdbfb;
+    color:#6b0060;
+    border-color:#ff00e4;   
+}
+
+a.cmsDynamicSelect:link,  a.cmsDynamicSelect:visited {
+    border-color:#ff94f4;
+    background-color: #ffdbfb;    
+}
+
+a.cmsDynamicSelect:hover,  a.cmsDynamicSelect:active {
+   background-color:#ffb8f7;
+}
+
+a.cmsDynamicSelect_active:link, a.cmsDynamicSelect_active:visited {
+    background-color:#b2009f;
+    color:#ffb8f7;
+}
+
+a.cmsDynamicSelect_active:hover, a.cmsDynamicSelect_active:active {
+    background-color:#6b0060;
+    color:#fff;
+}
+
+a.cmsDynamicSelect_clear:link, a.cmsDynamicSelect_clear:visited {
+    background-color:#e500cd;
+    color:#ffb8f7;
+}
+
+a.cmsDynamicSelect_clear:hover, a.cmsDynamicSelect_clear:selected {
+    background-color:#ff4dec;
+    color:#fff;
+}
+
+.cmsModulFrame {}
+
+.cmsModulContentFrame {
+    background-color:#ffdbfb;    
+    border-color:#ff4dec;
+}
+
+
+
+.cmsModulImageFrame, .cmsModulSettingsFrame, .cmsModulSitemapFrame, .cmsModulColorFrame  {
+    border-color:#cc00b6;
+    background-color:#ffdbfb;
+    color:#47003f;
+}
+
+.cmsModulImageScroll {
+    border-color: #cc00b6;
+    background-color:#ffdbfb;
+}
+
+.cmsModulSitemapScroll {    
+    border-color:#cc00b6;
+    background-color:#ffdbfb;
+}
+
+.cmsModulSiteMap_page {}
+.cmsModulSiteMap_level_0 {}
+.cmsModulSiteMap_level_1 {}
+.cmsModulSiteMap_level_2 {}
+.cmsModulSiteMap_level_3 {}
+
+.cmsModulSiteMap_link:link, .cmsModulSiteMap_link:visited {
+    color:#cc00b6;
+}
+.cmsModulSiteMap_link:active, .cmsModulSiteMap_link:hover {
+    color:#6b0060;
+    background-color: #ffdbfb;   
+}
+.cmsModulSiteMap_list {}
+
+.cmsModulSiteMap_listHidden {}
+
+.cmsModulSiteMap_toggleHidden{
+    border-color:#6b0060;    
+}
+
+ 
+.cmsModul_hidden {}
+
+
+
+
+.cmsModulAdd, .cmsImageAdd, .cmsColorAdd, .cmsModulEditState, .cmsModulSettings,.cmsModulUserEditMode, .cmsModulSitemap {
+    border-color:#ff4dec;
+}  
+
+.cmsModulAdd:hover, .cmsColorAdd:hover, .cmsImageAdd:hover, .cmsModulSettings:hover, .cmsModulEditState:hover, .cmsModulUserEditMode:hover, .cmsModulSitemap:hover{
+    background-color:#ff4dec;   
+    border-color:#fff;
+}
+
+.cmsEditOff:hover{
+    background-color: #6a6;
+}
+
+.cmsEditOn:hover{
+    background-color: #a99;
+}
+
+.cmsEditBox {
+    border-color:#ff4dec;   
+}
+.cmsEditBox:hover {
+    background-color:#ffdbfb;    
+}
+
+
+.cmsSiteBarBox{   
+    border-color:transparent;
+    background-color: transparent;
+}
+
+
+
+.cmsEditBox:hover {
+    opacity:100%;
+    background-color: #ffdbfb;
+    opacity: 1.00;
+    overflow:visible;
+    width:auto;    
+}
+
+.cmsSiteBarBox:hover{   
+    border-color:transparent;
+    background-color: transparent; 
+    width:245px;
+}
+
+.cmsSiteBarBox_active:hover{
+    border-color:#ff4dec;
+    background-color: #b2009f;
+}
+
+
+.cmsModulSelect{
+    background-color: #ffdbfb;    
+    border-color:#ff4dec;
+}
+.cmsModulSelect:hover{
+    background-color: #ffdbfb; 
+    border-color:#ff4dec;
+}
+
+cmsImageDropFrame{
+    border-color:#e500cd;
+}
+
+
+.cmsImageDropFrame_active{
+    /*border-color:#ff4dec;  */
+    background-color:#ffb8f7;
+}
+
+.cmsImageDropFrame_hover{
+    border-color:#ff00e4;
+    background-color:#ff4dec;
+}
+
+
+.cmsModulContentCategory {
+    border-color:#cc00b6;
+    color:#cc00b6;
+}
+
+.cmsModulContentCategory:hover {
+    color:#6b0060;
+    border-color:#6b0060;
+    background-color:#fff;
+}
+
+.cmsModulContentCategorySecond {}
+
+.cmsModulCategoryFrameSecond {}
+
+.cmsModulCategoryFrame {}
+
+.cmsModulCategoryFrameHidden {}
+
+.cmsModulContentHead {   
+    color:#b2009f;   
+    border-color:#b2009f;
+}
+
+.cmsModulContentButton {
+    border-color:#cc00b6;
+    background-color:#ffb8f7;
+}
+.cmsModulContentButtonSecond {    
+}
+
+.cmsModulContentButton {
+    background-color:#fff;  
+    color:#6b0060;
+}
+
+.cmsSelectEditMode, .cmsSelectTarget, .cmsSelectDirection {
+    border-color: #CCCCCC;
+    color: #6b0060;    
+}
+
+.cmsSelectEditModeSelected, .cmsSelectTargetSelected, .cmsSelectDirectionSelected {
+    color: #ffb8f7;
+    background-color: #b2009f;       
+}
+.cmsContentEnd, .cmsContentStart{
+    border-color: #ff4dec;
+    background-color:#ff94f4;
+}
+.cmsContentEnd_hidden, .cmsContentStart_hidden {}
+.cmsContentEnd:hover, .cmsContentStart:hover{
+    border-color:#ffb8f7;
+    background-color:#ffdbfb;
+}
+
+
+
+
+
+
+.cmsForm{}
+
+a.cmsLinkButton {
+    background-color:#cc00b6;
+    border-color:#ff4dec;
+    color:#ffb8f7;    
+}
+
+a.cmsLinkButton:hover {
+    background-color:#6b0060;
+    color:#fff;
+}
+
+.cmsJavaButton {
+    background-color:#cc00b6;
+    border-color:#ff4dec;
+    color:#ffb8f7;   
+}
+
+.cmsJavaButton:hover {
+    background-color:#6b0060;
+    color:#fff;
+}
+
+.cmsInputButton {
+    background-color:#cc00b6;
+    border-color:#ff4dec;
+    color:#ffb8f7;    
+}
+
+.cmsInputButton[disabled] {
+  color:#ffb8f7;
+  background-color:#ff4dec;
+  border-color:#ffb8f7;
+}
+
+
+.cmsInputButton[disabled]:hover {
+  color:#ffb8f7;
+  background-color:#ff4dec;
+  border-color:#ffb8f7;  
+}
+
+.cmsInputButton:hover {
+    background-color:#b2009f;
+    color:#fff;
+    border-color:#6b0060;
+}
+
+.cmsSmallButton {
+    background-color:#cc00b6;
+    border-color:#ff4dec;
+    color:#ffb8f7;
+}
+
+.cmsSmallButton:hover {
+    background-color:#b2009f;
+    border-color:#6b0060;
+    color:#fff;
+}
+
+a.cmsContentHeadButton, a.cmsContentHeadButton:visited, .cmsContentHeadButton {
+    background-color:#cc00b6;
+    border-color:#ff4dec;
+    color:#ffb8f7;
+}
+
+a.cmsContentHeadButton:hover, a.cmsContentHeadButton:active, .cmsContentHeadButton:hover {
+    background-color:#b2009f;
+    border-color:#6b0060;
+    color:#fff;
+}
+
+.cmsContentHeadInputButton {
+    background-color:#cc00b6;
+    border-color:#ff4dec;
+    color:#ffb8f7;
+}
+
+.cmsContentHeadInputButton:hover {
+    background-color:#b2009f;
+    border-color:#6b0060;
+    color:#fff;
+}
+
+.cmsInputButton .cmsEditFrame {}
+
+a.cmsSecond, .cmsSecond {
+    background-color:#ffdbfb;
+    border-color:#cc00b6;
+    color:#6b0060
+}
+
+a.cmsSecond:hover, .cmsSecond:hover {
+    background-color:#ffb8f7;
+    border-color:#6b0060;
+    color:#000;
+}
+
+.cmsEditTabLine {
+    background-color:#ff94f4;   
+}
+
+.cmsEditTab {
+    background-color:#ff94f4;
+    border-color:#cc00b6;
+    color:#cc00b6;
+}
+
+.cmsEditTab:hover {
+    background-color:#ff94f4;
+    color:#6b0060;
+}
+
+.cmsEditTabModification {
+    background-color:#dfd;
+}
+
+.cmsEditTabModification:hover {
+    background-color:#9f9;    
+}
+
+.cmsEditTab_selected {
+    background-color:#ffb8f7;
+    border-color:#240020;
+    color:#6b0060;
+}
+
+.cmsEditTab_selected:hover {
+    background-color:#ffdbfb;
+    color:#6b0060;
+}
+
+.cmsEditTabModification_selected {
+    background-color:#6f6;
+}
+
+.cmsEditTabModification_selected:hover{
+    background-color:#2f2;
+}
+
+.cmsEditFrame {
+    background-color:#ffb8f7;
+    color:#b2009f;    
+}
+
+.cmsEditFrameButtons{
+    background-color:#ffdbfb;    
+}
+
+.cmsEditFrameModification {
+    background-color: #dfd;
+}
+
+.cmsEditFrameHidden {}
+
+
+.cmsSelectIcon {}
+
+.cmsSelectIcon_showFrame {
+    border-color:#ff94f4;    
+}
+.cmsSelectIcon_selectPos{
+    border-color: #ff4dec;    
+}
+
+.cmsSelectIcon_showText{}
+
+.cmsSelectIcon_selectPos_selected {
+    background-color:#ffb8f7;    
+}
+
+
+
+.cmsSelectDropdown_showSelect {
+    background-color:#ffb8f7;
+    border-color:#ff4dec;
+}
+
+
+.cmsSelectDropdown_showSelect:hover {
+    background-color:#ff70f0;
+    border-color:#ff4dec;
+    color:#47003f;
+}
+
+.cmsTextPos_selectFrame, .cmsSelectDropdown_selectFrame {
+    border-color:#ff94f4;
+    background-color:#ffb8f7;
+}
+
+.cmsSelectDropdown_selectFrame {}
+
+.cmsTextPos_selectPos, .cmsSelectDropdown_selectPos {
+    border-color:#ffb8f7;
+    background-color:#ffb8f7
+}
+
+.cmsSelectDropdown_selectPos {}
+
+.cmsTextPos_selectPos:hover, .cmsSelectDropdown_selectPos:hover {
+    background-color:#ff94f4;
+}
+
+.cmsTextPos_selectPos_selected, .cmsSelectDropdown_selectPos_selected {
+    background-color: #ff94f4;   
+}
+
+.cmsEditHor {
+    border-color:#ff94f4;
+}
+
+.cmsEditHorButton , .cmsEditVerButton, .cmsEditSelectButton {
+    border-color:#ff94f4;
+    background-color:#ffdbfb;
+
+}
+
+
+.cmsPosSelectFrame {
+    border-color: #cc00b6;
+   
+}
+.cmsPosSelect {
+    border-color: #ff4dec;   
+}
+
+.cmsDataBox_positionFrame{   
+}   
+.cmsDataBox_positionSelect {    
+}
+
+.cmsDataBox_positionTop{
+    border-color: #cc00b6;
+    
+}
+
+.cmsDataBox_positionLeft, .cmsDataBox_positionCenter {
+    border-left-color: #cc00b6;       
+}
+.cmsDataBox_positionRight {
+    border-left-color: #cc00b6;
+    border-right-color: #cc00b6;      
+}
+
+.cmsDataBox_positionBottom{
+    border-color: #cc00b6;    
+}
+
+.cmsDataBox_positionSelected {
+    background-color: #ff4dec;
+}
+
+.cmsPosSelected {    
+    background-color: #ff4dec;
+}
+
+
+
+
+.cmsToggleSelect {
+    border-color:#ff4dec;
+    background-color:transparent;    
+}
+
+.cmsToggleItem {
+    border-color:#cc00b6;
+    background-color:#fff;
+    color:#cc00b6;
+}
+
+.cmsToggleItem:hover {
+    color:#6b0060;
+    background-color:#ffdbfb;    
+}
+
+.cmsToggleSelected {
+    background-color:#cc00b6;
+    color:#ffb8f7;
+}
+
+.cmsToggleSelected:hover {
+    color:#fff;
+    background-color:#b2009f;    
+}
+
+.selectedHAlign, .selectedVAlign {
+    background-color: #ff4dec;
+}
+
+.selectButtonSelected {
+    background-color: #ff4dec;
+}
+
+
+.cmsFlipSelectFrame {
+   
+    border-color:#ff4dec;
+    padding:2px;    
+}
+
+.cmsFlipTitleFrame {
+    
+}
+.cmsFlipFrameSelector{
+    border-color:#e500cd; 
+    background-color: inherit;    
+}
+
+.cmsFlipFrameSelector:hover{
+    background-color: #ffb8f7;
+}
+
+
+
+.cmsFlipFrameSelectorSelected {
+    background-color: #cc00b6;
+    color:#ff94f4;
+    border-color:#ff4dec;
+}
+.cmsFlipFrameSelectorSelected:hover {
+    background-color: #6b0060;
+    color:#ffdbfb;
+    border-color:#ff94f4;
+}
+.cmsFlipFrameSelect {
+    background-color:#ffdbfb;    
+}
+
+
+.cmsImageSelector {
+    border:1px solid #ff4dec;
+    background-color:#ffdbfb;
+}
+
+.cmsImageScroll {
+    border-color:#cc00b6;
+    background-color:#ffb8f7;
+}
+
+.cmsImageSelectFrame {
+    background-color:#ff94f4;
+    border-color:#ff4dec;    
+}
+
+.cmsImageSelectFrame:hover {
+    background-color:#fff;    
+}
+
+
+.cmsFolderSelectFrame {
+    background-color:#ff94f4;
+    border-color:#ff4dec;    
+}
+
+.inputRight {}
+
+.cmsInputLine {
+    border-color:#ffdbfb;    
+}
+
+.cmsInputLine:hover {
+    background-color:#ffdbfb;
+    border-color:#ffb8f7;
+}
+
+.cmsInputLineTip{
+    background-color:#ff94f4;
+    border-color:#e500cd;    
+}
+
+.cmsInputLineTip:hover{
+    background-color:#ff9;
+    border-color:#55a;       
+}
+
+.cmsInputLineTipBox {
+    background-color:#ff9;
+    border-color:#55a;      
+}
+
+
+.cmsInput_editLanguage_hidden {
+}
+
+.cmsInput_showLanguage_hidden {    
+}
+
+.cmsInput_languageLine {  
+    border-color:#6b0060;    
+}
+
+.cmsInput_selectLanguage {
+    border-color: #6b0060;    
+    background-color:transparent;    
+    color : #6b0060;    
+}
+
+.cmsInput_selectLanguage_selected {
+    background-color:#6b0060;
+    color:#ff94f4;    
+}
+
+.cmsImage_listList {
+    background-color:#e8e8e8;
+}
+
+.imageListLine {    
+    border-color:#ffdbfb;
+    background-color:#ffb8f7;
+}
+
+.imageListLine:hover {
+    background-color:#fff;
+}
+
+div.fileinputs {}
+
+div.fakefile {}
+
+input.file {}
+
+.hiddenTextArea {}
+
+.error {
+    color:#F29023;
+}
+
+
+/*************** SITEMAP ***************/
+.sitemapList_root {
+    border-color:#ff4dec;
+}
+
+.siteMap_output {
+    border-color:#cc00b6;
+    background-color:#ffdbfb;
+    color:#6b0060;
+}
+.siteMap_output_hidden {
+}
+
+
+.siteMap_newFrame {
+}
+
+.siteMap_newButton {
+}
+
+
+.siteMap_item{
+    border-color: #cc00b6;
+}
+.siteMap_item_dynamic {
+    background-color: #cc00b6;
+    color : #fff;
+}
+
+.siteMap_item_dynamicContent {
+    background-color: #ff4dec;
+    color : #fff;
+}
+
+
+.siteMapDynamic {
+    background-color:#ffdbfb;
+    color:#6b0060;
+    border-color:#ff00e4;
+}
+
+
+.siteMap_Level {
+}
+.siteMap_Level0 {
+    background-color: #fff;
+}
+
+.siteMap_Level1 {
+    background-color: #ffdbfb;
+}
+
+
+.siteMap_Level2 {
+    background-color: #ffb8f7;
+}
+
+.siteMap_Level3 {
+    background-color: #ff94f4;
+}
+.siteMap_Level4 {
+    background-color: #ff70f0;
+}
+
+.siteMap_Level_dynamic {
+    background-color:#ff4dec;
+}
+
+
+.sitemap_placeholder {
+    border-color:#6b0060;
+    background-color:#fff;
+}
+
+.siteMap_helper {
+    border-color:#cc00b6;
+    background-color:#6b0060;
+    color:#ffdbfb;
+}
+
+
+.siteMap_newEdit{
+    border-color : #ff94f4;
+    background-color: #ffdbfb;
+}
+.siteMap_newEdit_hidden {
+}
+
+.siteMap_editFrame {
+    border-color:#ff94f4;
+    background-color: #ffdbfb;
+}
+.siteMap_editFrame_hidden{
+}
+
+
+
+.cmsPageingFrame {
+    background-color:transparent;    
+}
+
+.cmsPageingButtonAktiv {
+    text-decoration:none;
+    background-color:transparent;
+    color:#800;
+    border-color:#ffb8f7;
+}
+.cmsPageingButtonAktiv:hover {}
+
+.adminDatesOutputFrame {}
+
+
+.cmsPageingButton {
+    background-color:#ffdbfb;
+    border-color:#ff4dec;
+    color:#cc00b6;    
+}
+
+.cmsPageingButton:hover {
+    background-color:#ffdbfb;
+    border-color:#cc00b6;
+    color:#6b0060;   
+}
+
+.cmsCustomFilterList {
+    background-color:#ffb8f7;
+    border-color:#ff4dec;
+}
+
+.cmsShowDataTitleLine {
+    background-color:#ff94f4;
+    color:#e500cd;
+}
+
+.cmsShowDataTitleItem {
+    color:#b2009f;
+    border-color:#ff94f4;    
+}
+
+.cmsShowDataSort {
+    color:#b2009f;
+}
+
+.cmsShowDataSort:hover {
+    color:#6b0060;    
+}
+
+.cmsShowDataSort_up {
+    color:#f4f4f4;
+}
+
+.cmsShowDataSort_up:hover {
+    color:#fff;
+}
+
+.cmsShowDataSort_down {
+    color:#f4f4f4;
+}
+.cmsShowDataSort_down:hover {
+    color:#fff;
+}
+
+.cmsCompanyTitleLine, .cmsProductTitleLine, .cmsCategoryTitleLine, .cmsLocationTitleLine, .cmsDatesTitleLine {
+    background-color:#ff94f4;
+}
+   
+.cmsShowDataLine {
+    background-color:transparent;
+    color:#b2009f;    
+}
+
+.cmsShowDataLine:hover {
+    background-color:#ffdbfb;
+    color:#6b0060;    
+}
+
+.cmsShowDataItem {
+    border-color:#ff94f4;    
+}
+.cmsShowDataItem_image {    
+}
+
+.cmsCompanyLine, .cmsProductLine, .cmsCategoryLine, .cmsLocationLine, .cmsDatesLine {
+    background-color:transparent;
+    color:#b2009f;    
+}
+
+a.cmsCompanyLine, a.cmsProductLine, a.cmsCategoryLine, a.cmsLocationLine, a.cmsDatesLine {
+    color:#F29023;
+}
+
+.cmsCompanyLine:hover, .cmsProductLine:hover, .cmsCategoryLine:hover, .cmsLocationLine:hover, .cmsDatesLine:hover {
+    background-color:#ffdbfb;
+    color:#6b0060;    
+}
+
+.autocomplete-w1 { 
+}
+.autocomplete { 
+    border-color:#ff4dec; 
+    background:#FFF; 
+}
+.autocomplete .selected {
+    background:#F0F0F0; 
+}
+.autocomplete div {    
+}
+.autocomplete strong {
+    color:#3399FF; 
+}
+
+
+.dragFrame .dragBox .dragLine{
+    background:#f0f0f0;
+    color:#000;
+    border-color:#ffdbfb;    
+}
+
+.dragFrame .dragPlaceholder{
+    background:#ff0;
+    border-color:#ffb8f7;
+}
+
+.dragFrameAdded{
+    background-color:#ffdbfb;
+    border-color:#ff94f4;
+    
+}
+

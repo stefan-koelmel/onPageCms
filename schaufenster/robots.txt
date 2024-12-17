@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /cms/
+Disallow: /cms_base/
+Disallow: /images/
+Disallow: /includes/
+Disallow: /style/
+
+Disallow: /cmsSettings.php
+Disallow: /admin.php
+Disallow: /admin_cmsCms.php
+Disallow: /admin_cmsDates.php
+Disallow: /admin_cmsImages.php
+Disallow: /admin_cmsLayout.php
+Disallow: /admin_cmsMail.php
+Disallow: /admin_cmsSettings.php
+Disallow: /admin_cmsUser.php
+Disallow: /admin_cmsimportExport.php
+Disallow: /admin_company.php
+Disallow: /admin_data.php
+Disallow: /admin_importExport.php
+Disallow: /admin_product.php
+Disallow: /layout_admin.php
+Disallow: /layout_standard.php
+
+Disallow: /

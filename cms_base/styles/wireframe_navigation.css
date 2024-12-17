@@ -1,0 +1,245 @@
+/*
+    hintergrund #f97;
+    1. Ebene aktiv #f75;
+    1. Ebene aktiv:hover : #f57; 
+    1. Ebene subAktiv: #f13;
+    1. Ebene subAktiv:hover :#f31;
+    1. Ebene inaktiv #f53;
+    1. Ebene inaktiv:hover #c31;
+*/
+.main_menu {
+    background-color:#f5f5f5;
+    border-color: #999;
+    border-style: solid;
+    border-width: 1px;
+    font-size:11px;
+    font-weight: normal;
+} 
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* 1. Ebene                                                                   */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+#mainmenu ul {
+    background-color: inherit;
+}
+/* allgemein Punkt */
+#mainmenu ul li {   
+    background-color: inherit;  
+    border-style: solid;
+    border-color: #999;
+    border-width: 0 1px 0 0;    
+}
+
+/* allgemein Punkt : hover */
+#mainmenu ul li:hover {   
+    background-color:#ddd;
+    
+}
+#mainmenu ul li a:link, #mainmenu ul li a:visited{
+    line-height: normal; 
+    color:#666;
+}
+#mainmenu ul li a:hover, #mainmenu ul li a:active{
+    color:#333;
+}
+/* 1. Punkt Punkt */
+#mainmenu ul li.firstItem {  
+}
+
+/* allgemein Punkt select */
+#mainmenu ul li .select {   
+    background-color: #aaa;   
+}
+/* allgemein Punkt select : hover */
+#mainmenu ul li .select:hover {  
+    background-color: #888;    
+}
+#mainmenu ul li a.select:link,#mainmenu ul li a.select:visited{
+    color:#eee;
+}
+#mainmenu ul li  a.select:hover, #mainmenu ul li a.select:active{
+    color:#fff;
+}
+
+/* allgemein Punkt subSelect */
+#mainmenu ul li .subSelect {   
+    background-color: #bbb;
+    
+}
+/* allgemein Punkt select : hover */
+#mainmenu ul li .subSelect:hover {  
+    background-color: #999;
+    color:#fff;
+}
+#mainmenu ul li a.subSelect:link, #mainmenu ul li a.subSelect:visited{
+    color:#eee;
+}
+#mainmenu ul li a.subSelect:hover, #mainmenu ul li a.subSelect:active{
+    color:#fff;
+}
+#mainmenu ul li.subSelect a:hover{
+    
+}
+
+/*#mainmenu > ul > li.hasSub:after {*/
+#mainmenu ul li.hasSub:after {   
+   
+    border-color: transparent;
+    
+    border-top-color: #999;
+}
+
+#mainmenu > ul > li.hasSub:hover:after {
+    border-color:transparent;
+    border-width: 5px 5px 0 5px;
+    border-top-color: #999;
+}
+
+#mainmenu ul li.select:after, #mainmenu ul li.subSelect:after {
+    border-top-color: #ddd;
+}
+#mainmenu ul li.select:hover:after, #mainmenu ul li.subSelect:hover:after {
+    border-top-color: #fff;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* 2. Ebene                                                                   */
+/* ////////////////////////////////////////////////////////////////////////// */
+#mainmenu .hasSub ul {
+    background-color: #eee;
+    border:1px solid #999;
+    padding:2px;
+    border-radius: 0px;   
+/*    left:0px;
+    top:100%;      */
+}
+
+/* 2. Ebene - STANDARD                                                        */
+#mainmenu .hasSub ul li,#mainmenu ul li ul li {    
+    padding:0;
+    border-radius: 0;   
+    margin:0;
+    border-style:dotted;
+    border-color:#999;
+    border-width: 1px 0 0 0;
+}
+
+#mainmenu .hasSub ul li.firstItem, #mainmenu ul li ul li.firstItem{    
+    padding:0;
+    border-radius: 0;   
+    margin:0;
+    border-style:solid;
+    border-color:#f00;
+    border-width: 0 0 0 0;
+}
+#mainmenu .hasSub ul li:hover,#mainmenu ul li ul li:hover {    
+    background-color: #ccc;
+}
+/* 2. Ebene LINK                                                              */
+#mainmenu ul li ul li a:link, #mainmenu ul li ul li  a:visited{
+    padding:3px 10px 3px 10px;
+    line-height: normal;  
+    color:#666;
+    margin:0;
+}
+#mainmenu ul li ul li a:hover, #mainmenu ul li ul li a:active{    
+    color:#333;
+}
+
+/* 2. Ebene  - SELECT                                                                 */
+#mainmenu .hasSub ul li .select {    
+    background-color:#ccc;
+}
+#mainmenu .hasSub ul li .select:hover {    
+    background-color:#aaa;
+}
+/* 2. EBENE - SUBSELECT                                                       */
+#mainmenu .hasSub ul li .subSelect {    
+    background-color:#bbb;
+}
+#mainmenu .hasSub ul li .subSelect:hover {    
+    background-color:#999;
+}
+
+
+/* 2. Ebene SELECT UND SUBSELECT                                              */
+#mainmenu ul li ul li.select:after, #mainmenu ul li ul li.subSelect:after  {   
+    border-color: transparent;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #eee;
+}
+#mainmenu ul li ul li.select:hover:after, #mainmenu ul li ul li.subSelect:hover:after {   
+    border-color: transparent;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #fff;
+}
+/* 3. Ebene PFEIL BEI hasClas                                                 */
+#mainmenu ul li ul li.hasSub:after {   
+    top:7px;
+    left:100%;
+    margin-left:-10px;
+    border-color: transparent;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #666;
+}
+#mainmenu ul li ul li.hasSub:hover:after {   
+    border-left-color: #333;
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+/* 3. Ebene                                                                   */
+/* ////////////////////////////////////////////////////////////////////////// */
+#mainmenu .hasSub .hasSub ul, #mainmenu ul li ul li ul {
+    background-color: #ddd;
+    border:1px solid #999;
+    padding:2px;
+    border-radius: 0;   
+    left:100%;
+    top:0;
+}
+
+/* 3. Ebene - Standard                                                        */
+#mainmenu .hasSub .hasSub ul li, #mainmenu ul li ul li ul li {
+    background-color: inherit;
+    border-style: dotted;
+    border-color: #999;
+    border-width: 1px 0 0 0;
+}
+
+#mainmenu .hasSub .hasSub ul li .firstItem, #mainmenu ul li ul li ul li.firstItem{    
+    border-style:solid;
+    border-color:#f00;
+    border-width: 0 0 0 0;
+}
+
+#mainmenu .hasSub .hasSub ul li:hover, #mainmenu ul li ul li ul li:active{    
+    background-color: #bbb;
+}
+/* 3. Ebene  - Standard Link                                                  */
+#mainmenu .hasSub .hasSub  ul li a:link, #mainmenu .hasSub .hasSub ul li a:visited{
+    padding:3px 10px 3px 10px;
+    line-height: normal;  
+    color:#666;
+    margin:0;
+}
+#mainmenu .hasSub .hasSub ul li a:hover,#mainmenu .hasSub .hasSub ul li a:active {    
+   color: #333;
+}
+
+/* 3. Ebene SELECT                                                                  */
+#mainmenu .hasSub .hasSub ul li .select, #mainmenu ul li ul li ul li .select{
+    background-color: #999;    
+}
+#mainmenu .hasSub .hasSub ul li .select:hover, #mainmenu ul li ul li ul li .select:hover{    
+    background-color: #777;
+}
+#mainmenu .hasSub .hasSub  ul li a.select:link, #mainmenu .hasSub .hasSub ul li a.select:visited{
+    color:#eee;   
+}
+#mainmenu .hasSub .hasSub ul li a.select:hover,#mainmenu .hasSub .hasSub ul li a.select:active {    
+   color: #fff;
+}
+
+

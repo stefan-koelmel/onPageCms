@@ -1,0 +1,31 @@
+<v2.05><e2>
+@Über.TAG:Samstag
+@Über.DATUM:1.9.2012
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Stefan singt <\#171><\#171>`` &<@$p> · Premiere · Wer will seine Ohren bluten lassen...
+Wer nicht singen kann sollte es bleiben lassen, finde ich! · Kap (Kapellenstr.68 68) · 20:15
+@Über.TAG:Montag
+@Über.DATUM:3.9.2012
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Stefan singt <\#171><\#171>`` &<@$p> · 2 · Wer will seine Ohren bluten lassen...
+Wer nicht singen kann sollte es bleiben lassen, finde ich! · Kap (Kapellenstr.68 68) · 21:00
+@Über.TAG:Mittwoch
+@Über.DATUM:5.9.2012
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Stefan singt <\#171><\#171>`` &<@$p> · 3 · Wer will seine Ohren bluten lassen...
+Wer nicht singen kann sollte es bleiben lassen, finde ich! · Kap (Kapellenstr.68 68) · 22:00
+@Über.TAG:Samstag
+@Über.DATUM:8.9.2012
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Stefan singt <\#171><\#171>`` &<@$p> · 4 · Wer will seine Ohren bluten lassen...
+Wer nicht singen kann sollte es bleiben lassen, finde ich! · Kap (Kapellenstr.68 68) · 22:00
+@Über.TAG:Sonntag
+@Über.DATUM:9.9.2012
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Stefan singt <\#171><\#171>`` &<@$p> · Micha singt mit · Wer will seine Ohren bluten lassen...
+Wer nicht singen kann sollte es bleiben lassen, finde ich! · Kap (Kapellenstr.68 68) · 15:00

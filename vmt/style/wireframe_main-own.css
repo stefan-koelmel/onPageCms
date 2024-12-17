@@ -1,0 +1,27 @@
+.frame1 {
+    background-color:inherit;
+    border: 1px solid #eee;
+    border-width:0px;
+    border-radius:0px;
+    padding:5px;
+}
+
+.footer {
+    background-color: transparent;
+    border : 1px solid #88dd66;
+    border-width: 1px 0 0 0;
+    height: auto;
+}
+
+.footerLink {
+    background-color: transparent;
+    font-size:10px;
+    padding: 1px 2px;
+    line-height: 10px;
+    border-color:transparent;
+    height: auto;
+}
+.footerLink:hover {
+    background-color: #eee;
+    border-color:#88dd66;
+}
