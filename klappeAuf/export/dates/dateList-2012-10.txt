@@ -1,0 +1,10 @@
+<v2.05><e2>
+@Über.TAG:Montag
+@Über.DATUM:1.<\c>
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Frl. Knöpfle & ihre Herrenkapelle<@$p> · <\#211>Mit Fleisch und Seele<\#211> · Kammertheater (Herrenstraße 30/32) · 19:30
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Jugendbildnis<@$p> · (ab 15) - Stück von Katharina Schmitt · Theater Baden-Baden (Solmsstraße 1) · 10:00
+@Term.ORT:Umland Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Michl Müller<@$p> · <\#211>Das wollt

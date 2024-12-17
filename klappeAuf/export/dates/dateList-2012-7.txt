@@ -1,0 +1,346 @@
+<v2.05><e2>
+@Über.TAG:Sonntag
+@Über.DATUM:1.<\c>
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Der Gastfreund/ Die Argonauten<@$p> · Volkstheater-Projekt nach Franz Grillparzer - Schauspielhaus · Badisches Staatstheater (Baumeisterstr. 11) · 17:00
+<@TerminBrotFETT>Sommer.Nacht.Traum<@$p> · Projekt - mit der <@TerminBrotFETT>Seniorengruppe BaSta<@$p> · Insel Theater (Karl-49b ) · 17:00
+<@TerminBrotFETT>Der Rosenkavalier<@$p> · Oper von Richard Strauss - Opernhaus · Badisches Staatstheater (Baumeisterstr. 11) · 18:00
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Achtung Kinder! oder: Greta Himmelwärts<@$p> · Projekt mit dem <@TerminBrotFETT>Spielclub Ü62<@$p> · Theater Baden-Baden (Solmsstraße 1) · 19:30
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Der blaue Engel<@$p> · Stück nach Heinrich Mann · Stadttheater (Waisenhausplatz 5 ) · 15:00
+@Term.ORT:Bruchsal
+@Term.Brot:<@TerminBrotFETT>Ristorante Baptista<@$p> · Komödie mit dem Theater <@TerminBrotFETT>Die Koralle<@$p> - Open Air - Belvedere · 20:30
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Aida<@$p> · Musical von Time Rice/ Elton John - (Schlossfestspiele) - Hof · Schloss Ettlingen · 18:00
+@Term.ORT:Umland Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Der Glöckner von Notre Dame<@$p> · Schauspiel von Peter Lüdi nach Victor Hugo · Volksschauspiele Ötigheim (Kirchstr. 5) · 17:00
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Heidrun Paulus/ Johann Christoph Haake<@$p> · (Flöte/ Orgel) - <\#211>Songs of Praise<\#211> - Ev. Kirche Hohenwettersbach · 10:00
+<@TerminBrotFETT>Monrepos Streichquartett<@$p> · Werke von Mozart, Dvorák · Auferstehungskirche Rüppurr (Lange-28 ) · 17:00
+<@TerminBrotFETT>Sean Treacy Band<@$p> · (Rock, Pop) - Open Air EM-Finale - Anna-Walch-Haus (Gustav-Heller-Platz 1) · 17:00
+<@TerminBrotFETT>Jam Session<@$p> · (Offene Bühne für Musiker) · Radio Oriente (Hirsch-18 ) · 21:00
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Modigliani Quartett<@$p> · Werke von Mendelssohn-Bartholdy, de Arriaga · Festspielhaus (Beim Alten Bahnhof ) · 11:00
+<@TerminBrotFETT>Casino Band<@$p> · Tanztee · KurhausCasino · 15:30
+<@TerminBrotFETT>Filarmonica della Scala/ Hélène Grimaud<@$p> · (Klavier) - Werke von Brahms · Festspielhaus (Beim Alten Bahnhof ) · 18:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Bad. Philharmonie/ Markus Huber<@$p> · (Leitung) - 6. Sinfoniekonzert mit Werken von Beethoven, Brahms · CongressCentrum (Waisenhausplatz 1-3 ) · 17:00
+@Term.ORT:Bruchsal
+@Term.Brot:<@TerminBrotFETT>Die Titanic-Orgel<@$p> · Vorführung/ Konzert · Schloss Bruchsal · 13:00
+@Term.ORT:Umland Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Swingin<\#171> Stutensee<@$p> · mit <@TerminBrotFETT>Bigband Landratsamt KA<@$p> (10:45)/ <@TerminBrotFETT>Up To Date Bigband<@$p> (12:30)/ <@TerminBrotFETT>Bigband MVE Wolfartsweier<@$p> (14:15) -Schloss Stutensee · 10:45
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Von der Sonne verwöhnt - wir in Baden<@$p> · Vortrag mit <@TerminBrotFETT>Nathalie Lumpp<@$p> - im Rahmen des Gottesdienstes · Schlosskirche (Schlossberg 10 ) · 11:00
+@Term.ORT:Bruchsal
+@Term.Brot:<@TerminBrotFETT>Mord am Saalbach/ Mord in der Huttenstr.<@$p> · Lesung mit <@TerminBrotFETT>Gabriele Albertini<@$p> - Hist. Wirtschaft · Schloss Bruchsal · 11:00
+@Term.RUBRIK:Party/Disco
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Usta-Uni-Sommerfest<@$p> · Bands, DJs u.a. · KIT Karlsruhe (Kaiser-12 ) · 16:00
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Bäume: Bestimmung, Verwendung, Mythos<@$p> · (Pflanzen der Rheinauen) - Führung · Naturschutzzentrum Rappenwört (Hermann Schneider-Allee 47) · 10:00
+<@TerminBrotFETT>Altstadtrundgang: Modellhäuser<@$p> · ab Marktplatzbrunnen Durlach · 11:00
+<@TerminBrotFETT>Die Anfänge der bad. Geschichte<@$p> · (im 12. Jh.) - Führung (auch 15:30) - Baden! 900 Jahre · Badisches Landesmuseum (Schloss ) · 11:00
+<@TerminBrotFETT>Tüür: Wallenberg<@$p> · Sonntag vor der Premiere - Mittleres Foyer · Badisches Staatstheater (Baumeisterstr. 11) · 11:00
+<@TerminBrotFETT>Spendenlauf vom <\#211>Studieren ohne Grenzen<\#211><@$p> · auf 0,9 km Runde im Schlossgarten · 11:00
+<@TerminBrotFETT>Daß das Leben eine Wiederholung ist<@$p> · <@TerminBrotFETT>und daß dies des Lebens Schönheit ist&hellip;<@$p> (Kierkegaard) - Führung - (Kunst und Kirche) · Staatl. Kunsthalle (Hans-Thoma-2 ) · 15:30
+<@TerminBrotFETT>Mensch Karle<\#171>!<@$p> · Stationentheater von Harald Schwiers - (Rückblick auf 900 Jahre Baden) - mit dem <@TerminBrotFETT>Sandkorn<@$p> - Führung rund ums Schloss (gratis) - ab Bhf. Schlossgartenbähnle · 19:00
+<@TerminBrotFETT>Arnim Töpel - Harald Hurst<@$p> · Pferdestall Hohenwettersbach (Hofgut ) · 20:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Lust auf Schmuck<@$p> · Verkaufsausstellung (bis 18:00) · Schmuckmuseum (Jahn-42  ) · 11:00
+@Term.ORT:Bretten
+@Term.Brot:<@TerminBrotFETT>Peter-und-Paul-Fest<@$p> · Historisches Spektakel - Innenstadt · 11:00
+@Term.RUBRIK:Kinder
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Der Grüffelo<@$p> · (ab 3; auch 16:00) · Figurentheater marotte (Kaiserallee 11) · 11:00
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Das hässliche Entlein<@$p> · Märchenballett von Stefan Hammel - mit der <@TerminBrotFETT>Ballettschule BB<@$p> · Theater Baden-Baden (Solmsstraße 1) · 15:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Schatzsuche mit Schmucki Perlsau<@$p> · Führung - mit dem <@TerminBrotFETT>Figurentheater Mürle<@$p> · Schmuckmuseum (Jahn-42  ) · 14:30
+@Über.TAG:Montag
+@Über.DATUM:2.<\c>
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Gesichts_Buch<@$p> · mit der <@TerminBrotFETT>Volkstheatergruppe Helden<@$p> · Insel Theater (Karl-49b ) · 19:00
+<@TerminBrotFETT>Mix it!<@$p> · Interkulturelles Theaterprojekt/ <@TerminBrotFETT>Die Vögel<@$p> - frei nach Aristophanes - Fabrik · Sandkorn-Theater (Kaiserallee 11) · 19:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Was Ihr wollt<@$p> · Drama von William Shakespeare - mit der Theater AG <@TerminBrotFETT>Hilda-Gymnasium<@$p> · Kupferdächle (Kallhardstr. 31) · 19:30
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>gelafert und gelichtert<@$p> · Satire al dente - mit <@TerminBrotFETT>rastetter & wacker<@$p> - (Schlossfestspiele) · Ristorante Padellino (Seminar-10 ) · 19:00
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Hochschulabend Klavier<@$p> · (Klassen Uhde, Stange) - Klavier- und Kammermusik (II) · Musikhochschule (Am Schloss Gottesaue 7 ) · 19:30
+<@TerminBrotFETT>Jam Session<@$p> · mit <@TerminBrotFETT>Torsten Steudinger/ Stefan Günther<@$p> · Jazzclub (Durlacher Alle 64 ) · 20:30
+<@TerminBrotFETT>Shantel & Bucovina Club Orkestar<@$p> · <\#211>Anarchy and Romance<\#211> - Zeltival · Tollhaus Kulturzentrum (Schlachthaus-1 ) · 20:30
+<@TerminBrotFETT>Oriente unplugged<@$p> · Live Acoustic Jam - (gratis) · Radio Oriente (Hirsch-18 ) · 21:00
+@Term.ORT:Bretten
+@Term.Brot:<@TerminBrotFETT>Sean Treacy Band<@$p> · (Rock, Pop) - Open Air · Löwenhof Bretten (Am Gottesackertor 1 ) · 20:00
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Bildung in der Technosphäre<@$p> · (Technikunterricht) - Vortrag von <@TerminBrotFETT>Prof.Dr. Christian Wiesmüller<@$p> · Päd. Hochschule (Bismarck-10 ) · 18:00
+<@TerminBrotFETT>CHEMistry and Cinema<@$p> · (Bart Simpson & die Neutralisationsreaktion) - Vortrag von <@TerminBrotFETT>Prof.Dr. Matthias Ducci<@$p> · Päd. Hochschule (Bismarck-10 ) · 18:45
+<@TerminBrotFETT>Olga Grjasnova: Der Russe ist einer<@$p> · <@TerminBrotFETT>der Birken liebt<@$p> - Lesung Süd - (Literarische Gesellschaft) · KOHI Kulturraum (Werderstraße 47) · 20:00
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Music Quiz<@$p> · Scruffy<\#171>s Irish Pub (Karl-4 ) · 20:00
+<@TerminBrotFETT>BingoTime<@$p> · Galerie (KarlsruherAllee 1 ) · 21:00
+<@TerminBrotFETT>Quiz<@$p> · Kippe (Gottesauer Str.23 ) · 21:00
+<@TerminBrotFETT>Quiz Show<@$p> · mit <@TerminBrotFETT>Jasse & Isa<@$p> - (gratis) · Café Emaille (Kaiserstr.142-144 ) · 21:00
+@Term.ORT:Bretten
+@Term.Brot:<@TerminBrotFETT>Peter-und-Paul-Fest<@$p> · Historisches Spektakel - Innenstadt · 12:00
+@Über.TAG:Dienstag
+@Über.DATUM:3.<\c>
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Mix it!<@$p> · Interkulturelles Theaterprojekt/ <@TerminBrotFETT>Die Vögel<@$p> - frei nach Aristophanes - Fabrik · Sandkorn-Theater (Kaiserallee 11) · 19:00
+<@TerminBrotFETT>Du musst Dein Leben ändern<@$p> · Stück nach Peter Sloterdijk - mit dem <@TerminBrotFETT>Bad. Staatstheater<@$p> · Schloss · 20:00
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Achtung Kinder! oder: Greta Himmelwärts<@$p> · Projekt mit dem <@TerminBrotFETT>Spielclub Ü62<@$p> · Theater Baden-Baden (Solmsstraße 1) · 19:30
+<@TerminBrotFETT>Madame Bovary<@$p> · Stück von Gustave Flaubert · Theater Baden-Baden (Solmsstraße 1) · 20:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Was Ihr wollt<@$p> · Drama von William Shakespeare - mit der Theater AG <@TerminBrotFETT>Hilda-Gymnasium<@$p> · Kupferdächle (Kallhardstr. 31) · 19:30
+<@TerminBrotFETT>And Then There Were None<@$p> · Stück von Agatha Christie (in engl. Sprache) - mit der <@TerminBrotFETT>Drama Group<@$p> - (Schultheater) · Osterfeld Kulturhaus (Osterfeld-12 ) · 20:00
+<@TerminBrotFETT>Der blaue Engel<@$p> · Stück nach Heinrich Mann · Stadttheater (Waisenhausplatz 5 ) · 20:00
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>gelafert und gelichtert<@$p> · Satire al dente - mit <@TerminBrotFETT>rastetter & wacker<@$p> - (Schlossfestspiele) · Ristorante Padellino (Seminar-10 ) · 19:00
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Kiwi Keith Hawkins<@$p> · (Acoustic Evening) · Scruffy<\#171>s Irish Pub (Karl-4 ) · 19:00
+<@TerminBrotFETT>Hochschulabend Violine<@$p> · (Klasse Erlich)  · Musikhochschule (Am Schloss Gottesaue 7 ) · 19:30
+<@TerminBrotFETT>Karin Schnur<@$p> · (Harfe) - Rezital mit Werken von Debussy, Fauré · Musikhochschule (Am Schloss Gottesaue 7 ) · 19:30
+<@TerminBrotFETT>Leo Schneider<@$p> · (Klezmer) - Art Export Odessa · Fleischmarkthalle (Durlacher Allee-62 ) · 20:00
+<@TerminBrotFETT>Utidúr<@$p> · Zeltival · Tollhaus Kulturzentrum (Schlachthaus-1 ) · 20:30
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Claire Lynch Band<@$p> · (Bluegrass, Country) · Folkclub Prisma (Marktplatz 1 ) · 20:15
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Ganze Scharen von Damen strömen<@$p> · (50 Jahre Studentinnen an der PH) - Vortrag von <@TerminBrotFETT>Prof.Dr. Sabine Liebig<@$p> · Päd. Hochschule (Bismarck-10 ) · 18:45
+@Term.RUBRIK:Party/Disco
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Länderabend<@$p> · Schlonz · AKK Altes Stadion Uni (Paulckeplatz 1 ) · 20:00
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Spieleabend<@$p> · Kippe (Gottesauer Str.23 ) · 18:00
+<@TerminBrotFETT>Der Talentschuppen<@$p> · Studierende präsentieren ihr Können · Päd. Hochschule (Bismarck-10 ) · 20:00
+<@TerminBrotFETT>Quiz<@$p> · Galerie (KarlsruherAllee 1 ) · 20:00
+@Term.RUBRIK:Kinder
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Der Grüffelo<@$p> · (ab 3) · Figurentheater marotte (Kaiserallee 11) · 10:00
+<@TerminBrotFETT>Eins auf die Fresse<@$p> · (ab 6. Kl.) - Kinder-/ Jugendstück von Rainer Hachfeld - Kindertheater · Sandkorn-Theater (Kaiserallee 11) · 10:00
+<@TerminBrotFETT>Lauschrausch<@$p> · (ab 8) - Kinderlieder mit dem <@TerminBrotFETT>Ensemble Junges Staatstheater<@$p> · Insel Theater (Karl-49b ) · 11:00
+<@TerminBrotFETT>Die Puppe Mirabel<@$p> · (ab 3) - nach Astrid Lindgreen · Die Käuze (Königsberger-9 ) · 17:00
+@Über.TAG:Mittwoch
+@Über.DATUM:4.<\c>
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Was heißt hier Liebe 2.0<@$p> · (ab 14) - Stück um Liebe und Sexualität - Jugendtheater · Sandkorn-Theater (Kaiserallee 11) · 10:00
+<@TerminBrotFETT>Tschick<@$p> · (ab 14) - nach dem Roman von Wolfgang Herrndorf  · Insel Theater (Karl-49b ) · 11:00
+<@TerminBrotFETT>Der Besuch der alten Dame<@$p> · Stück von Friedrich Dürrenmatt - Fabrik · Sandkorn-Theater (Kaiserallee 11) · 19:00
+<@TerminBrotFETT>Don Giovanni<@$p> · Dramma giocoso von W.A. Mozart (in ital Sprache) - Opernhaus · Badisches Staatstheater (Baumeisterstr. 11) · 19:30
+<@TerminBrotFETT>Orpheus steigt herab<@$p> · Schauspiel von Tennessee Williams - Schauspielhaus · Badisches Staatstheater (Baumeisterstr. 11) · 20:00
+<@TerminBrotFETT>Zigeuner-Box<@$p> · (ab 14) - Stück von Rike Reiniger - Studio · Badisches Staatstheater (Baumeisterstr. 11) · 20:00
+<@TerminBrotFETT>Boeing, Boeing<@$p> · Komödie von Marc Camoletti · Jakobustheater (Kaiserallee 11 ) · 20:15
+<@TerminBrotFETT>Fuffzich<@$p> · Komödie von Harald Hurst - Studio · Sandkorn-Theater (Kaiserallee 11) · 20:15
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Wozzeck<@$p> · Oper von Alban Berg · Stadttheater (Waisenhausplatz 5 ) · 20:00
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Hochschulabend Kammermusik (II)<@$p> · Musikhochschule (Am Schloss Gottesaue 7 ) · 19:30
+<@TerminBrotFETT>Max Prosa/ Dota & Die Stadtpiraten<@$p> · Zeltival · Tollhaus Kulturzentrum (Schlachthaus-1 ) · 20:00
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Veronika Todorova Band<@$p> · (Balkan meets Tango) - gratis · Rantastic Haueneberstein (Aschmatt-2 ) · 19:30
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Acoustic Sounds<@$p> · Café - (gratis) · Kupferdächle (Kallhardstr. 31) · 20:00
+@Term.RUBRIK:Party/Disco
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Giypsy, Latin<@$p> · Café Bleu (Kaiserallee 11 ) · 20:00
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Baden Express: Geschichte(n) mal anders<@$p> · Führung · Badisches Landesmuseum (Schloss ) · 15:00
+<@TerminBrotFETT>Wie der Hase läuft<@$p> · (Das künstlerische Studium an der PH) - Ausstellungseröffnung · Päd. Hochschule (Bismarck-10 ) · 17:00
+<@TerminBrotFETT>Die Gemeinschaftsschule<@$p> · Podiumsdiskussion mit <@TerminBrotFETT>Dr. Frank Mentrup/ Veronika Pepper/ Christiane Staab<@$p> · Päd. Hochschule (Bismarck-10 ) · 18:00
+<@TerminBrotFETT>Treffpunkt Spiele<@$p> · Galerie (KarlsruherAllee 1 ) · 18:00
+<@TerminBrotFETT>Originalität in der Nachahmung<@$p> · (Remix, Reproduktion, Referenz) - Gespräch mit <@TerminBrotFETT>Dirk von Gehlen/ Wolfgang Ullrich<@$p> · Staatl. Kunsthalle (Hans-Thoma-2 ) · 19:00
+<@TerminBrotFETT>Halbe Kraft reicht nicht!<@$p> · (Was könne wir von Frankreich lernen<\#171>) - Forum Dialog, Information & Kultur · Jubez am Kronenplatz (Am Kronenplatz 1) · 20:00
+<@TerminBrotFETT>75 ball Bingo<@$p> · (gratis) · Café Emaille (Kaiserstr.142-144 ) · 20:30
+<@TerminBrotFETT>Bingo<@$p> · Kippe (Gottesauer Str.23 ) · 21:00
+<@TerminBrotFETT>Tango Argentino<@$p> · Scenario · Tempel Kulturzentrum (Hardtstraße 37a) · 21:30
+@Term.RUBRIK:Kinder
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Wickie und die starken Männer<@$p> · (ab 5; auch 15:00) · Figurentheater marotte (Kaiserallee 11) · 10:00
+<@TerminBrotFETT>Robin Hood<@$p> · (ab 8) - Abenteueroper von Frank Schwemmer - Opernhaus · Badisches Staatstheater (Baumeisterstr. 11) · 11:00
+@Über.TAG:Donnerstag
+@Über.DATUM:5.<\c>
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Was heißt hier Liebe 2.0<@$p> · (ab 14) - Stück um Liebe und Sexualität - Jugendtheater · Sandkorn-Theater (Kaiserallee 11) · 10:00
+<@TerminBrotFETT>Kohlhaas<@$p> · Drama von Marco Baliani/ Remo Rostagno nach Heinrich v. Kleist - Studio · Sandkorn-Theater (Kaiserallee 11) · 19:00
+<@TerminBrotFETT>Immer noch Sturm<@$p> · Stück von Peter Handke - Studio · Badisches Staatstheater (Baumeisterstr. 11) · 19:30
+<@TerminBrotFETT>Amphytrion<@$p> · Lustspiel von Heinrich v. Kleist nach Molière - Schauspielhaus · Badisches Staatstheater (Baumeisterstr. 11) · 20:00
+<@TerminBrotFETT>Boeing, Boeing<@$p> · Komödie von Marc Camoletti · Jakobustheater (Kaiserallee 11 ) · 20:15
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Achtung Eltern!<@$p> · (ab 14) - Projekt mit dem <@TerminBrotFETT>Jugendclub U22<@$p> · Theater Baden-Baden (Solmsstraße 1) · 19:30
+<@TerminBrotFETT>Der Revisor<@$p> · Komödie von Nikolaij Gogol · Theater Baden-Baden (Solmsstraße 1) · 20:00
+<@TerminBrotFETT>Timo Wopp<@$p> · <@TerminBrotFETT>Duo luna-tic<@$p> - Pointenjonglage & Koloratursatire - (BADzille) · KurhausCasino · 20:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Boléro - La danse d<\#171>extase<@$p> · Ballett von James Sutherland · Stadttheater (Waisenhausplatz 5 ) · 20:00
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Der Sturm<@$p> · Schauspiel von William Shakespeare - <@TerminBrotFETT>Premiere<@$p> - (Schlossfestspiele) - Hof · Schloss Ettlingen · 20:30
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Hochschulabend Klavier<@$p> · (Klasse Randalu)  · Musikhochschule (Am Schloss Gottesaue 7 ) · 19:30
+<@TerminBrotFETT>Vokalensemble HfM/ Studierende Cembalo<@$p> · (Klasse Nyquist) - Werke von Haydn, Mozart · Musikhochschule (Am Schloss Gottesaue 7 ) · 19:30
+<@TerminBrotFETT>Hawelka<@$p> · Live-Schlonz · AKK Altes Stadion Uni (Paulckeplatz 1 ) · 20:00
+<@TerminBrotFETT>Y<\#171>Akoto/ Johannes Oerding<@$p> · Zeltival · Tollhaus Kulturzentrum (Schlachthaus-1 ) · 20:30
+<@TerminBrotFETT>The Hip Herd<@$p> · (Jugendjazzorchester) · Radio Oriente (Hirsch-18 ) · 21:00
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Michael Hulse: English Poetry<@$p> · Vortrag · Päd. Hochschule (Bismarck-10 ) · 12:30
+<@TerminBrotFETT>Helios und Prometheus<@$p> · (Überbringer einer neuen pädagogischen Heilslehre) - Vortrag von <@TerminBrotFETT>Prof.Dr. Manfred Kästner<@$p> · Päd. Hochschule (Bismarck-10 ) · 18:00
+<@TerminBrotFETT>Auf dem Weg zu klimaneutralen Gebäuden<@$p> · (mit neuen Technologien) - Vortrag mit <@TerminBrotFETT>Prof. Andreas Wagner<@$p> - (Colloquium Fundamentale) - NTI-Hörsaal (Geb. 30.10) · KIT Karlsruhe (Kaiser-12 ) · 18:30
+<@TerminBrotFETT>Reichsverfassungskampagne<@$p> · (Bad. Revolution 1849) - Vortrag mit <@TerminBrotFETT>Prof.Dr. Frank Engehausen<@$p> - (gratis) · Badisches Landesmuseum (Schloss ) · 19:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Poetry Slam<@$p> · Open Air - (gratis) - Atrium · Kupferdächle (Kallhardstr. 31) · 20:00
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Baden existiert weiter<@$p> · (in den Grenzen der Erzdiözese Freiburg und Ev. Landeskirche Baden) - Führung - (Hinter den Dingen extra) · Badisches Landesmuseum (Schloss ) · 16:00
+<@TerminBrotFETT>Marianne Wex<@$p> · Weibliche & Männliche Körpersprache (Fototafeln)/ <@TerminBrotFETT>Tanja Widmann<@$p> - eine von euch (Installation)/ <@TerminBrotFETT>Daniel Gustav Cramer & Haris Epaminonda<@$p> (The Infinite Library) - Vernissage · Bad. Kunstverein (Wald-3 ) · 19:00
+<@TerminBrotFETT>Wolf Pehlke<@$p> · Der Glaube an die Kunst ist wie Sex ohne Kondom - Vernissage - plus Lesung · Galerie Thimme (Schützen-19 ) · 19:00
+<@TerminBrotFETT>Mensch Karle<\#171>!<@$p> · Stationentheater von Harald Schwiers - (Rückblick auf 900 Jahre Baden) - mit dem <@TerminBrotFETT>Sandkorn<@$p> - Führung rund ums Schloss (gratis) - ab Bhf. Schlossgartenbähnle · 19:00
+<@TerminBrotFETT>Karlsruher Skatenite 2012<@$p> · Volksbank (Ludwig-Erhard-Allee ) · 19:30
+@Term.RUBRIK:Kinder
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Wo die wilden Kerle wohnen<@$p> · (ab 4; auch 15:00) · Figurentheater marotte (Kaiserallee 11) · 10:00
+@Über.TAG:Freitag
+@Über.DATUM:6.<\c>
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Z10 Sommerfest<@$p> · mit <@TerminBrotFETT>Improminenz<@$p> (Impro-Theater)/ <@TerminBrotFETT>Paul & Willi<@$p> (Geräusch-Pantomine) - anschließend Party · Z 10 (Zähringerstraße 10) · 18:00
+<@TerminBrotFETT>Der Prozeß<@$p> · Stück von Franz Kafka - Fabrik · Sandkorn-Theater (Kaiserallee 11) · 19:00
+<@TerminBrotFETT>Frl. Knöpfle & ihre Herrenkapelle<@$p> · <\#211>Mit Fleisch und Seele<\#211> · Kammertheater (Herrenstraße 30/32) · 19:30
+<@TerminBrotFETT>Momo<@$p> · (ab 15) - Ballett von Tim Plegge - Opernhaus · Badisches Staatstheater (Baumeisterstr. 11) · 19:30
+<@TerminBrotFETT>Jakob der Lügner<@$p> · nach dem Roman von Jurek Becker - Schauspielhaus · Badisches Staatstheater (Baumeisterstr. 11) · 20:00
+<@TerminBrotFETT>Muttermale Fenster Blau<@$p> · Stück von Marianna Salzmann - Studio · Badisches Staatstheater (Baumeisterstr. 11) · 20:00
+<@TerminBrotFETT>Em Karle sei Dande<@$p> · Lustspiel (in Karlsruher Mundart) von Jürgen Hörner · Badisch Bühn (Durmersheimer Str. 6) · 20:15
+<@TerminBrotFETT>Hilfe, mein Rad klammert!<@$p> · Duett von Harald-Alexander Korp - <@TerminBrotFETT>Premiere<@$p> - Studio · Sandkorn-Theater (Kaiserallee 11) · 20:30
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Achtung Kinder! oder: Greta Himmelwärts<@$p> · Projekt mit dem <@TerminBrotFETT>Spielclub Ü62<@$p> · Theater Baden-Baden (Solmsstraße 1) · 19:30
+<@TerminBrotFETT>Supernova (Wie Gold entsteht)<@$p> · Stück von Philipp Löhle · Theater Baden-Baden (Solmsstraße 1) · 20:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>37 Ansichtskarten<@$p> · Schwarze Komödie - mit dem <@TerminBrotFETT>Amateurtheaterverein<@$p> · Osterfeld Kulturhaus (Osterfeld-12 ) · 20:00
+<@TerminBrotFETT>Der blaue Engel<@$p> · Stück nach Heinrich Mann · Stadttheater (Waisenhausplatz 5 ) · 20:00
+<@TerminBrotFETT>Draußen vor der Tür<@$p> · Stück nach Wolfgang Borchert - Podium · Stadttheater (Waisenhausplatz 5 ) · 20:00
+@Term.ORT:Bruchsal
+@Term.Brot:<@TerminBrotFETT>Odyssee<@$p> · mit der Theatergruppe <@TerminBrotFETT>Baal Novo<@$p> - Open Air - Marktplatz · 20:00
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Der Sturm<@$p> · Schauspiel von William Shakespeare - (Schlossfestspiele) - Hof · Schloss Ettlingen · 20:30
+@Term.ORT:Umland Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Herrn Stumpfes Zieh- & Zupfkapelle<@$p> · (Skrupellose Hausmusik) · Keltenhalle Mörsch (Sonnen-14 ) · 20:00
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Hochschulabend Klavier<@$p> · (Klasse Han) - Bach und zeitgenöss. Klaviermusik (XV) · Musikhochschule (Am Schloss Gottesaue 7 ) · 19:30
+<@TerminBrotFETT>Institut für MusikTheater<@$p> · Opernsänger der Zukunft - Marstall · Musikhochschule (Am Schloss Gottesaue 7 ) · 19:30
+<@TerminBrotFETT>PH Combo/ PH Bigband<@$p> · Konzert · Päd. Hochschule (Bismarck-10 ) · 19:30
+<@TerminBrotFETT>Los Lobos<@$p> · <\#211>Tin Can Trust<\#211> - Zeltival · Tollhaus Kulturzentrum (Schlachthaus-1 ) · 20:30
+<@TerminBrotFETT>Nachtklänge (III)<@$p> · Anklang - mit der <@TerminBrotFETT>Komponistenklasse Rihm<@$p> - (Nachklang: 21. Kulturtage: Musik baut Europa) · Insel Theater (Karl-49b ) · 21:00
+<@TerminBrotFETT>Sewer Rats/ Old Man Coyote<@$p> · (Punk) - CD-Release · Alte Hackerei (Durlacher Allee 62, Gebäude 10 b (ehemals Schlachthofgelände) ) · 21:00
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Sommernächte<@$p> · mit <@TerminBrotFETT>RaSa & Friends<@$p> (16:00)/ Sascha Klaar & Band<@TerminBrotFETT> (20:00) - gratis - Kurgarten · KurhausCasino · 16:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>3. Play & Singalong<@$p> · (Folkclub Prisma) - gratis · Rumpelkammer Brötzingen (Westl. 358 ) · 19:00
+<@TerminBrotFETT>Oi!lympics 2012<@$p> · mit <@TerminBrotFETT>Fatal/ Überdosis/ Fürtter Prolls u.a.<@$p> - Feuerwehrwiese Birkenfeld · 19:00
+<@TerminBrotFETT>B.E.S.T Friday<@$p> · mit <@TerminBrotFETT>Fade Aways u.a.<@$p> (Rock) · Kupferdächle (Kallhardstr. 31) · 20:00
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Musical Evergreens<@$p> · mit Ensemble-Mitgliedern - <@TerminBrotFETT>Premiere<@$p> - (Schlossfestspiele) · Erbprinz (Rheinstr. 1) · 19:00
+@Term.ORT:Umland Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Sunny Side Up-Festival<@$p> · mit <@TerminBrotFETT>The Lonesome Dragstrippers/ T-Crow/ Lucky Twist/ Bullz On Parade<@$p> - (gratis) - Kartbahn Liedolsheim · 18:00
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Patrick Roth: Sunrise<@$p> · Autorenlesung · Literaturhaus im PMP (Karl-10 ) · 20:00
+@Term.RUBRIK:Party/Disco
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Rock Pop Querbeet<@$p> · Café Bleu (Kaiserallee 11 ) · 20:00
+<@TerminBrotFETT>Holla, die Waldfee (VII)<@$p> · Schlonz · AKK Altes Stadion Uni (Paulckeplatz 1 ) · 22:00
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Mitternachts-Schwimmen<@$p> · (bis 24:00) - mit Flutlicht · Freibad Wolfartsweier (Schlossbergstr. 5) · 07:00
+<@TerminBrotFETT>Durlacher Altstadtfest<@$p> · Innenstadt · 16:00
+<@TerminBrotFETT>Friedrich I. und sein Regierungsanspruch<@$p> · (nach der Affäre Kaspar Hauser) - Führung - (gratis; Happy Friday) · Badisches Landesmuseum (Schloss ) · 16:00
+<@TerminBrotFETT>PH-Nacht<@$p> · Film, Square Dance, Mode der 60er, Oldies, Geschichten, Feuershow · Päd. Hochschule (Bismarck-10 ) · 16:00
+<@TerminBrotFETT>Pedro Poza: Migrationen<@$p> · (Bilder) - Vernissage · Int. Begegnungszentrum (Kaiserallee 12d ) · 19:30
+<@TerminBrotFETT>The World At Night<@$p> · (Astrofotografie) - Mobiles Planetarium/ Vorträge · Orgelfabrik Durlach (Amthausstr. 8) · 20:00
+@Term.RUBRIK:Kinder
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Kostbare Hölzer, kunstvolle Ornamente<@$p> · (Die Möbel am Hof) - Kinder führen Kinder · Badisches Landesmuseum (Schloss ) · 15:00
+<@TerminBrotFETT>Die Puppe Mirabel<@$p> · (ab 3) - nach Astrid Lindgreen · Die Käuze (Königsberger-9 ) · 17:00
+@Term.ORT:Umland Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Peter Pan<@$p> · (ab 5) - Kindermusical von Frank Landua nach James Matthew Barrie - <@TerminBrotFETT>Premiere<@$p> · Volksschauspiele Ötigheim (Kirchstr. 5) · 18:00
+@Über.TAG:Samstag
+@Über.DATUM:7.<\c>
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Die Physiker<@$p> · Komödie von Friedrich Dürrenmatt - Fabrik · Sandkorn-Theater (Kaiserallee 11) · 19:00
+<@TerminBrotFETT>Der Gastfreund/ Die Argonauten<@$p> · Volkstheater-Projekt nach Franz Grillparzer - Schauspielhaus · Badisches Staatstheater (Baumeisterstr. 11) · 19:30
+<@TerminBrotFETT>Ein paar Leute suchen das Glück<@$p> · <@TerminBrotFETT>und lachen sich tot<@$p> - von Sibylle Berg - mit <@TerminBrotFETT>Sebastian Schwab<@$p> · Kammertheater (Herrenstraße 30/32) · 19:30
+<@TerminBrotFETT>Wallenberg<@$p> · Oper von Erkki-Sven Tüür - <@TerminBrotFETT>Premiere<@$p> - Opernhaus · Badisches Staatstheater (Baumeisterstr. 11) · 19:30
+<@TerminBrotFETT>Serviervorschlag/ Die Impronauten<@$p> · Impro à la carte - Saal · Kulturhaus Mikado (Kanalweg-52 ) · 20:00
+<@TerminBrotFETT>Boeing, Boeing<@$p> · Komödie von Marc Camoletti · Jakobustheater (Kaiserallee 11 ) · 20:15
+<@TerminBrotFETT>Em Karle sei Dande<@$p> · Lustspiel (in Karlsruher Mundart) von Jürgen Hörner · Badisch Bühn (Durmersheimer Str. 6) · 20:15
+<@TerminBrotFETT>rastetter & wacker<@$p> · <\#211>Abgezockt! - Im KapiTal der Pleitegeier<\#211> - Studio · Sandkorn-Theater (Kaiserallee 11) · 20:30
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Het Nationale Ballet Amsterdam<@$p> · <@TerminBrotFETT>Holland Symfonia<@$p> - Choreographien von Hans van Manen · Festspielhaus (Beim Alten Bahnhof ) · 19:00
+<@TerminBrotFETT>Achtung Eltern!<@$p> · (ab 14) - Projekt mit dem <@TerminBrotFETT>Jugendclub U22<@$p> · Theater Baden-Baden (Solmsstraße 1) · 19:30
+<@TerminBrotFETT>Madame Bovary<@$p> · Stück von Gustave Flaubert · Theater Baden-Baden (Solmsstraße 1) · 20:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Der Vetter aus Dingsda<@$p> · Operette von Eduard Künnecke · Stadttheater (Waisenhausplatz 5 ) · 19:30
+<@TerminBrotFETT>37 Ansichtskarten<@$p> · Schwarze Komödie - mit dem <@TerminBrotFETT>Amateurtheaterverein<@$p> · Osterfeld Kulturhaus (Osterfeld-12 ) · 20:00
+<@TerminBrotFETT>Draußen vor der Tür<@$p> · Stück nach Wolfgang Borchert - Podium · Stadttheater (Waisenhausplatz 5 ) · 20:00
+@Term.ORT:Bruchsal
+@Term.Brot:<@TerminBrotFETT>I Will Survive<@$p> · Stück von Carsten Ramm/ Hennes Holz - Hexagon · Bad. Landesbühne (Am alten Schloss 24 ) · 19:30
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Aida<@$p> · Musical von Time Rice/ Elton John - (Schlossfestspiele) - Hof · Schloss Ettlingen · 20:30
+@Term.ORT:Umland Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Hildegard von Bingen<@$p> · Singspiel über die heilkundige Sybille vom Rhein von Dieter Baldo/ Musik von Hildegard von Bingen/ Tom H. Weber - (Bickesheimer Klosterfestspiele) - Pfarrhof Wallfahrtskirche Maria Bickesheim bei Durmersheim · 20:00
+@Term.ORT:Rastatt
+@Term.Brot:<@TerminBrotFETT>Der Stein<@$p> · Stück von Marius von Mayenburg - <@TerminBrotFETT>Premiere<@$p> - mit dem <@TerminBrotFETT>Ensemble 99<@$p> · Reithalle (Schlossplatz 9 ) · 20:00
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Alexandra Ruhland/ Ulrike Bruinings<@$p> · (Orgel/ Sprecherin) - Die Orgelmaus (Gesprächskonzert) · Markuskirche (Weinbrenner-69 ) · 12:05
+<@TerminBrotFETT>7. New Noise Festival<@$p> · mit <@TerminBrotFETT>Graf Orlock/ Church of Ra Showcase/ Raein/ Brutality Will Prevail/ Celeste/ Alpinist/ Trapped Under Ice/ Masakari/ Vestiges/ Aussitot Mort/ Sailing On/ Nine Eleven/ The Tidal Sleep<@$p> - Zirkuszelt-Areal Ostauepark · 13:00
+<@TerminBrotFETT>Karlsruhe klingt - music to go 2012<@$p> · mit <@TerminBrotFETT>Studierenden der HfM KA<@$p> - Ludwigsplatz (16:00)/ Innenstadt (16.30)/ Kirchplatz St. Stephan (20:00) · 16:00
+<@TerminBrotFETT>Kinderkantorei/ Capella Lutherana KA<@$p> · <@TerminBrotFETT>Dorothea Lehmann Horsch<@$p> (Leitung) - Märchenoper: Die Zauberharfe - von Wolfgang König/ Veronika te Reh · Lutherkirche (Durlacher Alle-23 ) · 16:00
+<@TerminBrotFETT>KTV Open Air<@$p> · mit <@TerminBrotFETT>Killerkekse/ Riffhaie u.a.<@$p> (16:00)/ <@TerminBrotFETT>Hosurddy/ Soundscape/ Some Living/ Small House Sucks<@$p> (19:00) · KTV-Bootshau (Hermann-Schneider-Allee49 ) · 16:00
+<@TerminBrotFETT>Jacques Brel: On n<\#171>oublie rien<@$p> · Inszenierte Chansons mit <@TerminBrotFETT>Natanael Lienhard<@$p> - Studio · Badisches Staatstheater (Baumeisterstr. 11) · 19:30
+<@TerminBrotFETT>Frittenbude/ We Are Enfant Terrible<@$p> · (Elektropunk) · Substage (Durlacher Allee 62, Schlachthofgelände ) · 20:00
+<@TerminBrotFETT>Open Stage<@$p> · (Impro-Session) · KOHI Kulturraum (Werderstraße 47) · 20:00
+<@TerminBrotFETT>Z10 Sommerfest<@$p> · mit <@TerminBrotFETT>Fördergruppe Tanzmusik/ Rockstah & His Nerdy Turdy Gang<@$p> - anschließend Party · Z 10 (Zähringerstraße 10) · 20:00
+<@TerminBrotFETT>Collegium Musicum KIT/ Andreas Winger<@$p> · (Klarinette) - Werke von Gade, von Weber, van Beethoven - Gerthsen-Hörsaal (Engesser-9) · KIT Karlsruhe (Kaiser-12 ) · 20:15
+<@TerminBrotFETT>Ma Valise<@$p> · Zeltival · Tollhaus Kulturzentrum (Schlachthaus-1 ) · 20:30
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Sommernächte<@$p> · mit <@TerminBrotFETT>Baden Brass Band<@$p> (12:00)/ <@TerminBrotFETT>MV Obertsrot<@$p> (15:00)/ <@TerminBrotFETT>Casino Trio<@$p> (17:00)/ <@TerminBrotFETT>Boppin<\#171> B<@$p> (20:00)  - gratis - Kurgarten · KurhausCasino · 12:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Oi!lympics 2012<@$p> · mit <@TerminBrotFETT>Fatal/ Überdosis/ Fürtter Prolls u.a.<@$p> - Feuerwehrwiese Birkenfeld · 19:00
+@Term.ORT:Umland Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Sunny Side Up-Festival<@$p> · mit <@TerminBrotFETT>Way To Bodhi/ Torrent/ Fritschi Fire/ King Orange/ Noisy/ Dead Man<\#171>s Boogie/ Mäxx/ My Elegy/ A Futuristic Aid/ Spoonhead/ Transporter<@$p> - (gratis) - Kartbahn Liedolsheim · 13:00
+<@TerminBrotFETT>Rock meets Sommerfest<@$p> · mit <@TerminBrotFETT>Me & The Heat/ The Pumpkins/ Absolut Kussecht<@$p> - Festplatz Eggenstein · 19:30
+@Term.ORT:Rastatt
+@Term.Brot:<@TerminBrotFETT>Tam Tam Tankstelle<@$p> · Familien-/ Trommelfest · Naturfreundehaus (Brufert-3 ) · 14:00
+@Term.ORT:Pfalz
+@Term.Brot:<@TerminBrotFETT>Nicole Metzger & French Connection<@$p> · (Jazz, Chansons) - Klostergarten Stift Klingenmünster · 19:30
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Mitglieder der Literatenrunde<@$p> · Lesung · Kaffeehaus Schmidt (Kaiserallee 69) · 10:30
+@Term.RUBRIK:Party/Disco
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Rock A Rollers<@$p> · Rollergirls-Party mit <@TerminBrotFETT>Fram/ Plueschbert<@$p> · Alte Hackerei (Durlacher Allee 62, Gebäude 10 b (ehemals Schlachthofgelände) ) · 22:00
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Lidellplatzfest<@$p> · Lidellplatz · 11:00
+<@TerminBrotFETT>Durlacher Altstadtfest<@$p> · Innenstadt · 12:00
+<@TerminBrotFETT>Heimatlob<@$p> · Filmisches Begleitprogramm - (Literatur in BaWü 1970-2010) - <@TerminBrotFETT>Schwarzwaldmädel<@$p> (1950; 14:30)/ <@TerminBrotFETT>Viehjud Levi<@$p> (1999; 16:30) - mit einer Einführung von <@TerminBrotFETT>Dr. Peter Kohl<@$p> · Schauburg (Marienstraße 16) · 14:30
+<@TerminBrotFETT>Fürstinnen am Karlsruher Hof<@$p> · (ArtRegioTours) - ab Eingang · Badisches Landesmuseum (Schloss ) · 15:00
+<@TerminBrotFETT>24 Std.-Lauf f

@@ -1,0 +1,162 @@
+<v2.05><e0>
+@Über.TAG:Dienstag
+@Über.DATUM:1.
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Festliches Neujahrskonzert mit zwei Trompeten und Orgel<@$p> · mit Sektempfang · Evangelische Stadtkirche Karlsruhe (Marktplatz ) · 17:00
+@Über.TAG:Mittwoch
+@Über.DATUM:2.
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Winterträume<@$p> · auch 20:00 · Variété zwischen den Jahren · Osterfeld (Osterfeldstr. 12) · 15:00
+@Term.ORT:Rhein/Neckar
+@Term.Brot:<@TerminBrotFETT>Revolución<@$p> · Ballett-Sensation · Rosengarten Mannheim (Rosengartenplatz 2) · 20:00
+@Über.TAG:Donnerstag
+@Über.DATUM:3.
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Winterträume<@$p> · auch 20:00 · Variété zwischen den Jahren · Osterfeld (Osterfeldstr. 12) · 15:00
+@Term.ORT:Rhein/Neckar
+@Term.Brot:<@TerminBrotFETT>Revolución<@$p> · Ballett-Sensation · Rosengarten Mannheim (Rosengartenplatz 2) · 20:00
+@Über.TAG:Freitag
+@Über.DATUM:4.
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Gaggenau
+@Term.Brot:<@TerminBrotFETT>Florian Schroeder & Volkmar Staub<@$p> · <\#227>Zugabe 2012<\#210> · Klag Bühne (Luisenstr. 17) · 20:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Winterträume<@$p> · auch 20:00 · Variété zwischen den Jahren · Osterfeld (Osterfeldstr. 12) · 15:00
+@Term.ORT:Rhein/Neckar
+@Term.Brot:<@TerminBrotFETT>Revolución<@$p> · Ballett-Sensation · Rosengarten Mannheim (Rosengartenplatz 2) · 20:00
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Left Thumb Up<@$p> · Eintritt frei · Kippe (Gottesauer Str. 23) · 20:00
+@Term.ORT:Rhein/Neckar
+@Term.Brot:<@TerminBrotFETT>Glenn Miller Orchestra<@$p> · Rosengarten Mannheim (Rosengartenplatz 2) · 20:00
+@Über.TAG:Samstag
+@Über.DATUM:5.
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Winterträume<@$p> · auch 20:00 · Variété zwischen den Jahren · Osterfeld (Osterfeldstr. 12) · 15:00
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>On The Rockz<@$p> · Eintritt frei · Kippe (Gottesauer Str. 23) · 20:00
+<@TerminBrotFETT>Master Hope & Friends<@$p> · (Funk, Soul) · Traube Durlach (Marstallstr. 8) · 20:00
+@Term.ORT:Region
+@Term.Brot:<@TerminBrotFETT>Camerata Europeana/ Solisten<@$p> · Neujahrskonzert · Kulturhalle Remchingen (Hauptstr 115) · 20:00
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Pfalz
+@Term.Brot:<@TerminBrotFETT>Lange Saunanacht<@$p> · Südpfalz Therme Bad Bergzabern (Kurtalstr. 27) · 19:00
+@Über.TAG:Sonntag
+@Über.DATUM:6.
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Winterträume<@$p> · Variété zwischen den Jahren · Osterfeld (Osterfeldstr. 12) · 15:00
+@Term.ORT:Region
+@Term.Brot:<@TerminBrotFETT>Yesterday - A Tribute to the Beatles<@$p> · Liederhalle Stuttgart (Berliner Platz 01. Mrz) · 20:00
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Studierende HfM - Orgelklasse Carsten Wiebusch<@$p> · Olivier Messiaen: La nativité du Seigneur · Christuskirche Karlsruhe (Riefstahlstraße 2) · 18:00
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Adrian Peters - Das Flimmern der Zeit<@$p> · Finissage · (Zeichnungen) · Ateliergalerie Preview.Süd (Schützenstr. 37) · 16:00
+@Über.TAG:Donnerstag
+@Über.DATUM:10.
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Boeing - Boeing<@$p> · Komödie von Marc Camoletti · Jakobustheater (Kaiserallee 11) · 20:00
+@Über.TAG:Freitag
+@Über.DATUM:11.
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Blues Box<@$p> · Eintritt frei · Kippe (Gottesauer Str. 23) · 20:00
+<@TerminBrotFETT>Pasión de Buena Vista<@$p> · Music & Dance · Konzerthaus Karlsruhe (Festplatz ) · 20:00
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Lorenzo Petrocca Organ Trio<@$p> · feat. <@TerminBrotFETT>Jürgen Bothner<@$p> (sax) · Birdland 59 (Jazzclub) (Pforzheimer Str. 25) · 20:30
+@Über.TAG:Samstag
+@Über.DATUM:12.
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Boeing - Boeing<@$p> · Komödie von Marc Camoletti · Jakobustheater (Kaiserallee 11) · 20:00
+@Term.ORT:Gaggenau
+@Term.Brot:<@TerminBrotFETT>Sascha Bendiks & Simon Höneß<@$p> · <\#227>In Teufels Küche<\#210> · Klag Bühne (Luisenstr. 17) · 20:00
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Give Me Five<@$p> · Eintritt frei · Kippe (Gottesauer Str. 23) · 20:00
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Petra Hauser: Die Tage vor uns<@$p> · AutorInnenlesung · Kaffeehaus Schmidt (Kaiserallee 69) · 10:30
+@Über.TAG:Montag
+@Über.DATUM:14.
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Interaktive Sonifikation: Neue Perspektiven für blinde Menschen<@$p> · Vortrag von <@TerminBrotFETT>Dr. Thomas Hermann<@$p> - Fakultät für Informatik (Geb. 50.34) Raum 301 · KIT Universität (Campus Süd) · 16:00
+@Über.TAG:Dienstag
+@Über.DATUM:15.
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Region
+@Term.Brot:<@TerminBrotFETT>Wladimir Kaminer<@$p> · <\#227>Onkel Wanja kommt<\#210> - Autorenlesung · Theaterhaus Stuttgart (Siemensstr. 11) · 20:00
+@Über.TAG:Donnerstag
+@Über.DATUM:17.
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Städtische Kultur der Nachhaltigkeit<@$p> · Vortrag von <@TerminBrotFETT>OB Boris Palmer<@$p> - NTI-Hörsaal (Geb. 30.10) · KIT Campus Süd (Universität) · 18:00
+@Term.ORT:Gaggenau
+@Term.Brot:<@TerminBrotFETT>Nico Semsrott: Freude ist nur ein Mangel an Information<@$p> · (Poetry Slam) · Klag Bühne (Luisenstr. 17) · 20:00
+@Über.TAG:Freitag
+@Über.DATUM:18.
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Stahlzeit<@$p> · Rammstein-Tribute · Festhalle Durlach (Kanzlerstr. 13) · 20:00
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>HNK Trio<@$p> · (Mainstream) · Birdland 59 (Jazzclub) (Pforzheimer Str. 25) · 20:30
+@Über.TAG:Sonntag
+@Über.DATUM:20.
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Boeing - Boeing<@$p> · Komödie von Marc Camoletti · Jakobustheater (Kaiserallee 11) · 20:00
+@Über.TAG:Montag
+@Über.DATUM:21.
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Sweet Soul Music Revue<@$p> · <\#227>Down Funky Street<\#210> · Konzerthaus Karlsruhe (Festplatz ) · 20:00
+@Über.TAG:Dienstag
+@Über.DATUM:22.
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Klassische Philharmonie Bonn/ Heribert Beissel<@$p> · (Leitung) - Werke von Bach, Mozart, Beethoven · Stadthalle (Festplatz ) · 20:00
+@Term.ORT:Region
+@Term.Brot:<@TerminBrotFETT>Clannad<@$p> · Theaterhaus Stuttgart (Siemensstr. 11) · 20:00
+<@TerminBrotFETT>One Night of Queen<@$p> · by <@TerminBrotFETT>Gary Mullen & The Works<@$p> · Liederhalle Stuttgart (Berliner Platz 01. Mrz) · 20:00
+@Über.TAG:Donnerstag
+@Über.DATUM:24.
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Boeing - Boeing<@$p> · Komödie von Marc Camoletti · Jakobustheater (Kaiserallee 11) · 20:00
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Zwischen Infomation und Greenwashing<@$p> · (Strategien der Nachhaltigkeitskommunikation) - Podiumsdiskussion mit <@TerminBrotFETT>Martina Hoffhaus/ Ivica Fulir/ Björn Ahaus<@$p> - NTI-Hörsaal (Geb. 30.10) · KIT Campus Süd (Universität) · 18:00
+@Term.ORT:Region
+@Term.Brot:<@TerminBrotFETT>Norwegen - Nördlich vom Polarkreis<@$p> · Dia-Vortrag von <@TerminBrotFETT>Bruno Goldhorn<@$p> - Bürgersaal · Rathaus Keltern (Weinbergstr. 9) · 19:30
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Das Dörfle - Altstadt Karlsruhe<@$p> · Führung · Stadtmuseum Karlsruhe (Karlstr. 10) · 18:00
+@Über.TAG:Freitag
+@Über.DATUM:25.
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>SWR Sinfonieorchester Baden-Baden Freiburg/ Francis-Xavier Roth<@$p> · (Leitung) - Werke von Beethoven, Ligeti · Konzerthaus Karlsruhe (Festplatz ) · 19:30
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Session No. 100<@$p> · Eintritt frei · Birdland 59 (Jazzclub) (Pforzheimer Str. 25) · 20:30
+@Über.TAG:Sonntag
+@Über.DATUM:27.
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Carsten Wiebusch<@$p> · (Orgel) - Werke von Wagner, Karg-Elert, Vierne, Sweelinck · Christuskirche Karlsruhe (Riefstahlstraße 2) · 18:00
+@Über.TAG:Donnerstag
+@Über.DATUM:31.
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Boeing - Boeing<@$p> · Komödie von Marc Camoletti · Jakobustheater (Kaiserallee 11) · 20:00
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Rohstoffe und Menschenrechtsverletzungen<@$p> · (Multinationale Unternehmen als politische Akteure) - Vortrag von <@TerminBrotFETT>Prof.Dr. Guido Palazzo<@$p> - NTI-Hörsaal (Geb. 30.10) · KIT Campus Süd (Universität) · 18:00

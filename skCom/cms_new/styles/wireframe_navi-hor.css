@@ -1,0 +1,248 @@
+
+ul.pureCssMenu ul{display:none}
+ul.pureCssMenu li:hover>ul{display:block}
+ul.pureCssMenu ul{
+    position: absolute;
+    left:-1px;
+    top:98%;
+}
+ul.pureCssMenu ul ul{
+    position: absolute;
+    left:98%;
+    top:0px;
+}
+ul.pureCssMenu,ul.pureCssMenu ul {
+    margin:0px;
+    list-style:none;
+    padding:0px 0px 0px 0px;
+    background-color: #ddd;
+    border-color:#999;
+    border-width:1px;
+    border-style:solid;
+    width:auto;
+}
+ul.pureCssMenu table {
+    border-collapse:collapse
+}
+ul.pureCssMenu {
+    background-color:#eee;
+    border:1px solid #555;    
+    
+}
+ul.pureCssMenu ul{
+    
+}
+ul.pureCssMenu li{
+    display:block;
+    margin:0px 0px 0px 0px;
+    font-size:0px;
+}
+ul.pureCssMenu a:active, ul.pureCssMenu a:focus {
+    outline-style:none;
+
+}
+
+ul.pureCssMenu a, ul.pureCssMenu li.dis a:hover, ul.pureCssMenu li.sep a:hover {
+    background-color:inherit;
+    border:0;
+    border-bottom: 1px solid #f00;
+    text-align:left;
+    text-decoration:none;
+    line-height: 25px;
+    font: normal 12px Arial;
+    color: #555;
+    text-decoration:none;
+    cursor:pointer;
+    width:auto;
+    min-width: auto;
+    padding:0 20px 0 10px;
+   
+}
+ul.pureCssMenu span{
+    overflow:hidden;
+}
+ul.pureCssMenu li {
+    float:left;
+}
+ul.pureCssMenu ul li {
+	float:none;
+}
+ul.pureCssMenu ul a {
+	text-align:left;
+	white-space:nowrap;
+}
+ul.pureCssMenu li.sep{
+	text-align:left;
+	padding:0px;
+	line-height:0px;
+	height:100%;
+}
+ul.pureCssMenu li.sep span{
+	float:none;
+        padding-right:0;
+	width:3px;
+	height:100%;
+	display:inline-block;
+        background-color: #0f0;
+        background-image:none;
+}
+
+ul.pureCssMenu ul li.sep span{
+	width:100%;
+	height:3px;
+}
+ul.pureCssMenu li:hover{ /* Hintergrund 2.Ebene */
+	position:relative;
+}
+ul.pureCssMenu li:hover>a{ /* 2. Ebene aktiv im Submenu*/
+	background-color:#ddd; 
+	border-color:#666;
+	border-style:solid;
+	font:normal 12px Arial;
+	color: #333;
+	text-decoration:none;
+        filter:alpha(opacity=100);
+        opacity:1.00;
+        height:25px;
+        line-height: 25px;
+}
+
+ul.pureCssMenu li a:hover{ /* 2. EBene Activ Rollover */
+    position:relative;
+
+    background-color:#aaa;
+    border-color: #3f3;
+    border-style:solid;
+    font:normal 12px Arial;
+    color: #333;
+    text-decoration:none;
+    filter:alpha(opacity=100);
+    opacity:1.00;
+   
+}
+
+ul.pureCssMenu li.dis a {
+	color: #AAAAAA !important;
+}
+ul.pureCssMenu img {
+    border: none;
+    float:left;_float:none;
+    margin-right:5px;
+    width:16px;
+    height:16px;
+}
+ul.pureCssMenu ul img {
+    width:16px;
+    height:16px;
+
+}
+ul.pureCssMenu img.over{
+    display:none;
+}
+ul.pureCssMenu li.dis a:hover img.over{
+    display:none !important;
+}
+ul.pureCssMenu li.dis a:hover img.def {
+    display:inline !important;
+}
+ul.pureCssMenu li:hover > a img.def  {
+    display:none;
+}
+ul.pureCssMenu li:hover > a img.over {
+    display:inline;
+}
+ul.pureCssMenu a:hover img.over,ul.pureCssMenu a:hover ul img.def,ul.pureCssMenu a:hover a:hover ul img.def,ul.pureCssMenu a:hover a:hover a:hover ul img.def,ul.pureCssMenu a:hover a:hover img.over,ul.pureCssMenu a:hover a:hover a:hover img.over,ul.pureCssMenu a:hover a:hover a:hover a:hover img.over{
+    display:inline;
+}
+ul.pureCssMenu a:hover img.def,ul.pureCssMenu a:hover ul img.over,ul.pureCssMenu a:hover a:hover ul img.over,ul.pureCssMenu a:hover a:hover a:hover ul img.over,ul.pureCssMenu a:hover a:hover img.def,ul.pureCssMenu a:hover a:hover a:hover img.def,ul.pureCssMenu a:hover a:hover a:hover a:hover img.def{
+    display:none;
+}
+ul.pureCssMenu a:hover ul,ul.pureCssMenu a:hover a:hover ul,ul.pureCssMenu a:hover a:hover a:hover ul{
+    display:block;
+}
+ul.pureCssMenu a:hover ul ul,ul.pureCssMenu a:hover a:hover ul ul{
+    display:none;
+}
+ul.pureCssMenu span{ /* pfeil */
+    display:block;
+   /* background-image:url(./images/arrv_blue_2.gif);*/
+    background-position:right center;
+    background-repeat: no-repeat;
+   padding:0px;
+  
+}
+ul.pureCssMenu li:hover>a>span{
+    /*background-image:url(./images/arrv_white_2.gif);*/
+}
+ul.pureCssMenu a:hover span{
+   /*background-image:url(./images/arrv_white_2.gif);*/
+}
+ul.pureCssMenu ul span,ul.pureCssMenu a:hover table span{
+    /*background-image:url(./images/arr_blue_2.gif);*/
+}
+ul.pureCssMenu ul li:hover > a span{
+    /*background-image:url(./images/arr_white_2.gif);*/
+}
+ul.pureCssMenu table a:hover span,ul.pureCssMenu table a:hover a:hover span,ul.pureCssMenu table a:hover a:hover a:hover span{
+    /*background-image:url(./images/arr_white_2.gif);*/
+}
+ul.pureCssMenu table a:hover table span,ul.pureCssMenu table a:hover a:hover table span{
+    /*background-image:url(./images/arr_blue_2.gif);*/
+}
+
+/* Obere Ebene */
+ul.pureCssMenu li a.pureCssMenui0{
+ /*font:n;*/
+    /*background-color: #555555;*/
+    border: 0px;
+    border-right:1px solid #999;
+    opacity:1.00;
+    min-width: 0;
+    opacity: 1;
+    padding: 0;
+    background-color: inherit;
+    height:25px;
+    line-height: 25px;
+    padding: 0 20px 0 5px;
+}
+ul.pureCssMenu li a.pureCssMenui0:hover{
+    /*background-color: #555555;*/
+/*font:o;*/
+}
+
+ul.pureCssMenu li a.pureCssMenuiA{
+    background-color: #aaa;
+    color:#333;   
+    opacity:1.00;
+    border:0;
+    border-right:1px solid #999;    
+    min-width: 0;
+    height:25px;
+    line-height: 25px;
+    
+}
+ul.pureCssMenu li a.pureCssMenuA:hover{
+    background-color: #770077;
+    color:#ffffff;
+    
+/*font:o;*/
+}
+
+
+ul.pureCssMenu li.pureCssEmptySmall{
+    color: #999999;
+    background-color:inherit; 
+    border:0;
+    border-right:1px solid #999;
+}
+
+ul.pureCssMenu li.pureCssEmptyBig{
+    /* color: #999999; */
+    height: 25px;
+    float:left;
+    background-color:#555555;
+    border: 0px;
+    
+   
+    border-style:solid;
+}

@@ -1,0 +1,155 @@
+<v2.05><e2>
+@Über.TAG:Mittwoch
+@Über.DATUM:1.<\c>
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Boeing, Boeing<@$p> · Komödie von Marc Camoletti · Jakobustheater (Kaiserallee 11 ) · 20:15
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Der Sturm<@$p> · Schauspiel von William Shakespeare - (Schlossfestspiele) - Hof · Schloss Ettlingen · 20:30
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Orgelkonzerte/ -führungen<@$p> · (Int. Orgeltag; bis 22:00) - Stadtkirche Durlach - Markuskirche - Christuskirche - St. Stephan · Lutherkirche (Durlacher Alle-23 ) · 14:00
+<@TerminBrotFETT>Jürgen Zöller - Oli Roth - Willi Wagner<@$p> · (drums/ vocal, guitar/ bass) · Kranz Durlach · 20:00
+<@TerminBrotFETT>Juan de Marcos Afro Cuban All Stars<@$p> · Zeltival · Tollhaus Kulturzentrum (Schlachthaus-1 ) · 20:30
+<@TerminBrotFETT>The Adolescents/ Scheisse Minelli<@$p> · (HC) · Alte Hackerei (Durlacher Allee 62, Gebäude 10 b (ehemals Schlachthofgelände) ) · 21:00
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Durlacher Lesesommer<@$p> · (Vorlesen/ Zuhören) - Schlossgarten Durlach · 19:30
+@Term.RUBRIK:Party/Disco
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>90er Hits<@$p> · Café Bleu (Kaiserallee 11 ) · 20:00
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>TOP12 (Meisterschüler der Kunstakademie)<@$p> · Führung - (Mittwochs um 11) · Städt. Galerie beim ZKM (Lorenz-27 ) · 11:00
+<@TerminBrotFETT>Baden Express: Geschichte(n) mal anders<@$p> · Führung · Badisches Landesmuseum (Schloss ) · 15:00
+<@TerminBrotFETT>Einkaufen gestern und heute<@$p> · Führung - (stattreisen) - ab Modehaus Schöpf (Marktplatz) · 18:00
+<@TerminBrotFETT>Treffpunkt Spiele<@$p> · Galerie (KarlsruherAllee 1 ) · 18:00
+<@TerminBrotFETT>Einsteigerabend<@$p> · (für Interessierte) · Greenpeace Büro Gewerbehof (Steinstr. 23) · 19:30
+<@TerminBrotFETT>75 ball Bingo<@$p> · (gratis) · Café Emaille (Kaiserstr.142-144 ) · 20:30
+<@TerminBrotFETT>Bingo<@$p> · Kippe (Gottesauer Str.23 ) · 21:00
+<@TerminBrotFETT>Sherlock Holmes: Spiel im Schatten<@$p> · Open Air-Kino - Schloss Gottesaue · 21:00
+@Term.RUBRIK:Kinder
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Der kleine König<@$p> · (ab 3) · Figurentheater marotte (Kaiserallee 11) · 10:00
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Ritter Rost<@$p> · (ab 4) - Kinderstück von Jörg Hilbert/ Felix Janosa - (Schlossfestspiele) - Hof · Schloss Ettlingen · 15:00
+@Über.TAG:Donnerstag
+@Über.DATUM:2.<\c>
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Circus Montana<@$p> · Festplatz Knielingen · 17:00
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Love Letters<@$p> · Stück von A.R. Gurney - Sommertheater - Baldreitgarten · 19:30
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Der Sturm<@$p> · Schauspiel von William Shakespeare - (Schlossfestspiele) - Hof · Schloss Ettlingen · 20:30
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Alamaailman Vasarat<@$p> · <\#211>Valta<\#211> - Zeltival · Tollhaus Kulturzentrum (Schlachthaus-1 ) · 20:30
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Laeh Jones<@$p> · (Rhythm & Blues) · KurhausCasino · 20:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>The Real McKenzies<@$p> · Bottich (Marktplatz 1 ) · 20:00
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Durlacher Lesesommer<@$p> · (Vorlesen/ Zuhören) - Schlossgarten Durlach · 19:30
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Mensch Karle<\#171>!<@$p> · Stationentheater von Harald Schwiers - (Rückblick auf 900 Jahre Baden) - mit dem <@TerminBrotFETT>Sandkorn<@$p> - Führung rund ums Schloss (gratis) - ab Bhf. Schlossgartenbähnle · 19:00
+<@TerminBrotFETT>The Brain Train<@$p> · (Pub Trivia Quiz) · Scruffy<\#171>s Irish Pub (Karl-4 ) · 20:00
+<@TerminBrotFETT>Eine dunkle Begierde<@$p> · Open Air-Kino - Schloss Gottesaue · 21:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Rocky Horror Picture Show<@$p> · Open Air Kino - Innenhof · Osterfeld Kulturhaus (Osterfeld-12 ) · 21:30
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Ettlinger Sagen Jenseits der Alb<@$p> · mit dem <@TerminBrotFETT>Figurentheater marotte<@$p> - ab Nepomukbrücke · 21:00
+@Term.RUBRIK:Kinder
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Der kleine König<@$p> · (ab 3) · Figurentheater marotte (Kaiserallee 11) · 15:00
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Vorlesesommer<@$p> · (für Schulkinder/ -anfänger) · Stadtbibliothek (Obere Zwingergasse 12 ) · 10:00
+@Über.TAG:Freitag
+@Über.DATUM:3.<\c>
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Circus Montana<@$p> · Festplatz Knielingen · 17:00
+<@TerminBrotFETT>Boeing, Boeing<@$p> · Komödie von Marc Camoletti · Jakobustheater (Kaiserallee 11 ) · 20:15
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Ja, das waren Zeiten<@$p> · <@TerminBrotFETT>wirklich tolle Zeiten<@$p> - 20er & 30er Jahre-Streifzug - von und mit <@TerminBrotFETT>Cornelia Bitsch/ Berth Wesselmann/ Matthias Schulz<@$p> - Sommertheater - Baldreitgarten · 19:30
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Aida<@$p> · Musical von Time Rice/ Elton John - (Schlossfestspiele) - Hof · Schloss Ettlingen · 20:30
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Henning Sieverts Trio<@$p> · <\#211>What<\#171>s New<\#171><\#211> - (Sparda Jazz Around) · Hemingway Lounge (Uhland-26 ) · 20:00
+<@TerminBrotFETT>Oos Brothers<@$p> · (Rock, Blues, Soul) - Biergarten · Lago (Gablonzer Str, 13) · 20:00
+<@TerminBrotFETT>Trio Pur Sang<@$p> · (a capella) - <\#211>Close to You<\#211> - Musentempel · Tempel Kulturzentrum (Hardtstraße 37a) · 20:00
+<@TerminBrotFETT>Sharon Corr<@$p> · Zeltival · Tollhaus Kulturzentrum (Schlachthaus-1 ) · 20:30
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Annette Mayer<@$p> · (Chansons) - <\#211>Ohlala l<\#171>amour<\#171>! - (Schlossfestspiele) · Erbprinz (Rheinstr. 1) · 19:00
+@Term.ORT:Umland Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Rock am Wald<@$p> · Open Air - mit <@TerminBrotFETT>The Dead Flowers<@$p> (19:00)/ <@TerminBrotFETT>Purple Smoke<@$p> (20:15)/ <@TerminBrotFETT>Moby Dick<@$p> (22:15) - Sportgelände Alemannia Eggenstein · 19:00
+@Term.RUBRIK:Party/Disco
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Balkan Beats<@$p> · Café Bleu (Kaiserallee 11 ) · 20:00
+<@TerminBrotFETT>Gmiedlich oine schnalze<@$p> · Punk, Hardcore, Rock - mit <@TerminBrotFETT>Strasser & Krämer<@$p> · Alte Hackerei (Durlacher Allee 62, Gebäude 10 b (ehemals Schlachthofgelände) ) · 22:00
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Klang als Medium der Kunst<@$p> · (Sound Art) - Führung - (Überschreitungen) · ZKM (Lorenz-19 ) · 16:00
+<@TerminBrotFETT>Rot ist mein Name<@$p> · (Die Türkenbeute) - Führung - (gratis; Happy Friday) · Badisches Landesmuseum (Schloss ) · 16:00
+<@TerminBrotFETT>Mensch Karle<\#171>!<@$p> · Stationentheater von Harald Schwiers - (Rückblick auf 900 Jahre Baden) - mit dem <@TerminBrotFETT>Sandkorn<@$p> - Führung rund ums Schloss (gratis) - ab Bhf. Schlossgartenbähnle · 19:00
+<@TerminBrotFETT>American Pie: Ein Klassentreffen<@$p> · Open Air-Kino - Schloss Gottesaue · 21:00
+@Term.ORT:Pforzheim
+@Term.Brot:<@TerminBrotFETT>Panzerkreuzer Potemkin<@$p> · Open Air Kino - Innenhof · Osterfeld Kulturhaus (Osterfeld-12 ) · 21:30
+@Term.RUBRIK:Kinder
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Wasser - ein besonderer Stoff<@$p> · Vortrag von <@TerminBrotFETT>Prof. Ulrich Schindewolf<@$p> (bis 11:45) - Kinder-Uni - Hörsaal Neue Chemie · KIT Campus Süd (Kaiser-12 ) · 11:00
+@Term.ORT:Gaggenau
+@Term.Brot:<@TerminBrotFETT>Jahrmarkt mit Spielbuden<@$p> · (für Kinder) - gratis - Innenstadt · 15:00
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Ritter Rost<@$p> · (ab 4) - Kinderstück von Jörg Hilbert/ Felix Janosa - (Schlossfestspiele) - Hof · Schloss Ettlingen · 15:00
+@Über.TAG:Samstag
+@Über.DATUM:4.<\c>
+@Term.RUBRIK:Theater/Kabarett/Show
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Circus Montana<@$p> · (auch 18:00) - Festplatz Knielingen · 15:00
+<@TerminBrotFETT>Boeing, Boeing<@$p> · Komödie von Marc Camoletti · Jakobustheater (Kaiserallee 11 ) · 20:15
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Ja, das waren Zeiten<@$p> · <@TerminBrotFETT>wirklich tolle Zeiten<@$p> - 20er & 30er Jahre-Streifzug - von und mit <@TerminBrotFETT>Cornelia Bitsch/ Berth Wesselmann/ Matthias Schulz<@$p> - Sommertheater - Baldreitgarten · 19:30
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Aida<@$p> · Musical von Time Rice/ Elton John - (Schlossfestspiele) - Hof · Schloss Ettlingen · 20:30
+@Term.ORT:Umland Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Hildegard von Bingen<@$p> · Singspiel über die heilkundige Sybille vom Rhein von Dieter Baldo/ Musik von Hildegard von Bingen/ Tom H. Weber - (Bickesheimer Klosterfestspiele) - Pfarrhof Wallfahrtskirche Maria Bickesheim bei Durmersheim · 20:00
+<@TerminBrotFETT>Lumpazivagabundus<@$p> · Schauspiel von Johann Nepomuk Nestroy - <@TerminBrotFETT>Premiere<@$p> · Volksschauspiele Ötigheim (Kirchstr. 5) · 20:00
+@Term.RUBRIK:Musik
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Christoph Georgij<@$p> · (Orgel) - Jazz-Improvisationen · Markuskirche (Weinbrenner-69 ) · 12:05
+<@TerminBrotFETT>Durlacher SommerSerenade<@$p> · Basler-Tor-Platz · 18:00
+<@TerminBrotFETT>Freshly Ground<@$p> · (Pop) - Zeltival · Tollhaus Kulturzentrum (Schlachthaus-1 ) · 20:30
+<@TerminBrotFETT>Experimental Hiphop<@$p> · mit <@TerminBrotFETT>Babel Fish/ Oskar Ohlson<@$p> feat. <@TerminBrotFETT>WinterIsMyName/ James Reindeer<@$p> · Halle 14 (Nördl. Ufer-14 ) · 21:00
+<@TerminBrotFETT>Backwoods Bunch<@$p> · Open Air-Konzert - KAMUNA · Bad. Kunstverein (Wald-3 ) · 22:00
+<@TerminBrotFETT>Tam Lin<@$p> · Musikalische Reise durch die Jahrhunderte - KAMUNA · Ständehaussaal (Ständehaus-2 ) · 22:00
+<@TerminBrotFETT>Gentle Horns<@$p> · (4x sax) - KAMUNA · Städt. Galerie beim ZKM (Lorenz-27 ) · 22:30
+<@TerminBrotFETT>Malika Reyad/ Sebastian Matz<@$p> · <\#211>Und Dich reisset neu Verlangen<\#211> - Musikalische Verführungen - KAMUNA · Pfinzgaumuseum (Pfinztalstr.9 ) · 23:00
+<@TerminBrotFETT>Reactable Slam Session No.2/2<@$p> · mit <@TerminBrotFETT>Gastkünstlern des IMA<@$p> - KAMUNA · ZKM (Lorenz-19 ) · 23:30
+@Term.ORT:Baden-Baden
+@Term.Brot:<@TerminBrotFETT>Philharmonie Baden-Baden<@$p> · Open Air - Klingende Gärten - (gratis) - Lichtentaler Allee · 21:00
+@Term.ORT:Ettlingen
+@Term.Brot:<@TerminBrotFETT>Annette Mayer<@$p> · (Chansons) - <\#211>Ohlala l<\#171>amour<\#171>! - (Schlossfestspiele) · Erbprinz (Rheinstr. 1) · 19:00
+@Term.ORT:Umland Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Rock am Wald<@$p> · Open Air - mit <@TerminBrotFETT>The Screw<@$p> (16:00)/ <@TerminBrotFETT>Speed Company<@$p> (17:00)/ <@TerminBrotFETT>The Bombshells<@$p> (18:00)/ <@TerminBrotFETT>Blue Onions<@$p> (19:30)/ <@TerminBrotFETT>Blue Tattoo<@$p> (22:15) - Sportgelände Alemannia Eggenstein · 16:00
+<@TerminBrotFETT>Pickup The Harp<@$p> · Homegrown Electroacoustic Blues - Zum Neuen Strauss - Pfinztal-Söllingen · 19:00
+@Term.ORT:Bretten
+@Term.Brot:<@TerminBrotFETT>Sean Treacy Band<@$p> · (Rock, Pop) - Open Air · Löwenhof Bretten (Am Gottesackertor 1 ) · 20:00
+@Term.RUBRIK:Lesung/Vortrag
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Literarisch-musikalisches Badevergnügen<@$p> · mit <@TerminBrotFETT>Michael Speer/ Frank Stöckle<@$p> - KAMUNA · Literaturhaus im PMP (Karl-10 ) · 21:00
+@Term.RUBRIK:Party/Disco
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Blam Blam Fever<@$p> · (Reggae Hit the Town) · Alte Hackerei (Durlacher Allee 62, Gebäude 10 b (ehemals Schlachthofgelände) ) · 22:00
+<@TerminBrotFETT>Jubez Sommer Tanzbar<@$p> · SoulRockDiscoGrooves mit <@TerminBrotFETT>Ralf/ Faris<@$p> - Zirkuszelt-Areal Ostauepark · 22:00
+@Term.RUBRIK:Sonstiges
+@Term.ORT:Karlsruhe
+@Term.Brot:<@TerminBrotFETT>Beiertheim und Bulach<@$p> · Führung - (stattreisen) - ab · St. Michael (Gebhard-44a ) · 14:00
+<@TerminBrotFETT>14. KAMUNA<@$p> · (bis 1:00) - div. Museen · 18:00
+<@TerminBrotFETT>Baden und seine Bäder<@$p> · Magazin-Führung (alle 20 Min. bis 23:30) - Altbau · Generallandesarchiv (N.Hildapromenade-2 ) · 18:00
+<@TerminBrotFETT>Russischer Abend<@$p> · mit <@TerminBrotFETT>Gala Kwin<@$p> (bis 24:00) · GEDOK KünstlerInnenForum (Markgrafen-14 ) · 18:00
+<@TerminBrotFETT>Hist. Märklinanlage<@$p> · (auch 20:00; 22:00) - Präsentation · Verkehrsmuseum (Werderstr.63 ) · 18:30
+<@TerminBrotFETT>Langsamer Träumend<@$p> · Lyrisch-musikalischer Abend mit <@TerminBrotFETT>Karita Guzi & Salambam<@$p> · A&S B

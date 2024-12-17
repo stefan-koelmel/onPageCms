@@ -1,0 +1,16 @@
+ErrorDocument 404 404error.php
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^([^.]+)\.klappeauf\.de$ [NC]
+RewriteRule ^(.*)$ http://klappeauf.de/$1 [R=301,L]
+Options +FollowSymLinks
+RewriteCond %{THE_REQUEST} ^.*/index\.php
+RewriteRule ^(.*)index.php$ http://klappeauf.de/$1 [R=301,L] 
+
+
+
+
+
+
+
+

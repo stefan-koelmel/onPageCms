@@ -1,0 +1,89 @@
+.header {  background-color:#6c6c6c; margin:0; margin-left:0; border-width:0; border-color:#939393; border-style:solid; border-radius:px; padding:10px;}
+.header:hover {  background-color:inherhit; border-color:#878787;}
+.headerName {  text-shadow:50px 5px 50px #dcff3f; color:#dcff3f;font-size:30px;line-height:30px;font-weight:bold;font-style:normal;text-decoation:none;}
+.headerName:hover {  color:inherhit;font-weight:bold;font-style:normal;text-decoation:none;}
+.headerSlogan {  text-shadow:0 0 0 #c0eb37; color:#90b029;font-size:24px;line-height:24px;font-weight:normal;font-style:normal;text-decoation:none;}
+.headerSlogan:hover {  color:inherhit;font-weight:normal;font-style:normal;text-decoation:none;}
+.footer {  background-color:#787878; color:#e7e7e7; margin:0; border-width:0; border-top-width:4px; border-right-width:0; border-bottom-width:0; border-left-width:0; border-color:#dcff3f; border-style:solid; border-radius:px; padding:10px;}
+.footer:hover {  background-color:inherhit; color:inherhit;}
+.footerLink {  background-color:#787878; box-shadow:0 0 0 #545454; border-color:transparent; color:#dbdbdb;font-size:12px;line-height:12px;font-weight:normal;font-style:normal;text-decoation:none;}
+.footerLink:hover {  background-color:transparent; border-color:transparent; color:#c0eb37;font-weight:normal;font-style:normal;text-decoration:underline;}
+.footerActive {  background-color:#787878; box-shadow:0 0 0 #303030; border-color:transparent; color:#dbdbdb;font-size:12px;line-height:12px;font-weight:bold;font-style:normal;text-decoation:none;}
+.footerActive:hover {  background-color:transparent; border-color:transparent; color:#c0eb37;font-weight:bold;font-style:normal;text-decoration:underline;}
+.navi {  background-color:#9f9f9f; margin:0; border-width:0; border-style:none; border-radius:px; padding:0;}
+.frame1 {  margin:0; border-width:1px; border-style:none; border-radius:px; padding:10px;}
+.frame1:hover { }
+.frame1 .textHeadline_h1, .frame1 .frameTextHeadLine_h1{ color:#63;border-width:0;border-bottom-width:4px;border-style:solid;}
+.frame1 .textHeadline_h1:hover, .frame1 .frameTextHeadLine_h1:hover { }
+.frame1 .textHeadline_h1 h1, .frame1 .frameTextHeadLine_h1 h1{ color:inherit;font-weight:bold;font-style:normal;text-decoation:none;}
+.frame1 .textHeadline_h1 h1:hover, .frame1 .frameTextHeadLine_h1 h1:hover { }
+.frame1 .textHeadline_h2, .frame1 .frameTextHeadLine_h2{ color:#64;border-width:0;border-bottom-width:2px;border-style:solid;}
+.frame1 .textHeadline_h2:hover, .frame1 .frameTextHeadLine_h2:hover { }
+.frame1 .textHeadline_h2 h2, .frame1 .frameTextHeadLine_h2 h2{ color:inherit;font-weight:bold;font-style:normal;text-decoation:none;}
+.frame1 .textHeadline_h2 h2:hover, .frame1 .frameTextHeadLine_h2 h2:hover { }
+.frame1 .textHeadline_h3, .frame1 .frameTextHeadLine_h3{ color:#65;border-width:0;border-bottom-width:1px;border-style:solid;}
+.frame1 .textHeadline_h3:hover, .frame1 .frameTextHeadLine_h3:hover { }
+.frame1 .textHeadline_h3 h3, .frame1 .frameTextHeadLine_h3 h3{ color:inherit;font-weight:normal;font-style:italic;text-decoation:none;}
+.frame1 .textHeadline_h3 h3:hover, .frame1 .frameTextHeadLine_h3 h3:hover { }
+.frame1 .textHeadline_h4, .frame1 .frameTextHeadLine_h4{ color:#66;border-width:0;border-style:none;}
+.frame1 .textHeadline_h4:hover, .frame1 .frameTextHeadLine_h4:hover { }
+.frame1 .textHeadline_h4 h4, .frame1 .frameTextHeadLine_h4 h4{ color:inherit;font-weight:normal;font-style:italic;text-decoration:underline;}
+.frame1 .textHeadline_h4 h4:hover, .frame1 .frameTextHeadLine_h4 h4:hover { }
+.noFrame {  background-color:transparent; margin:0; border-width:0; border-top-width:0; border-right-width:0; border-bottom-width:0; border-left-width:0; border-color:#dbdbdb; border-style:solid; border-radius:px; padding:0; padding-top:5px; padding-bottom:5px;}
+.noFrame:hover {  color:#878787;}
+.noFrame .textHeadline_h1, .noFrame .frameTextHeadLine_h1{ color:#787878;border-width:0;border-bottom-width:3px;border-color:#787878;border-style:solid;}
+.noFrame .textHeadline_h1:hover, .noFrame .frameTextHeadLine_h1:hover { }
+.noFrame .textHeadline_h1 h1, .noFrame .frameTextHeadLine_h1 h1{ color:inherit;font-weight:bold;font-style:normal;text-decoation:none;}
+.noFrame .textHeadline_h1 h1:hover, .noFrame .frameTextHeadLine_h1 h1:hover { }
+.noFrame .textHeadline_h2, .noFrame .frameTextHeadLine_h2{ color:#787878;border-width:0;border-bottom-width:2px;border-color:#787878;border-style:solid;}
+.noFrame .textHeadline_h2:hover, .noFrame .frameTextHeadLine_h2:hover { }
+.noFrame .textHeadline_h2 h2, .noFrame .frameTextHeadLine_h2 h2{ color:inherit;font-weight:bold;font-style:normal;text-decoation:none;}
+.noFrame .textHeadline_h2 h2:hover, .noFrame .frameTextHeadLine_h2 h2:hover { }
+.noFrame .textHeadline_h3, .noFrame .frameTextHeadLine_h3{ color:#787878;border-width:0;border-bottom-width:1px;border-color:#787878;border-style:solid;}
+.noFrame .textHeadline_h3:hover, .noFrame .frameTextHeadLine_h3:hover { }
+.noFrame .textHeadline_h3 h3, .noFrame .frameTextHeadLine_h3 h3{ color:inherit;font-weight:normal;font-style:italic;text-decoation:none;}
+.noFrame .textHeadline_h3 h3:hover, .noFrame .frameTextHeadLine_h3 h3:hover { }
+.noFrame .textHeadline_h4, .noFrame .frameTextHeadLine_h4{ color:#787878;border-width:0;border-color:#787878;border-style:none;}
+.noFrame .textHeadline_h4:hover, .noFrame .frameTextHeadLine_h4:hover { }
+.noFrame .textHeadline_h4 h4, .noFrame .frameTextHeadLine_h4 h4{ color:inherit;font-weight:normal;font-style:italic;text-decoration:underline;}
+.noFrame .textHeadline_h4 h4:hover, .noFrame .frameTextHeadLine_h4 h4:hover { }
+.frame2 {  background-color:#dbdbdb; margin:0; border-width:1px; border-color:#878787; border-style:solid; border-radius:0px; padding:5px;}
+.frame2:hover { }
+.frame2 .textHeadline_h1, .frame2 .frameTextHeadLine_h1{ border-width:0;border-style:none;}
+.frame2 .textHeadline_h1:hover, .frame2 .frameTextHeadLine_h1:hover { }
+.frame2 .textHeadline_h1 h1, .frame2 .frameTextHeadLine_h1 h1{ font-weight:bold;font-style:italic;text-decoration:underline;}
+.frame2 .textHeadline_h1 h1:hover, .frame2 .frameTextHeadLine_h1 h1:hover { }
+.frame2 .textHeadline_h2, .frame2 .frameTextHeadLine_h2{ border-width:0;border-style:none;}
+.frame2 .textHeadline_h2:hover, .frame2 .frameTextHeadLine_h2:hover { }
+.frame2 .textHeadline_h2 h2, .frame2 .frameTextHeadLine_h2 h2{ font-weight:bold;font-style:italic;text-decoation:none;}
+.frame2 .textHeadline_h2 h2:hover, .frame2 .frameTextHeadLine_h2 h2:hover { }
+.frame2 .textHeadline_h3, .frame2 .frameTextHeadLine_h3{ border-width:0;border-style:none;}
+.frame2 .textHeadline_h3:hover, .frame2 .frameTextHeadLine_h3:hover { }
+.frame2 .textHeadline_h3 h3, .frame2 .frameTextHeadLine_h3 h3{ font-weight:bold;font-style:normal;text-decoation:none;}
+.frame2 .textHeadline_h3 h3:hover, .frame2 .frameTextHeadLine_h3 h3:hover { }
+.frame2 .textHeadline_h4, .frame2 .frameTextHeadLine_h4{ border-width:0;border-style:none;}
+.frame2 .textHeadline_h4:hover, .frame2 .frameTextHeadLine_h4:hover { }
+.frame2 .textHeadline_h4 h4, .frame2 .frameTextHeadLine_h4 h4{ font-weight:normal;font-style:normal;text-decoration:underline;}
+.frame2 .textHeadline_h4 h4:hover, .frame2 .frameTextHeadLine_h4 h4:hover { }
+.rollFrame {  background-color:#cfcfcf; margin:0; border-width:0; border-style:none; border-radius:0px; padding:10px;}
+.rollFrame:hover {  background-color:#ffffff; color:#787878; color:#f3f3f3;}
+.rollFrame .textHeadline_h1, .rollFrame .frameTextHeadLine_h1{ color:#787878;border-width:2px;border-color:#787878;border-style:solid;}
+.rollFrame .textHeadline_h1:hover, .rollFrame .frameTextHeadLine_h1:hover { }
+.rollFrame .textHeadline_h1 h1, .rollFrame .frameTextHeadLine_h1 h1{ color:inherit;font-weight:bold;font-style:normal;text-decoation:none;}
+.rollFrame .textHeadline_h1 h1:hover, .rollFrame .frameTextHeadLine_h1 h1:hover { }
+.rollFrame .textHeadline_h2, .rollFrame .frameTextHeadLine_h2{ color:#787878;border-width:1px;border-color:#787878;border-style:solid;}
+.rollFrame .textHeadline_h2:hover, .rollFrame .frameTextHeadLine_h2:hover { }
+.rollFrame .textHeadline_h2 h2, .rollFrame .frameTextHeadLine_h2 h2{ color:inherit;font-weight:bold;font-style:normal;text-decoation:none;}
+.rollFrame .textHeadline_h2 h2:hover, .rollFrame .frameTextHeadLine_h2 h2:hover { }
+.rollFrame .textHeadline_h3, .rollFrame .frameTextHeadLine_h3{ color:#787878;border-width:0;border-color:#787878;border-style:solid;}
+.rollFrame .textHeadline_h3:hover, .rollFrame .frameTextHeadLine_h3:hover { }
+.rollFrame .textHeadline_h3 h3, .rollFrame .frameTextHeadLine_h3 h3{ color:inherit;font-weight:bold;font-style:normal;text-decoation:none;}
+.rollFrame .textHeadline_h3 h3:hover, .rollFrame .frameTextHeadLine_h3 h3:hover { }
+.rollFrame .textHeadline_h4, .rollFrame .frameTextHeadLine_h4{ color:#787878;border-width:0;border-color:#787878;border-style:none;}
+.rollFrame .textHeadline_h4:hover, .rollFrame .frameTextHeadLine_h4:hover { }
+.rollFrame .textHeadline_h4 h4, .rollFrame .frameTextHeadLine_h4 h4{ color:inherit;font-weight:bold;font-style:normal;text-decoation:none;}
+.rollFrame .textHeadline_h4 h4:hover, .rollFrame .frameTextHeadLine_h4 h4:hover { }
+.spacerheader{ margin:0 0;border-top: 0;display:block;height:0;}
+.spacerpageStart{ margin:4px 0;border-top: 1px solid #c0eb37;display:block;height:0;}
+.spacercontentEnd{ margin:4px 0;border-top: 2px solid #dcff3f;display:block;height:0;}
+.spacerContentType{ margin:4px 0;border-top: 0;display:block;height:0;}

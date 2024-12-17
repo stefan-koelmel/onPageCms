@@ -1,0 +1,87 @@
+/* 
+    Document   : wireframe-own.css
+    Created on : 04.04.2013, 09:36:36
+    Author     : Stefan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.header {
+   
+    color:#aaa;
+    margin:0px;
+    padding:15px 0px;
+}
+
+.headerName {
+/*    color:#fff;*/
+    padding-left:10px;
+}
+.headerSlogan {
+/*    color:#ccc;*/
+    padding-left:100px;
+}
+
+.header a{
+    color:#ccc;
+    text-decoration: none;
+    font-size:12px;
+}
+.header a:hover{
+    color:#eee;
+}
+.headerRight {    
+}
+/*
+.spacerheader {
+    margin:0px 0;
+    display:block;
+    padding:0px;
+    border-top:10px solid #0f0;
+}
+
+.spacernavi {
+    margin:0px 0;
+    display:block;
+    padding:0px;
+    border-top: 0px solid #0f0;
+}
+
+.spacefooter {
+    margin:5px 0;
+    display:block;
+    padding:0px;
+    border-top: 0px solid #0f0;
+}
+
+.spacertitleLine {
+    margin:5px 0;
+    display:block;
+    padding:0px;
+    border-top: 0px solid #f00;
+}
+
+.spacercontent {
+    margin:3px 0;
+    display:block;
+    padding:0px;
+    border-top: 3px solid #f00;
+}
+
+.spacerContentType {
+    margin:3px 0;
+    display:block;
+    padding:0px;
+    border-top: 3px solid #f00;
+}
+
+.spacercontentEnd {
+    margin:5px 0;
+    display:block;
+    padding:0px;
+    border-top: 0px solid #f00;
+}*/

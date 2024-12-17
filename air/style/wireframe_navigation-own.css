@@ -1,0 +1,592 @@
+/*
+    hintergrund #f97;
+    1. Ebene aktiv #f75;
+    1. Ebene aktiv:hover : #f57; 
+    1. Ebene subAktiv: #f13;
+    1. Ebene subAktiv:hover :#f31;
+    1. Ebene inaktiv #f53;
+    1. Ebene inaktiv:hover #c31;
+*/
+.main_menu {
+    background-color:#f5f5f5;
+    border-color: #999;
+    border-style: solid;
+    border-width: 1px;
+    font-size:11px;
+    font-weight: normal;
+} 
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* 1. Ebene                                                                   */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+#mainmenu ul {
+    background-color: inherit;
+}
+/* allgemein Punkt */
+#mainmenu ul li {   
+    background-color: inherit;  
+    border-style: solid;
+    border-color: #999;
+    border-width: 0 1px 0 0;    
+}
+
+/* allgemein Punkt : hover */
+#mainmenu ul li:hover {   
+    background-color:#ddd;
+    
+}
+#mainmenu ul li a:link, #mainmenu ul li a:visited{
+    padding:4px 10px 6px 10px;
+    line-height: normal;  
+    color:#666;
+}
+#mainmenu ul li a:hover, #mainmenu ul li a:active{
+    color:#333;
+}
+/* 1. Punkt Punkt */
+#mainmenu ul li.firstItem {  
+}
+
+/* allgemein Punkt select */
+#mainmenu ul li .select {   
+    background-color: #aaa;   
+}
+/* allgemein Punkt select : hover */
+#mainmenu ul li .select:hover {  
+    background-color: #888;    
+}
+#mainmenu ul li a.select:link,#mainmenu ul li a.select:visited{
+    color:#eee;
+}
+#mainmenu ul li  a.select:hover, #mainmenu ul li a.select:active{
+    color:#fff;
+}
+
+/* allgemein Punkt subSelect */
+#mainmenu ul li .subSelect {   
+    background-color: #bbb;
+    
+}
+/* allgemein Punkt select : hover */
+#mainmenu ul li .subSelect:hover {  
+    background-color: #999;
+    color:#fff;
+}
+#mainmenu ul li a.subSelect:link, #mainmenu ul li a.subSelect:visited{
+    color:#eee;
+}
+#mainmenu ul li a.subSelect:hover, #mainmenu ul li a.subSelect:active{
+    color:#fff;
+}
+#mainmenu ul li.subSelect a:hover{
+    
+}
+
+/*#mainmenu > ul > li.hasSub:after {*/
+#mainmenu ul li.hasSub:after {   
+    border:0;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0px;
+    top:80%;
+    left:10px;
+    position: absolute;  
+    background-color: transparent;
+    
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-top-color: #999;
+}
+
+#mainmenu > ul > li.hasSub:hover:after {
+    border-color:transparent;
+    border-width: 5px 5px 0 5px;
+    border-top-color: #666;
+}
+
+#mainmenu ul li.select:after, #mainmenu ul li.subSelect:after {
+    border-top-color: #eee;
+}
+#mainmenu ul li.select:hover:after, #mainmenu ul li.subSelect:hover:after {
+    border-top-color: #fff;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* 2. Ebene                                                                   */
+/* ////////////////////////////////////////////////////////////////////////// */
+#mainmenu .hasSub ul {
+    background-color: #eee;
+    border:1px solid #999;
+    padding:0px;
+    border-radius: 0px;   
+    left:0px;
+    top:100%;      
+}
+
+#mainmenu .hasSub ul li {    
+    padding:0;
+    border-radius: 0;   
+    margin:0;
+}
+#mainmenu .hasSub ul li:hover,#mainmenu ul li ul li:hover {    
+    background-color: #d0d;
+}
+#mainmenu ul li ul li a:link, #mainmenu ul li ul li  a:visited{
+    padding:3px 10px 3px 10px;
+    line-height: normal;  
+    color:#f66;
+    margin:0;
+}
+#mainmenu ul li ul li a:hover, #mainmenu ul li ul li a:active{    
+    color:#6f6;
+}
+
+#mainmenu .hasSub ul li .select {    
+    background-color:#f00;
+}
+#mainmenu .hasSub ul li .select:hover {    
+    background-color:#f55;
+}
+#mainmenu .hasSub ul li .subSelect {    
+    background-color:#f0f;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* 3. Ebene                                                                   */
+/* ////////////////////////////////////////////////////////////////////////// */
+#mainmenu .hasSub .hasSub ul {
+    background-color: #ddd;
+    border:1px solid #999;
+    padding:10px;
+    border-radius: 0px;
+    box-shadow:10px 10px 30px #f00;
+}
+
+
+
+
+#mainmenu ul li ul li.hasSub:after {   
+/*    border:0;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0px;*/
+    top:10px;
+    left:100%;
+    margin-left:-10px;
+    border-color: transparent;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #333;
+    
+/*    border-right: 5px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 5px solid transparent;
+    border-top: 5px solid #fff;*/
+}
+
+
+/*  
+  font-size: 10px;  
+  position: relative;
+  display:inline-block;
+}
+
+.main_menu_horizontal {
+    height: auto;
+}
+
+.main_menu_vertical {
+    height : auto;
+    display:block;
+    width:auto;
+}
+
+#mainmenu ul,
+#mainmenu li,
+#mainmenu span,
+#mainmenu a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#mainmenu li {
+    padding:0;
+}
+*/
+/*#mainmenu ul li{
+    background-color: #f53;   
+} 
+
+#mainmenu ul li:hover {
+    background-color: #c31;   
+} 
+
+
+#mainmenu ul li.hasSub{
+    background-color: #053;   
+} 
+
+#mainmenu ul li.hasSub:hover {
+    background-color: #035;   
+} */
+/*
+#mainmenu ul li ul{
+    background-color: #66f;
+    
+}
+
+
+#mainmenu ul li ul li ul{
+    background-color: #99f;      
+}
+
+
+#mainmenu {
+  float:left;
+  z-index: 1000;
+}
+#mainmenu:after,
+#mainmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#mainmenu a {
+  color: #5F5E5E;
+  display: inline-block;
+ 
+  line-height: 35px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+#mainmenu a.mainlast { padding-right:5px; }
+
+#mainmenu a:hover { color:#000;}
+
+
+#mainmenu li.mainVert {
+    width:100%;
+}
+
+#mainmenu li.subLevel_1 {
+     padding-left : 10%; 
+    width:90%;
+    line-height:20px;
+    height:20px;
+    color:#f00;
+}
+
+#mainmenu li.subLevel_2 {
+    padding-left : 40px;
+}
+
+
+#mainmenu ul {
+  list-style: none;
+}
+#mainmenu > ul {
+  float: left;
+}
+#mainmenu > ul > li {
+  float: left;
+}
+#mainmenu > ul > li.hasSub:after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: 95%;
+  top: 50%;
+  border-left: 5px solid #666;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  margin-left: -10px;
+}
+
+#mainmenu > ul > li.hasSub:hover:after {
+  border-left-color:#fff;
+}
+
+#mainmenu .hasSub1 > ul > li.hasSub:hover:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: -3px;
+  top: 1px;
+  border-right: 8px solid #666;
+  border-bottom: 8px solid transparent; 
+  border-top: 8px solid transparent;
+  margin-left: -10px;
+}
+
+#mainmenu .hasSub {
+  z-index: 1000;
+}
+#mainmenu .hasSub:hover > ul {
+  display: block;
+}
+#mainmenu .hasSub ul {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  top: 100%;
+  left:0%;
+  border-radius: 6px;
+  padding: 2px;
+   background:url(../img/bg-submenu.jpg) #ddd;
+  background-color: #f0f;
+  border: 1px solid #ccc;
+}
+
+
+#mainmenu ul .posLeft {
+  top: 0%;
+  left:-300px;
+  width:300px;
+  float:right;
+}
+
+#mainmenu ul li ul .posLeft {
+  top: 0%;
+  left:-300px;
+  width:300px;
+  float:right;
+}
+
+
+
+
+#mainmenu ul .posRight {
+  top: 0%;
+  left: 100%;
+}
+
+#mainmenu ul .posBottom {
+  top: 100%;
+  left: 0px;
+ 
+}
+
+#mainmenu .hasSub ul li {
+  *margin-bottom: -1px; 
+    border-top: 1px dotted #999;
+}
+
+#mainmenu .hasSub ul li a {
+  font-size: 13px;
+  display: block;
+  line-height: 120%;
+  padding: 5px;
+  margin: 5px;
+}
+#mainmenu .hasSub ul li:hover a {
+  background: #666;
+  color:#fff;
+}
+#mainmenu ul li.firstItem{
+    border-width: 0 1px 0 0;
+}
+
+#mainmenu .hasSub .hasSub:hover > ul {
+   background:#666;
+   border:none;
+   display: block;
+}
+
+
+
+#mainmenu .hasSub .hasSub ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -8px;
+}
+
+#mainmenu .hasSub .hasSub .posLeft {
+  top: 0%;
+  left:-300px;
+  width:300px;
+  float:right;
+  background-color:#f77;
+}
+
+#mainmenu .hasSub .hasSub ul li  {
+  border-bottom: 1px dotted #ddd;
+}
+
+#mainmenu .hasSub .hasSub ul li a {
+  background: #666;
+  color:#ddd;
+  border-bottom: 0px dotted #ddd;
+}
+#mainmenu .hasSub .hasSub ul li a:hover {
+  background: #ddd;
+  color:#666;
+}
+
+
+
+#mainmenu .hasSub .hasSub ul li.firstItem {
+    border:none;
+}
+
+.bright { border-right: 1px solid #ddd;}
+*/
+/*#mainmenu .select {
+    color:#b00;
+    background-color: #f75;
+    display: block;
+}
+#mainmenu .select:hover {background-color: #f57}*/
+/*
+#mainmenu li.subSelect {
+    background-color:#55f;
+    color:#f44;
+}
+
+
+#mainmenu li.subSelect:hover {
+    background-color:#55c;
+    color:#f00;
+}
+
+#mainmenu li.subSelect a:link ,#mainmenu li.subSelect a:visited  {
+    color:#f77;
+}
+
+#mainmenu li.subSelect a:hover {
+    color:#f00;
+}
+
+
+#mainmenu ul li ul li.subSelect {
+    background-color:#88f;
+}
+
+#mainmenu ul li ul li ul li.subSelect {
+    background-color:#ccf;
+}
+
+
+#mainmenu a.select {
+    color:#b00;
+    background-color: #0f0; 
+}
+*/
+/*#mainmenu a.subSelect {
+    color:#0f0;
+    background-color: #f13;    
+}
+#mainmenu a.subSelect:hover {
+    color:#0f0;
+    background-color: #f31;    
+}*/
+/*
+
+#mainmenu .naviItemDiv {
+    cursor:pointer;
+
+}
+
+#mainmenu ul li.hasSub .naviItemDiv {
+    background-color:#ff7;
+}
+#mainmenu ul li .naviItemDiv {
+    background-color:#cc7;
+}
+
+#mainmenu ul li .naviItemDiv:hover {
+    background-color:#ff0;
+
+}
+
+#mainmenu ul li.hasSub .naviItemDiv:hover {
+    background-color:#ff0;
+
+}
+
+
+#mainmenu ul li ul li .naviItemDiv{
+    background-color:#f7f;
+
+}
+
+#mainmenu ul li ul li .naviItemDiv:hover{
+    background-color:#f0f;
+
+}
+
+
+#mainmenu a.hiddenLink:link {
+    display:none;
+    width:0px;
+    height:0px;
+    background-color:#f00;
+}
+
+
+.subPageNaviFrame{
+   
+   
+}
+
+.subPageNavi_Line {
+   
+    display:inline-block;
+}
+
+
+
+
+.subPageNavi {
+    background-color:inherit;
+    border:1px solid #ccc;
+    float:left;
+    cursor:pointer;   
+    overflow:hidden;
+}
+.subPageNavi:hover {
+    background-color:#eee;
+    border:1px solid #aaa;
+    
+}
+
+.subPageNavi_selected{
+    background-color:#cf7;
+   
+}
+
+.subPageNavi_selected:hover{
+    background-color:#ef9; 
+    border-color:#ae5;
+}
+
+.subPageNavi_Icon {
+    float:left;
+    margin-right:5px;
+}
+
+.subPageNavi_Text {
+    float:left;    
+}
+
+.subPageNavi_title {
+    font-size:14px;
+    font-weight: bold;
+    color:#333;
+    border-bottom: 1px solid #333;
+}
+.subPageNavi_info{
+    color:#666;
+}
+*/

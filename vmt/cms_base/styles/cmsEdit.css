@@ -1,0 +1,1471 @@
+/* 
+    Document   : cmsEdit
+    Created on : 30.03.2012, 15:27:52
+    Author     : Stefan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.sitemapList_root {
+    width:200px;
+    border:2px solid #999;
+}
+
+.sitemapList {
+    border:0; 
+    padding:2px 2px;
+    background-color:#f0f0f0;
+}
+
+.sitemapList:hover {
+    /*background-color:#eee;*/
+}
+.sitemapList_Level1 {padding-left:10px;background-color:#f2f2f2;}
+.sitemapList_Level2 {padding-left:30px;background-color:#f4f4f4;}
+.sitemapList_Level3 {padding-left:50px;background-color:#f6f6f6;}
+.sitemapList_Level4 {padding-left:80px;background-color:#f8f8f8;}
+.sitemapList_Level5 {padding-left:90px;background-color:#fafafa;}
+
+.sitemapItem {
+    border: 1px solid #f00;
+    height:20px;
+    cursor:move;
+    line-height:20px;
+    margin:5px;
+}
+
+.sitemapPlaceholder {
+    border:1px solid #ccc;
+    background-color:#eee;
+    margin:0 5px;
+}
+
+.siteMapDynamic {
+    background-color:#eee;
+    color:#333;
+    border-color:#888;
+}
+
+
+
+root { 
+    display: block;
+}
+
+.cmsLoading{
+    background-image: url(/cms_base/cmsImages/loading-big.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+
+.layoutEditFrame {    
+    width:100%
+}
+
+
+.spacerDrop:hover{
+    background-color:#333;
+}
+
+.spacerDrop_active{
+    background-color:#eee;
+    border:1px solid #ccc;
+}
+
+.spacerDrop_hover{
+    background-color:#ccc;    
+    border:1px solid #aaa;
+}
+
+.cmsEditModulFrame {
+   
+    float:left;
+    /*padding-top:90px;*/
+    padding-left:10px;   
+}
+.cmsModulFrame {
+    position:fixed;
+    width:230px;
+    float:left;
+    top:90px;
+}
+
+
+.cmsContentEditFrame {
+    border:1px solid #666;
+    background-color:#ddd;
+}
+
+.cmsContentNoData {
+    min-height: 30px;
+    background-color: #ccc;
+}
+
+.cmsContentEditPage {
+    padding:10px;
+}
+
+.cmsEditFrameBox {   
+    margin-right:10px;
+    background-color:#888;
+    float:left;
+    overflow:hidden;     
+    width:300px;
+    position: relative;    
+    border-right:1px solid #ccc;
+}
+
+.cmsEditFrameBox_hidden {
+    width:10px;
+}
+
+.cmsEditFrame_SiteBar {
+    width : 10px;
+    background-color: #888;
+    height: 100%;
+    float:left;
+    min-height:800px;
+    position: fixed;   
+    color : #eee;    
+}
+
+.cmsEditFrame_SiteBar:hover {
+    background-color: #777;
+    color : #fff;    
+}
+
+.cmsEditFrame_Content {
+    float:left;    
+    width:290px;
+    position: fixed;   
+    left:10px;
+    background-color:#ddd;
+    border-right:1px solid #ccc;
+    height:100%;
+}
+
+.cmsEditFrame_content_hidden {
+    float:left;    
+    width:0px;
+    display:none;
+    
+}
+
+.cmsEditFrame_myCms {
+    /*border:1px solid #bc4;*/
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    margin-bottom:5px;
+    margin-left:3px;       
+    color:#666;
+}
+
+.cmsEditFrame_myCms:hover {
+    color:#333;
+}
+
+.cmsEditFrame_button {
+    border:1px solid #999;
+    font-size: 14px;
+    margin-bottom:5px;
+    margin-left: 13px;
+    margin-right:3px;
+    padding:2px;
+    background-color:#eee;
+    color :#666;
+    cursor:pointer;
+}
+
+.cmsEditFrame_button:hover {
+    border-color:#666;
+    background-color:#ddd;
+    color :#333;
+}
+
+.cmsEditFrame_headLine {
+    font-size: 16px;
+    margin-bottom:5px;
+    margin-left: 13px;
+    margin-right:3px;
+    padding:2px;
+    color :#666;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.cmsEditFrame_headLine:hover {
+     color :#555;
+}
+
+.cmsEditFrame_headLine2 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-left: 23px;
+    margin-right:3px;
+    padding:2px;
+    color :#888;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.cmsEditFrame_headLine2:hover {
+    color :#777;
+}
+
+
+.cmsEditFrameBox_Close {
+    width:10px;
+}
+
+.cmsEditFrameTabButton {
+  background-color: #ff0;
+  width:200px;
+  height:50px;
+  border: 1px solid #000;
+
+  -webkit-transform: rotate(-90deg); 
+  -moz-transform: rotate(-90deg);
+}
+
+
+
+.cmsContentFrame_editButton {
+    cursor:pointer;
+    padding:1px;
+    display: inline-block;
+}
+
+.cmsContentFrame_editButton:hover {
+    background-color: #ccc;
+}
+
+
+
+input[readonly] {
+  color: #666;
+  
+  background-color: #eee;
+}
+
+input[disabled] {
+  color: #999;
+  background-color: #fff;
+  border-color:#ddd;
+}
+
+span {
+    vertical-align: top;
+}
+
+
+.cmsPageLine {
+    width:100%;
+    background-color: #999;
+    padding:5px 2px 5px 2px;
+    
+}
+
+
+.cmsEditLine {
+    height:20px;
+    -moz-opacity:0.5 ;
+    filter:alpha(opacity:50);
+    opacity: 0.5;
+    position: relative;
+    margin-bottom:0px;
+    top:+10px;
+    left:0px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    z-index:5998;
+}
+
+
+.cmsEditLine:hover {
+    -moz-opacity:1.0 ;
+    filter:alpha(opacity:100);
+    opacity: 1;
+}
+
+.cmsEditLineLine {
+    border: 0px solid #333;
+    border-bottom-width:2px;
+    margin: 0px; 
+    display : block;
+    padding:0px;
+    height:10px;
+    float:left;
+    
+}
+
+.cmsEditLineBox {
+    height:18px;
+    width:18px;
+    border-radius:10px;
+    border: 1px solid #333;
+    -moz-opacity:0.5 ;
+    filter:alpha(opacity:50);
+    opacity: 0.5;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    z-index:5998;
+    float:left;
+}
+
+.cmsEditLineBox:hover {
+     background-color: #fff;
+     -moz-opacity:1.0 ;
+    filter:alpha(opacity:100);
+    opacity: 1;
+}
+
+
+
+.cmsEditLine:hover {
+    -moz-opacity:1.0 ;
+    filter:alpha(opacity:100);
+    opacity: 1;
+    background-color: transparent;
+    cursor:pointer;
+}
+
+.cmsEditLineOpen {
+    -moz-opacity:1.0 ;
+    filter:alpha(opacity:100);
+    opacity: 1;
+}
+
+.cmsEditLineOpen:hover {
+    background-color:transparent;
+}
+
+
+.cmsEditLineSelected {
+    -moz-opacity:1.0 ;
+    filter:alpha(opacity:100);
+    opacity: 1;
+    position: relative;
+    top:+10px;
+    background-color: #ccc;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    z-index:5998;
+}
+
+
+
+.cmsEditLineSelected:hover {
+    background-color: #fff;
+}
+
+.cmsEditLineSelected:hover {
+    background-color: #fff;
+}
+
+.cmsEditLine a:link {
+    text-decoration: none;
+    color:#333;
+}
+.cmsEditLine a:hover {
+    text-decoration: none;
+    color:#333;
+}
+
+.cmsEditLineSelected a {
+    text-decoration: none;
+    color:#555;
+}
+.cmsEditLineSelected a:hover {
+    text-decoration: none;
+    color:#333;
+}
+
+
+
+.cmsEditBox {
+    width:18px;
+    height:18px;
+    border: 1px solid #999;
+    padding:0px;
+    
+    position: absolute;
+    z-index: 2 ;
+    left:0;
+    top:0;
+    opacity: 0.50;
+    display: block;
+    overflow: hidden;
+    line-height: 16px;
+    z-index:99;
+    
+}
+.cmsEditBox:hover {
+    opacity:100%;
+    background-color: #eee;
+    opacity: 1.00;
+    overflow:visible;
+    width:auto;    
+}
+
+.dragButton {
+    cursor:move;
+}
+.dragButton:hover {
+    background-color: #ccc;
+}
+
+.cmsContentFrame_editButton:hover {
+    background-color: #ccc;
+}
+
+
+.cmsContentFrame_editPageButton {
+    padding:1px;
+    display:inline-block;
+}
+
+.cmsContentFrame_editPageButton:hover {
+    background-color:#ccc;
+}
+
+.cmsContentFrame_deleteButton {
+    padding:1px;
+    display:inline-block;
+}
+
+.cmsContentFrame_deleteButton:hover {
+    background-color: #ccc;
+}
+
+.cmsContentFrame_deleteAction{
+    display:inline-block;
+    line-height:12px;   
+}
+
+.cmsContentFrame_deleteAction_hidden {
+    display:none;
+}
+
+
+
+.cmsEditFrame{
+    background-color :#ff0;
+}
+
+.cmsEditFrame_hidden {
+    display:none;
+
+}
+
+.cmsContentFrame_hidden{
+    display:none;
+    overflow:hidden;
+
+
+}
+
+    
+.cmsContentFrameBox {
+    position: relative;
+}
+
+.cmsContentHead {
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background-color:#333;
+    margin-bottom:0px;
+    border:1px solid transparent;
+    color:#ccc;
+    
+    padding:2px 2px 2px 2px;
+    position:relative;
+    left:-5px;
+}
+
+.cmsContentHeadFrame {
+    background-color:#333;
+   
+}
+.cmsContentHeadModification {
+    background-color: #dfd;
+}
+
+.cmsContentHeadOver {
+    background-color:#333;
+    margin:0px;
+    border:1px solid #777;
+    color:#ccc;
+}
+
+.cmsContentHeadFrameOver {
+    
+}
+
+
+
+
+.cmsContentFrame_Dummy {
+    height:22px;
+    border-top: 2px solid #999;
+    opacity :0.3;    
+    margin-bottom:5px;
+}
+
+.cmsContentFrame_Dummy:hover {
+    opacity :1.0;    
+}
+
+.cmsContentFrame_DummyFrame {
+    border-left:2px solid #999;
+    border-right:2px solid #999;  
+    background-color:inherit;
+    float:left;
+    height:20px;
+    line-height: 20px;
+    color:#999;
+    /*opacity: 0.5;*/
+}
+
+.cmsContentFrame_DummyFrame:hover {
+    background-color:#999;    
+    color:#fff;
+    border-color:fff;
+}
+
+
+.cmsContentFrameOver {
+    /* background-color: inherit; */
+   
+}
+
+.cmsContentAddFrame {
+    border: 1px solid #999;
+    background-color: #eee;
+    padding: 5px 0 5px 0;
+}
+
+.dynamicTitleFrame {
+    background-color:#eee;
+    color:#333;
+    border:1px solid #888;
+    padding:3px 5px;
+}
+
+a.cmsDynamicSelect:link,  a.cmsDynamicSelect:visited {
+    border:1px solid #ccc;
+    display:inline-block;
+    padding:1px 5px;
+    margin-right:3px;
+    background-color: #eee;
+    text-decoration: none;
+}
+
+a.cmsDynamicSelect:hover,  a.cmsDynamicSelect:active {
+   background-color:#ddd;
+}
+
+a.cmsDynamicSelect_active:link, a.cmsDynamicSelect_active:visited {
+    background-color:#555;
+    color:#ddd;
+}
+
+a.cmsDynamicSelect_active:hover, a.cmsDynamicSelect_active:active {
+    background-color:#333;
+    color:#fff;
+}
+
+a.cmsDynamicSelect_clear:link, a.cmsDynamicSelect_clear:visited {
+    background-color:#777;
+    color:#ddd;
+}
+
+a.cmsDynamicSelect_clear:hover, a.cmsDynamicSelect_clear:selected {
+    background-color:#999;
+    color:#fff;
+}
+
+
+.cmsModulContentFrame {
+    border:1px solid #666;
+    background-color : #eee;
+    min-height:300px;
+    width:100%;
+}
+
+.cmsModulImageFrame {
+    border:1px solid #666;
+    background-color : #eee;
+    min-height:300px;  
+    width:100%;
+}
+
+.cmsModulImageScroll {
+    margin:4px;
+    border: 1px solid #666;
+    background-color:#eee;
+    overflow-y: scroll;
+    max-height:300px;
+    min-height:300px;
+}
+
+.cmsModul_hidden {
+    display:none;
+}
+
+.cmsModulAdd{
+    padding:1px;
+    cursor:pointer;
+    display:inline-block;
+}
+.cmsModulAdd:hover{
+    background-color:#ccc;
+}
+
+
+.cmsImageAdd {
+    padding:1px;
+    cursor:pointer;
+    display:inline-block;
+}
+
+.cmsImageAdd:hover {
+    background-color:#ccc;
+}
+
+.cmsImageDropFrame{
+    width:100px;
+    height:100px;
+    border:1px solid #ddd;
+}
+
+
+
+.cmsImageDropFrame_active{
+    border-color:#aaa;  
+    /*background-color:#ccc;*/
+}
+
+.cmsImageDropFrame_hover{
+    border-color:#888;
+    background-color:#aaa;
+}
+
+.cmsImageListItem{
+    float:left;
+    border:1px solid #ccc;
+    padding:5px;
+    display:inline-block;
+    margin-left:5px;
+    margin-top:5px;
+}
+
+.cmsImageSortItem{
+    border-color:#aaa;
+    
+}
+
+.cmsImageSortItem:hover{
+    border-color:#999;
+    background-color: #ccc;
+    cursor: move;
+}
+
+.cmsModulContentCategory {
+    cursor:pointer;
+    font-size: 14px;
+    margin:3px 3px 3px 5px;
+    border-bottom:1px solid #666;
+    color:#666;
+}
+
+
+.cmsModulContentCategory:hover {
+    color:#333;
+    border-color:#333;
+    background-color:#fff;
+}
+
+
+.cmsModulContentCategorySecond {
+    font-size:12px;
+    margin-left:15px;
+}
+
+.cmsModulCategoryFrameSecond {
+     margin-left:15px;
+}
+
+.cmsModulCategoryFrame {
+    
+}
+
+.cmsModulCategoryFrameHidden {
+    display:none;
+    overflow:hidden;
+}
+
+
+.cmsModulContentHead {
+    background-color:#555;
+    height:20px;
+    color:#eee;
+    font-weight:bold;
+    padding-left:40px;
+    
+    font-size:14px;
+}
+
+.cmsModulContentButton {
+    border:1px solid #666;
+    margin:3px;
+    margin-left:10px;
+    padding:2px;
+    background-color:#ddd;
+}
+.cmsModulContentButtonSecond {
+    margin-left:10px;
+}
+
+.cmsModulContentButton {
+    background-color:#fff;
+    cursor:pointer;
+    overflow:hidden;
+    
+
+}
+
+.cmsContentEnd, .cmsContentStart{
+    border:1px solid #999;
+    background-color:#ccc;
+    padding:5px;
+}
+
+.cmsContentEnd_hidden, .cmsContentStart_hidden {
+    display: none;
+}
+.cmsContentEnd:hover, .cmsContentStart:hover{
+    border-color:#ddd;
+    background-color:#eee;
+}
+
+.cmsForm {
+    display:inline;   
+}
+
+.cmsInlineForm {
+    display:inline-block;
+}
+
+
+
+a.cmsLinkButton {
+    background-color : #666;
+    display: inline-block;
+    padding: 6px 10px 6px 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ddd;
+    font-size:10px;
+    margin: 0 10px 10px 0;
+    font-weight:normal;
+}
+
+a.cmsLinkButton:hover {
+    background-color : #333;
+    cursor:pointer;
+    color:#fff;
+}
+
+
+.cmsJavaButton {
+    background-color : #666;
+    display: inline-block;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ddd;
+    font-size:10px;
+    margin: 0 10px 0 0;
+    font-weight:normal;
+}
+
+.cmsJavaButton:hover {
+    background-color : #333;
+    cursor:pointer;
+    color:#fff;
+}
+
+
+.cmsInputButton {
+    background-color : #666;
+    display: inline-block;
+    padding: 4px 10px 4px 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ddd;
+    font-size:10px;
+    margin: 0 10px 0 0;
+    margin: 0 10px 0 0;
+    font-weight:normal;
+    cursor:pointer;
+}
+
+
+.cmsInputButton[disabled] {
+  color: #ddd;
+  background-color: #999;
+  border-color:#ddd;
+}
+
+
+.cmsInputButton[disabled]:hover {
+  color: #ddd;
+  background-color: #999;
+  border-color:#ddd;
+  cursor:default;
+}
+
+.cmsInputButton:hover {
+    background-color : #555;
+    color:#fff;
+    border-color: #333;
+}
+
+
+.cmsSmallButton {
+    display:inline-block;
+    padding: 0 5px 0 5px;
+    height:11px;
+    line-height: 10px;
+    font-size: 10px;
+    margin-top:1px;
+    margin-right: 3px;
+    text-decoration: none;
+    text-align: center;
+    
+    background-color: #666;
+    border:1px solid #999;
+    color: #ddd;
+}
+
+.cmsSmallButton:hover {
+    cursor:pointer;
+    
+    background-color : #555;
+    border-color: #333;
+    color:#fff;
+}
+
+
+a.cmsContentHeadButton, a.cmsContentHeadButton:visited, .cmsContentHeadButton {
+    display:inline-block;
+    padding: 0 5px 0 5px;
+    height:11px;
+    line-height: 11px;
+    font-size: 10px;
+    margin-top:1px;
+    margin-right: 3px;
+    text-decoration: none;
+    
+    background-color: #666;
+    border:1px solid #999;
+    color: #ddd;
+}
+
+a.cmsContentHeadButton:hover, a.cmsContentHeadButton:active, .cmsContentHeadButton:hover {
+    cursor:pointer;
+    text-decoration: none;
+    
+    background-color : #555;
+    border-color: #333;
+    color:#fff;
+}
+
+
+.cmsContentHeadInputButton {
+    display:inline-block;
+    padding: 0 5px 0 5px;
+    height:15px;
+    line-height: 15px;
+    font-size: 10px;
+    margin-top:1px;
+    margin-right: 3px;
+    text-decoration: none;
+   
+    background-color: #666;
+    border:1px solid #999;
+    color: #ddd;
+}
+
+.cmsContentHeadInputButton:hover {
+    text-decoration: none;
+    cursor:pointer;
+    
+    background-color : #555;
+    border-color: #333;
+    color:#fff;
+}
+
+
+.cmsInputButton .cmsEditFrame {
+    -moz-border-radius:5px 5px 0 0;
+    -webkit-border-radius:5px 5px 0 0;
+    border-radius:5px 5px 0 0;
+}
+
+
+
+
+a.cmsSecond, .cmsSecond {
+    background-color:#eee;
+    border-color:#666;
+    color:#333
+}
+
+a.cmsSecond:hover, .cmsSecond:hover {
+    background-color:#ddd;
+    border-color:#333;
+    color:#000;
+}
+
+
+
+
+
+.cmsEditTabLine {
+    background-color:#ddd;
+    margin-top: 5px;
+}
+
+.cmsEditTab {
+    background-color: transparent;
+    float:left;
+    display: inline-block;
+    margin: 0px;
+    border: 1px solid #666;
+    border-bottom-width: 0px;
+    padding:0 5px 0 5px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    -moz-border-radius:5px 5px 0 0;
+    -webkit-border-radius:5px 5px 0 0;
+    border-radius:5px 5px 0 0;
+    color:#666;
+}
+
+.cmsEditTab:hover {
+    background-color: #ccc;
+    cursor:pointer;
+    color:#333;
+}
+
+.cmsEditTabModification {
+    background-color: #dfd;
+}
+
+.cmsEditTabModification:hover {
+    background-color: #9f9;
+    cursor:pointer;
+}
+
+.cmsEditTab_selected {
+    background-color: #eee;
+    border-color: #999;
+    color:#555;
+}
+
+.cmsEditTab_selected:hover {
+    background-color: #eee;
+    color:#333;
+
+}
+
+.cmsEditTabModification_selected {
+    background-color: #6f6;
+}
+
+.cmsEditTabModification_selected:hover{
+    background-color: #2f2;
+}
+
+
+
+
+.cmsEditFrame {
+    background-color: #eee;
+    color:#555;
+    margin: 0 0 0px 0;
+    padding-top: 5px;
+    border:0px;
+    padding:5px 3px 3px 3px;
+}
+
+.cmsEditFrameButtons{
+    background-color: #eee;
+    padding:3px 3px 3px 3px;
+}
+
+.cmsEditFrameModification {
+    background-color:  #dfd;
+}
+
+.cmsEditFrameHidden {
+    height :0px;
+    overflow: hidden;
+    margin: 0px;
+    border: 0px;
+    padding:0px;
+}
+
+
+
+
+.cmsEditHorButton , .cmsEditVerButton, .cmsEditSelectButton {
+    border : 1px solid #ccc;
+    display: inline-block;
+    background-color: #eee;
+    float:left;
+    min-weight: 30px;
+    height:18px;
+    text-align:center;
+}
+
+.cmsToggleSelect {
+    border:1px solid #999;
+    background-color: transparent;
+    display: inline-block;
+}
+
+
+.cmsToggleItem {
+    float:left;
+    height :18px;
+    line-height: 18px;
+    border: 1px solid #666;
+    border-right-width: 0px;
+    background-color :#fff;
+    text-align:left;
+    padding-left:3px;
+    color : #666;
+}
+
+.cmsToggleItem:hover {
+    color : #333;
+    background-color :#eee;
+    cursor:pointer;
+}
+
+.cmsToggleSelected {
+    background-color: #666;
+    
+    color:#ddd;
+}
+
+.cmsToggleSelected:hover {
+    color:#fff;
+    cursor:pointer;
+    background-color: #555;    
+}
+
+
+.selectedHAlign, .selectedVAlign {
+    background-color: #aaa;
+}
+
+.selectButtonSelected {
+    background-color: #aaa;
+}
+
+.cmsFlipFrameSelect {
+    width:100%;
+    background-color:#eee;    
+}
+
+.cmsFlipFrameSelector {
+    background-color: #ccc;
+    display: inline-block;
+    padding: 2px 10px 2px 2px;
+    text-decoration: none;
+}
+
+
+.cmsFlipFrameSelectorSelected {
+    background-color: #00dd00;
+}
+.cmsFlipFrameSelectorSelected:hover {
+    background-color: #00ffaa;
+}
+
+
+.cmsFlipFrameSelector:hover {
+    background-color: #00ffcc;
+    cursor:pointer;    
+}
+
+.cmsImageSelector {
+    border: 1px solid #999;
+    background-color:#eee;
+}
+
+.cmsImageScroll {
+    border: 1px solid #666;
+    background-color:#ddd;
+}
+
+
+
+.cmsImageSelectFrame {
+    background-color:#ccc;
+    border:1px solid #999;
+    padding:3px;
+    margin-right:3px;
+    margin-bottom:3px;
+    overflow:hidden;
+}
+
+.cmsImageSelectFrame:hover {
+    background-color:#fff;    
+}
+
+
+.cmsFolderSelectFrame {
+    background-color: #999;
+    background-color:#ccc;
+    border:1px solid #999;
+    padding:3px;
+    margin-right:3px;
+    margin-bottom:3px;
+    overflow:hidden;
+    background-image: url(/cms_base/cmsImages/folder.png);
+}
+
+.inputRight {
+    
+}
+
+.cmsInputLine {
+    border-bottom: 1px solid #eee;
+    padding : 3px 0 3px 0;
+    margin: 1px 0 1px 0;
+}
+
+.cmsInputLine:hover {
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+.cmsInputLineTip{
+    background-color : #ccc;
+    border:1px solid #777;
+    border-radius: 5px;
+    width:10px;
+    height:10px;
+    text-align: center;
+    font-size:10px;
+    line-height: 10px;
+    float:right;
+    display:block;
+    margin-right: 5px;
+   /* float:left;
+    display: inherit;
+    
+    top:-20px;
+    left : -20px;
+    
+    position: relative;*/
+}
+
+.cmsInputLineTip:hover{
+    background-color: #ff9;
+    border:1px solid #55a;   
+    cursor:help;
+}
+
+
+.cmsInputLineTipBox {
+    background-color : #ff9;
+    border:1px solid #55a;  
+    position: relative;
+    width : 400px;
+    display: none;    
+    text-align: left;
+    padding:5px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.cmsImage_listList {
+    background-color: #e8e8e8;
+}
+
+.imageListLine {
+    margin: 1px 0 1px 0;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    background-color:#ddd;
+}
+
+.imageListLine:hover {
+    background-color:#fff;
+}
+
+div.fileinputs {
+	position: relative;
+}
+
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+
+}
+
+input.file {
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity:0);
+	opacity: 0;
+	z-index: 2;
+}
+
+.hiddenTextArea {
+    visibility: hidden;
+    display: none;
+}
+
+.error {
+    color : #F29023;
+
+}
+
+
+.cmsPageingFrame {
+    background-color: transparent;
+    text-align: center;
+    height:20px;
+    margin:5px 0 5px 0;
+}
+
+.cmsPageingButtonAktiv {
+    text-decoration: none;
+    background-color : transparent;
+    color:#800;
+    border: 1px solid #ddd;
+
+    padding:0 5px 0 5px;
+    margin-right :2px;
+    margin-left :2px;
+}
+.cmsPageingButtonAktiv:hover {
+    cursor:default;
+}
+
+.adminDatesOutputFrame {
+    display:block;
+    visibility: visible;
+    overflow: auto;
+
+}
+
+
+.cmsPageingButton {
+    text-decoration: none;
+    background-color : #eee;
+    border: 1px solid #999;
+
+    padding:0 5px 0 5px;
+    margin-right :2px;
+    margin-left :2px;
+    color:#666;
+    
+}
+
+.cmsPageingButton:hover {
+    text-decoration: none;
+    background-color : #eee;
+    border: 1px solid #666;
+    color:#333;
+   
+}
+
+.cmsCustomFilterList {
+    background-color:#ddd;
+    border:1px solid #999;
+}
+
+.cmsShowDataTitleLine {
+    height : 20px;
+    background-color:#ccc;
+    line-height: 20px;
+    font-size:12px;
+    color:#777;
+}
+
+.cmsShowDataTitleItem {
+    float:left;
+    color:#555;
+    padding-left:2px;
+    border-right: 1px solid #ccc;    
+}
+
+.cmsShowDataSort {
+    color :#555;
+}
+
+.cmsShowDataSort:hover {
+    color :#333;
+    cursor:pointer;
+}
+
+.cmsShowDataSort_up {
+    color:#f4f4f4;
+}
+
+.cmsShowDataSort_up:hover {
+    color:#fff;
+}
+
+.cmsShowDataSort_down {
+    color:#f4f4f4;
+}
+.cmsShowDataSort_down:hover {
+    color:#fff;
+}
+
+.cmsCompanyTitleLine, .cmsProductTitleLine, .cmsCategoryTitleLine, .cmsLocationTitleLine, .cmsDatesTitleLine {
+    height : 20px;
+    background-color:#ccc;
+    line-height: 20px;
+    font-size:12px;
+}
+
+.cmsShowDataLine {
+    background-color:transparent;
+    font-size:12px;
+    vertical-align: middle;
+    color:#555;
+    overflow:hidden;
+}
+
+.cmsShowDataLine:hover {
+    background-color: #eee;
+    color:#333;
+    text-decoration: none;
+}
+
+.cmsShowDataItem {
+    padding-top: 3px;
+    padding-left:2px;
+    border-right: 1px solid #ccc;
+    height :auto;
+    overflow: hidden;
+}
+.cmsShowDataItem_image {
+    padding-top : 0px;
+}
+
+.cmsCompanyLine, .cmsProductLine, .cmsCategoryLine, .cmsLocationLine, .cmsDatesLine {
+    background-color:transparent;
+    font-size:12px;
+    vertical-align: middle;
+    color:#555;
+    overflow:hidden;
+}
+
+a.cmsCompanyLine, a.cmsProductLine, a.cmsCategoryLine, a.cmsLocationLine, a.cmsDatesLine {
+    color:#F29023;
+}
+
+.cmsCompanyLine:hover, .cmsProductLine:hover, .cmsCategoryLine:hover, .cmsLocationLine:hover, .cmsDatesLine:hover {
+    background-color: #eee;
+     color:#333;
+    text-decoration: none;
+}
+
+.autocomplete-w1 { background:url(img/shadow.png) no-repeat bottom right; position:absolute; top:0px; left:0px; margin:8px 0 0 6px; /* IE6 fix: */ _background:none; _margin:0; }
+.autocomplete { border:1px solid #999; background:#FFF; cursor:default; text-align:left; max-height:350px; overflow:auto; margin:-6px 6px 6px -6px; /* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; }
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete div { padding:2px 5px; white-space:nowrap; }
+.autocomplete strong { font-weight:normal; color:#3399FF; }
+
+
+.dragFrame .dragBox .dragLine{
+    margin:0;
+    font-size:12px;
+    padding:5px;
+    background:#f0f0f0;
+    color:#000;
+    border-bottom:1px solid #eee;
+    font-family:Verdana;
+    cursor:move;
+}
+
+.dragFrame .dragPlaceholder{
+    background: #888;
+    height:10px;
+    border:1px dashed #ddd;
+}
+
+.dragFrameAdded{
+    background-color:#eee;
+    border:1px solid #ccc;
+    padding:3px;
+}
+/*
+
+
+
+.column{
+	
+}
+.column .dragbox{
+	margin:5px 2px  20px;
+	background:#fff;
+	position:relative;
+	border:1px solid #ddd;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.column .dragbox h2{
+	margin:0;
+	font-size:12px;
+	padding:5px;
+	background:#f0f0f0;
+	color:#000;
+	border-bottom:1px solid #eee;
+	font-family:Verdana;
+	cursor:move;
+}
+.dragbox-content{
+	background:#fff;
+	min-height:100px; margin:5px;
+	font-family:'Lucida Grande', Verdana; font-size:0.8em; line-height:1.5em;
+}
+*/

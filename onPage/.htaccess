@@ -1,0 +1,8 @@
+ErrorDocument 404 /404.php
+
+AddType x-mapp-php5 .php5
+AddHandler x-mapp-php5 .php5
+
+
+
+

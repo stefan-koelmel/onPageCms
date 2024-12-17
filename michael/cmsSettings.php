@@ -1,0 +1,1 @@
+<?php    global $cmsName,$cmsVersion;   $cmsName = "michael";   $cmsVersion = "base";?>

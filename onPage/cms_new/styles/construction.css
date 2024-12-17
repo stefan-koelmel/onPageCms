@@ -1,0 +1,210 @@
+body {
+    background-color:#999;       
+    font-size: 12px;
+    font-family: Verdana, Geneva, sans-serif;
+    color:#fff;
+}
+
+.loginMainFrame {
+    width:80%;
+    border:1px solid #fff;
+    border-radius: 5px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 100px;
+    padding: 20px;
+    background-color:#888;  
+    min-height:400px;                
+}
+
+.loginName {
+    width:200px;
+    padding-right: 10px;
+    text-align: right;
+    display:inline-block;
+    color:#fff;                
+}
+
+.setupError {
+    display:block;
+    border:1px solid #f00;
+    padding:20px;
+    color : #fdd;
+}
+.setupButtonSpacer{
+    width:210px;
+    display: inline-block;                
+}
+
+.loginInput {
+    width: 400px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+    padding:4px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-weight: bold;  
+}
+.loginInput:active, .loginInput:focus {
+
+    background-color: #fff;
+    border: 1px solid #f0f;
+}
+
+.loginButton{
+    border:2px solid #fff;
+    border-radius: 5px;
+    margin: 0 10px 0 0;
+    padding:4px 10px;
+    min-width: 100px;                
+    background-color: #ddd;
+    color:#333;                
+    cursor: pointer;
+    display:inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 14px;
+
+}
+.loginButton:hover, .loginButton:focus{
+    border-color: #333;
+    background-color: #eee;
+    color:#000;
+    text-decoration: none;
+}
+.setupHelpButton{
+    border:2px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px 0 0;
+    padding:4px 10px;
+    min-width: 100px;
+
+    background-color: #bbf;
+
+    color:#333;
+    cursor: pointer;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 14px;
+}
+.setupHelpButton:hover, .setupHelpButton:focus, .setupHelpButton:active{
+    border-color: #333;
+    background-color: #eee;
+    color:#000;
+}
+
+
+.underMainFrame {
+    width:84%;
+    border:0px;
+    border-radius: 0px;
+    margin-left:10%;
+    margin-top: 10px;
+    padding:0px;
+    color:#fff;
+    text-align: right;
+    font-size: 14px;
+}
+
+a:link, a:visited {
+    color:#444;
+    text-decoration: none;
+    font-size: inherit;
+}
+
+a:hover{
+    color:#222;
+     text-decoration: underline;
+}
+
+.copy_frame{
+    border: 1px solid #FFFFFF;
+    height: 30px;
+    margin: 5px 0;
+    position: relative;
+    width: 100%;
+}
+.copy_percent {
+    background: #FF0000;
+    display: block;
+    float: none;
+    height: 30px;
+    position: absolute;
+    width: 0%;
+}
+
+.copy_name {
+    width:100%;
+    height : 30px;
+    text-align: center;
+    font-size:14px;
+    font-weight: bold;
+    color: #333;    
+    position: relative;
+    line-height: 30px;
+}
+
+.cmsupdate_frame{
+    border: 1px solid #333;
+    height: 30px;
+    margin: 5px 0;
+    position: relative;
+    width: 100%;
+}
+.cmsupdate_percent {
+    background: #FF0000;
+    display: block;
+    float: none;
+    height: 30px;
+    position: absolute;
+    width: 0%;
+}
+
+.cmsupdate_name {
+    width:100%;
+    height : 30px;
+    text-align: center;
+    font-size:14px;
+    font-weight: bold;
+    color: #333;    
+    position: relative;
+    line-height: 30px;
+}
+
+.cmsupdate_ready{
+    display:none;
+    border: 1px solid #333;
+    margin: 5px 0;   
+    width: 100%;
+    padding:5px;
+}
+
+
+h1{
+    color:#fff;
+    font-size: 16px;
+    width:100%;
+    border-bottom:2px solid #fff;
+    margin:0 0 10px 0; 
+    padding-right: 10px;
+}
+
+.toggleDiv{
+    display:block;
+    border-bottom:1px solid #333;
+    cursor:pointer;
+    text-align: right;
+    margin:5px 0 5px 0;
+}
+
+.toggleDivFrame{
+    display:none;
+    border-bottom:1px solid #333;
+    text-align: left;
+    margin:5px 0 5px 0;
+    padding-bottom: 10px;
+}

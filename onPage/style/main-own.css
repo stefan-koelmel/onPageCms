@@ -1,0 +1,112 @@
+/* 
+    Document   : main-own
+    Created on : 28.03.2013, 16:02:01
+    Author     : Stefan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body {
+    background-color: #f5fb96;
+    background-color: #fff;
+    height:100%;
+}
+.header {
+    background-color: #e5f048;
+    margin:0px;
+    padding-top:15px;
+}
+
+
+.LayoutFrame, .layoutFrame{
+    margin-left:0;
+    margin-right:auto;   
+}
+
+.content {
+    background-color: #0076BF;
+    background-color: #fff;
+    margin:0px;
+}
+
+.headerName {
+   padding-left:0px;
+}
+.headerSlogan {
+   padding-left:100px;
+}
+
+.header a{
+    color:#ccc;
+    text-decoration: none;
+    font-size:12px;
+}
+.headerName, .headerName a:link, .headerName a:visited {
+    color:#230;
+}
+
+.headerSlogan, .headerSlogan a:link, .headerSlogan a:visited {
+    color:#570;
+    color:#fff;
+    font-size: 20px;
+}
+
+.header a:hover{
+    color:#000;
+}
+.headerRight {
+    padding-right: 0px;
+}
+
+
+.titleLine {
+    background-color: #55f;
+    background-color: #fff;
+    margin:0px;
+    padding: 0px;        
+    overflow:hidden;
+   
+}
+.titleLine:hover {    
+}
+
+.footer {
+/*    background-color: #e5f048;    
+    border: 1px solid #fff;
+    border-color:#fff;
+    border-radius:0 10px 0 0;
+    border-width: 2px 2px 0 0;
+    padding:0px;
+    padding-top:10px;
+    margin-bottom: 0px;
+    margin:0;*/
+    height:50px; 
+  
+}
+
+
+.footerLink {
+/*    border:0;*/
+/*    color:#666;  */
+    padding:4px 8px;
+    margin-right: 5px;
+/*    border-radius:0px;*/
+}
+
+.footerLink:hover {
+    /* background-color: transparent; */
+/*    color:#333;
+    text-decoration: underline;*/
+}
+
+.spacercontent {   
+}
+
+.spacerLayout {
+    height: 0px;
+    background-color: #0f0;
+    
+}

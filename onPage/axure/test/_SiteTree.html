@@ -1,0 +1,78 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><link href="Resources/axurerpprototype.css" type="text/css" rel="stylesheet"></HEAD>
+<BODY>
+<A href=# onclick='parent.CloseSitemap()' style='font-size:8pt'>Close Frames</A><br><br>
+
+<SCRIPT LANGUAGE="JavaScript">
+image1 = new Image();
+image1.src = 'Resources/plus.gif';
+
+function CloseSitemap()
+{
+	parent.URL = parent.mainFrame.URL
+}
+
+function ToggleDiv(node, id)
+{
+	sibling = document.getElementById(id);
+	if (sibling.style.display == 'none')
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/minus.gif";
+			}
+		}
+
+		sibling.style.display = '';
+	}
+	else
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/plus.gif";
+			}
+		}
+		sibling.style.display = 'none';
+	}
+}
+
+var currentPage = null;
+
+function highlight(id)
+{
+	if (currentPage != null)
+	{
+		currentPage.style.backgroundColor = '#EEEEFF';
+		currentPage.style.paddingLeft = '0px';
+		currentPage.style.paddingRight = '0px';
+		currentPage.style.border = '0px solid #666666';
+	}
+	
+	currentPage = document.getElementById(id);
+    if (currentPage) {
+	    currentPage.style.backgroundColor = '#DDDDDD';
+	    currentPage.style.paddingLeft = '3px';
+	    currentPage.style.paddingRight = '3px';
+	    currentPage.style.border = '1px solid #666666';
+    }
+}
+
+</SCRIPT>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><A onclick="ToggleDiv(this, 'd57acbab34c334278863a7a7654567338')"><IMG SRC="Resources/minus.gif"></A>&nbsp;&nbsp;<A onclick="parent.mainFrame.location='Home.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p57acbab34c334278863a7a7654567338">Home</SPAN></A><DIV id="d57acbab34c334278863a7a7654567338">
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD WIDTH="30" nowrap>&nbsp;</TD>
+		<TD nowrap><A onclick="parent.mainFrame.location='subPage.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p2d0c88dbfb1c47ba93f9e49b89532580">subPage</SPAN></A><DIV id="td2d0c88dbfb1c47ba93f9e49b89532580">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+			</DIV>
+		</TD>
+	</TR>
+</TABLE></BODY></HTML>
